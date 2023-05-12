@@ -5116,7 +5116,6 @@
         "vsn",
         "zlibbioc"
     ],
-    "clustComp": [],
     "clusterExperiment": [
         "AnnotationDbi",
         "Biobase",
