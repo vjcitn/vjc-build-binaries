@@ -16428,7 +16428,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "mistyR": [],
     "mitoClone2": [
         "AnnotationDbi",
         "BSgenome",
