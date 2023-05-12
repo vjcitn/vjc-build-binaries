@@ -8944,7 +8944,6 @@
         "limma",
         "zlibbioc"
     ],
-    "diffGeneAnalysis": [],
     "diffHic": [
         "BSgenome",
         "Biobase",
