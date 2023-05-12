@@ -15449,7 +15449,6 @@
         "treeio",
         "zlibbioc"
     ],
-    "M3C": [],
     "M3Drop": [],
     "m6Aboost": [
         "AnnotationDbi",
