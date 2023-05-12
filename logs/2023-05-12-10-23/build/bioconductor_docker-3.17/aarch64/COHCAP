@@ -1,0 +1,284 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''COHCAP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'COHCAP'
+also installing the dependencies ‘bitops’, ‘gtools’, ‘caTools’, ‘WriteXLS’, ‘COHCAPanno’, ‘gplots’, ‘RcppArmadillo’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/bitops_1.0-7.tar.gz'
+Content type 'binary/octet-stream' length 10887 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gtools_3.9.4.tar.gz'
+Content type 'binary/octet-stream' length 240680 bytes (235 KB)
+==================================================
+downloaded 235 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/caTools_1.18.2.tar.gz'
+Content type 'binary/octet-stream' length 65283 bytes (63 KB)
+==================================================
+downloaded 63 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/WriteXLS_6.4.0.tar.gz'
+Content type 'binary/octet-stream' length 771050 bytes (752 KB)
+==================================================
+downloaded 752 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/COHCAPanno_1.36.0.tar.gz'
+Content type 'application/x-gzip' length 9732389 bytes (9.3 MB)
+==================================================
+downloaded 9.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gplots_3.1.3.tar.gz'
+Content type 'binary/octet-stream' length 513858 bytes (501 KB)
+==================================================
+downloaded 501 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppArmadillo_0.12.2.0.0.tar.gz'
+Content type 'binary/octet-stream' length 1370357 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/COHCAP_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 135792 bytes (132 KB)
+==================================================
+downloaded 132 KB
+
+* installing *source* package ‘bitops’ ...
+** package ‘bitops’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bit-ops.c -o bit-ops.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cksum.c -o cksum.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bitops.so bit-ops.o cksum.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bitops/00new/bitops/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bitops’ as ‘bitops_1.0-7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (bitops)
+* installing *source* package ‘gtools’ ...
+** package ‘gtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c roman2int.c -o roman2int.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c setTCPNoDelay.c -o setTCPNoDelay.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gtools.so init.o roman2int.o setTCPNoDelay.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-gtools/00new/gtools/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gtools’ as ‘gtools_3.9.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gtools)
+* installing *source* package ‘WriteXLS’ ...
+** package ‘WriteXLS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘WriteXLS’ as ‘WriteXLS_6.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (WriteXLS)
+* installing *source* package ‘COHCAPanno’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘COHCAPanno’ as ‘COHCAPanno_1.36.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (COHCAPanno)
+* installing *source* package ‘RcppArmadillo’ ...
+** package ‘RcppArmadillo’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking for g++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... g++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether g++ -std=gnu++17 accepts -g... (cached) yes
+checking for g++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking whether we have a suitable tempdir... /tmp
+checking whether R CMD SHLIB can already compile programs using OpenMP... yes
+checking LAPACK_LIBS... system LAPACK found
+configure: creating ./config.status
+config.status: creating inst/include/RcppArmadillo/config/RcppArmadilloConfigGenerated.h
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppArmadillo.cpp -o RcppArmadillo.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppArmadillo.so RcppArmadillo.o RcppExports.o fastLm.o -fopenmp -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RcppArmadillo/00new/RcppArmadillo/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_0.12.2.0.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *source* package ‘caTools’ ...
+** package ‘caTools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Gif2R.cpp -o Gif2R.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GifTools.cpp -o GifTools.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c caTools_init.c -o caTools_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c runfunc.c -o runfunc.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o caTools.so Gif2R.o GifTools.o caTools_init.o runfunc.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-caTools/00new/caTools/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘caTools’ as ‘caTools_1.18.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (caTools)
+* installing *source* package ‘gplots’ ...
+** package ‘gplots’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gplots’ as ‘gplots_3.1.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gplots)
+* installing *source* package ‘COHCAP’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcpp_BH_ANOVA.cpp -o Rcpp_BH_ANOVA.o
+In file included from /usr/local/lib/R/site-library/BH/include/boost/math/distributions/fisher_f.hpp:12,
+                 from Rcpp_BH_ANOVA.cpp:4:
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp: In instantiation of ‘boost::math::detail::ibeta_fraction2_t<T>::result_type boost::math::detail::ibeta_fraction2_t<T>::operator()() [with T = long double; boost::math::detail::ibeta_fraction2_t<T>::result_type = std::pair<long double, long double>]’:
+/usr/local/lib/R/site-library/BH/include/boost/math/tools/fraction.hpp:123:20:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_b(Gen&, const U&, uintmax_t&) [with Gen = boost::math::detail::ibeta_fraction2_t<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int]’
+/usr/local/lib/R/site-library/BH/include/boost/math/tools/fraction.hpp:156:31:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_b(Gen&, const U&) [with Gen = boost::math::detail::ibeta_fraction2_t<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:729:54:   required from ‘T boost::math::detail::ibeta_fraction2(T, T, T, T, const Policy&, bool, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1367:36:   required from ‘T boost::math::detail::ibeta_imp(T, T, T, const Policy&, bool, bool, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1404:20:   required from ‘T boost::math::detail::ibeta_imp(T, T, T, const Policy&, bool, bool) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1566:93:   required from ‘typename boost::math::tools::promote_args<RT1, RT2, A>::type boost::math::ibetac(RT1, RT2, RT3, const Policy&) [with RT1 = double; RT2 = double; RT3 = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>; typename boost::math::tools::promote_args<RT1, RT2, A>::type = double]’
+/usr/local/lib/R/site-library/BH/include/boost/math/distributions/fisher_f.hpp:165:28:   required from ‘RealType boost::math::cdf(const boost::math::fisher_f_distribution<RealType, Policy>&, const RealType&) [with RealType = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+Rcpp_BH_ANOVA.cpp:50:22:   required from here
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:692:16: note: parameter passing for argument of type ‘std::pair<long double, long double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  692 |    result_type operator()()
+      |                ^~~~~~~~
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcpp_BH_linear_regression.cpp -o Rcpp_BH_linear_regression.o
+In file included from /usr/local/lib/R/site-library/BH/include/boost/math/distributions/students_t.hpp:16,
+                 from Rcpp_BH_linear_regression.cpp:4:
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp: In instantiation of ‘boost::math::detail::ibeta_fraction2_t<T>::result_type boost::math::detail::ibeta_fraction2_t<T>::operator()() [with T = long double; boost::math::detail::ibeta_fraction2_t<T>::result_type = std::pair<long double, long double>]’:
+/usr/local/lib/R/site-library/BH/include/boost/math/tools/fraction.hpp:123:20:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_b(Gen&, const U&, uintmax_t&) [with Gen = boost::math::detail::ibeta_fraction2_t<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int]’
+/usr/local/lib/R/site-library/BH/include/boost/math/tools/fraction.hpp:156:31:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_b(Gen&, const U&) [with Gen = boost::math::detail::ibeta_fraction2_t<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:729:54:   required from ‘T boost::math::detail::ibeta_fraction2(T, T, T, T, const Policy&, bool, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1367:36:   required from ‘T boost::math::detail::ibeta_imp(T, T, T, const Policy&, bool, bool, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1404:20:   required from ‘T boost::math::detail::ibeta_imp(T, T, T, const Policy&, bool, bool) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1566:93:   required from ‘typename boost::math::tools::promote_args<RT1, RT2, A>::type boost::math::ibetac(RT1, RT2, RT3, const Policy&) [with RT1 = double; RT2 = double; RT3 = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>; typename boost::math::tools::promote_args<RT1, RT2, A>::type = double]’
+/usr/local/lib/R/site-library/BH/include/boost/math/distributions/students_t.hpp:200:29:   required from ‘RealType boost::math::cdf(const boost::math::students_t_distribution<RealType, Policy>&, const RealType&) [with RealType = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+Rcpp_BH_linear_regression.cpp:74:25:   required from here
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:692:16: note: parameter passing for argument of type ‘std::pair<long double, long double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  692 |    result_type operator()()
+      |                ^~~~~~~~
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcpp_BH_ttest.cpp -o Rcpp_BH_ttest.o
+In file included from /usr/local/lib/R/site-library/BH/include/boost/math/distributions/students_t.hpp:16,
+                 from Rcpp_BH_ttest.cpp:4:
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp: In instantiation of ‘boost::math::detail::ibeta_fraction2_t<T>::result_type boost::math::detail::ibeta_fraction2_t<T>::operator()() [with T = long double; boost::math::detail::ibeta_fraction2_t<T>::result_type = std::pair<long double, long double>]’:
+/usr/local/lib/R/site-library/BH/include/boost/math/tools/fraction.hpp:123:20:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_b(Gen&, const U&, uintmax_t&) [with Gen = boost::math::detail::ibeta_fraction2_t<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int]’
+/usr/local/lib/R/site-library/BH/include/boost/math/tools/fraction.hpp:156:31:   required from ‘typename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_b(Gen&, const U&) [with Gen = boost::math::detail::ibeta_fraction2_t<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:729:54:   required from ‘T boost::math::detail::ibeta_fraction2(T, T, T, T, const Policy&, bool, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1367:36:   required from ‘T boost::math::detail::ibeta_imp(T, T, T, const Policy&, bool, bool, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1404:20:   required from ‘T boost::math::detail::ibeta_imp(T, T, T, const Policy&, bool, bool) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:1566:93:   required from ‘typename boost::math::tools::promote_args<RT1, RT2, A>::type boost::math::ibetac(RT1, RT2, RT3, const Policy&) [with RT1 = double; RT2 = double; RT3 = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>; typename boost::math::tools::promote_args<RT1, RT2, A>::type = double]’
+/usr/local/lib/R/site-library/BH/include/boost/math/distributions/students_t.hpp:200:29:   required from ‘RealType boost::math::cdf(const boost::math::students_t_distribution<RealType, Policy>&, const RealType&) [with RealType = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]’
+Rcpp_BH_ttest.cpp:29:20:   required from here
+/usr/local/lib/R/site-library/BH/include/boost/math/special_functions/beta.hpp:692:16: note: parameter passing for argument of type ‘std::pair<long double, long double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  692 |    result_type operator()()
+      |                ^~~~~~~~
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o COHCAP.so RcppExports.o Rcpp_BH_ANOVA.o Rcpp_BH_linear_regression.o Rcpp_BH_ttest.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-COHCAP/00new/COHCAP/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘COHCAP’ as ‘COHCAP_1.46.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (COHCAP)
+
+The downloaded source packages are in
+	‘/tmp/RtmppCadL5/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
+  'MASS', 'nnet'
+
+real	10m35.754s
+user	10m15.792s
+sys	0m17.008s
