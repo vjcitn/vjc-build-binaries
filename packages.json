@@ -29798,7 +29798,6 @@
     "timeOmics": [
         "mixOmics"
     ],
-    "timescape": [],
     "TimiRGeN": [
         "AnnotationDbi",
         "Biobase",
