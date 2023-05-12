@@ -20783,7 +20783,6 @@
         "biomaRt",
         "graph",
         "interactiveDisplayBase",
-        "rBiopaxParser",
         "zlibbioc"
     ],
     "pwrEWAS": [
@@ -21300,7 +21299,6 @@
     "RBioinf": [
         "graph"
     ],
-    "rBiopaxParser": [],
     "RBM": [
         "marray"
     ],
