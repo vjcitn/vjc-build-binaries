@@ -2887,7 +2887,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "brendaDb": [],
     "BRGenomics": [
         "Biobase",
         "BiocIO",
