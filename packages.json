@@ -11634,7 +11634,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "qcmetrics",
         "vsn"
     ],
     "MSstatsQCgui": [
@@ -11642,7 +11641,6 @@
         "MSnbase",
         "MSstatsQC",
         "MsCoreUtils",
-        "qcmetrics",
         "vsn"
     ],
     "MSstatsSampleSize": [],
@@ -13937,7 +13935,6 @@
         "genefilter"
     ],
     "qckitfastq": [],
-    "qcmetrics": [],
     "QDNAseq": [
         "Biostrings",
         "GenomeInfoDb",
