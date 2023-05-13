@@ -11070,7 +11070,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "GEWIST": [],
     "ggbio": [
         "AnnotationDbi",
         "AnnotationFilter",
