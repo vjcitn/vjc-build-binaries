@@ -20013,7 +20013,6 @@
         "XVector",
         "annotate"
     ],
-    "SEPIRA": [],
     "seq2pathway": [
         "AnnotationDbi",
         "Biostrings",
