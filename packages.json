@@ -5092,7 +5092,6 @@
     "CyTOFpower": [
         "ComplexHeatmap",
         "ConsensusClusterPlus",
-        "CytoGLMM",
         "DelayedArray",
         "FlowSOM",
         "GenomeInfoDb",
@@ -5131,7 +5130,6 @@
         "scater",
         "scuttle"
     ],
-    "CytoGLMM": [],
     "cytoKernel": [
         "ComplexHeatmap",
         "DelayedArray",
