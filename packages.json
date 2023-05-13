@@ -1811,7 +1811,6 @@
         "basilisk.utils"
     ],
     "biocViews": [],
-    "biodbKegg": [],
     "biodbNcbi": [],
     "biomaRt": [
         "AnnotationDbi",
