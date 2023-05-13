@@ -1816,7 +1816,6 @@
     "biodbKegg": [],
     "biodbLipidmaps": [],
     "biodbNcbi": [],
-    "biodbUniprot": [],
     "biomaRt": [
         "AnnotationDbi",
         "Biostrings",
