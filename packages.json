@@ -18610,7 +18610,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "seqCNA": [],
     "SeqGate": [
         "DelayedArray",
         "GenomeInfoDb",
