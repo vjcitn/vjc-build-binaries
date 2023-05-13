@@ -7978,7 +7978,6 @@
         "annotate",
         "edgeR",
         "genefilter",
-        "snm",
         "sva",
         "zlibbioc"
     ],
@@ -24204,7 +24203,6 @@
         "basilisk",
         "basilisk.utils"
     ],
-    "snm": [],
     "SNPhood": [
         "AnnotationDbi",
         "BSgenome",
