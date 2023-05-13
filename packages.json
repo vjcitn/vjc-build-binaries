@@ -15499,7 +15499,6 @@
         "rtracklayer"
     ],
     "QUBIC": [],
-    "qusage": [],
     "R3CPET": [
         "AnnotationDbi",
         "AnnotationFilter",
