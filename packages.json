@@ -134,7 +134,6 @@
     "affy": [
         "affyio"
     ],
-    "affycomp": [],
     "affyContam": [
         "affy",
         "affyio"
