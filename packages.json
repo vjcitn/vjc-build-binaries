@@ -12836,7 +12836,6 @@
         "rhdf5",
         "rhdf5filters"
     ],
-    "Mulcom": [],
     "MultiAssayExperiment": [
         "DelayedArray",
         "GenomeInfoDb",
