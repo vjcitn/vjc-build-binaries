@@ -15481,7 +15481,6 @@
         "basilisk",
         "basilisk.utils"
     ],
-    "RCyjs": [],
     "ReactomePA": [
         "AnnotationDbi",
         "Biostrings",
