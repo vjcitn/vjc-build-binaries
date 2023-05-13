@@ -13338,7 +13338,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "logicFS": [],
     "logitT": [
         "Biobase",
         "affy",
