@@ -47,11 +47,11 @@ packaged installation of ‘affy’ as ‘affy_1.78.0_R_aarch64-unknown-linux-gn
 * DONE (affy)
 
 The downloaded source packages are in
-	‘/tmp/RtmpwvYYEM/downloaded_packages’
+	‘/tmp/RtmpzVYVrJ/downloaded_packages’
 Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
   'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
   'MASS', 'nnet'
 
-real	2m6.377s
-user	2m0.515s
-sys	0m3.929s
+real	2m0.710s
+user	1m55.934s
+sys	0m3.846s
