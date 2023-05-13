@@ -1,0 +1,103 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''rsbml'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'rsbml'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rsbml_2.58.0.tar.gz'
+Content type 'application/x-gzip' length 566268 bytes (552 KB)
+==================================================
+downloaded 552 KB
+
+* installing *source* package ‘rsbml’ ...
+** using staged installation
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for LIBSBML... yes
+configure: === Begin local SOSLib build ===
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking build system type... config/config.guess: unable to guess system type
+
+This script, last modified 2008-01-23, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+  http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD
+and
+  http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD
+
+If the version you run (config/config.guess) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2008-01-23
+
+uname -m = aarch64
+uname -r = 5.15.0-1037-azure
+uname -s = Linux
+uname -v = #44-Ubuntu SMP Thu Apr 20 13:19:31 UTC 2023
+
+/usr/bin/uname -p = aarch64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = aarch64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = aarch64
+UNAME_RELEASE = 5.15.0-1037-azure
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #44-Ubuntu SMP Thu Apr 20 13:19:31 UTC 2023
+configure: error: cannot guess build type; you must specify one
+configure: === End local SOSLib build ===
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c StringMap.c -o StringMap.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c check.c -o check.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c doc.c -o doc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dom.c -o dom.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graph.c -o graph.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io.c -o io.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c layoutWrappers.cpp -o layoutWrappers.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mathml.c -o mathml.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include    -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c simulate.c -o simulate.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rsbml.so StringMap.o check.o doc.o dom.o graph.o init.o io.o layoutWrappers.o mathml.o simulate.o -lsbml -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rsbml/00new/rsbml/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rsbml’ as ‘rsbml_2.58.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (rsbml)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLm5lGa/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
+  'MASS', 'nnet'
+
+real	3m4.604s
+user	2m55.931s
+sys	0m6.699s
