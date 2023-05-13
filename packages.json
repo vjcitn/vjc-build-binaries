@@ -19207,7 +19207,6 @@
         "IRanges",
         "XVector"
     ],
-    "updateObject": [],
     "uSORT": [
         "biocViews",
         "monocle"
