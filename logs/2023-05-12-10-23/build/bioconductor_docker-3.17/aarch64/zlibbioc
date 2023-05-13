@@ -35,11 +35,11 @@ packaged installation of ‘zlibbioc’ as ‘zlibbioc_1.46.0_R_aarch64-unknown-
 * DONE (zlibbioc)
 
 The downloaded source packages are in
-	‘/tmp/RtmpwjPjss/downloaded_packages’
+	‘/tmp/RtmpbhJ1nU/downloaded_packages’
 Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
   'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
   'MASS', 'nnet'
 
-real	1m6.747s
-user	1m1.843s
-sys	0m4.175s
+real	0m49.117s
+user	0m45.719s
+sys	0m3.011s
