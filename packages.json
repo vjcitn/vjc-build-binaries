@@ -15387,7 +15387,6 @@
         "dada2"
     ],
     "RBioFormats": [],
-    "RBM": [],
     "Rbowtie2": [
         "Biostrings",
         "GenomeInfoDb",
