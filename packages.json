@@ -8217,7 +8217,6 @@
         "zlibbioc"
     ],
     "EMDomics": [],
-    "EnhancedVolcano": [],
     "enhancerHomologSearch": [
         "AnnotationDbi",
         "BSgenome",
