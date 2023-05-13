@@ -11305,7 +11305,6 @@
         "fastseg",
         "rtracklayer"
     ],
-    "methylMnM": [],
     "methylPipe": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -18347,9 +18346,7 @@
         "rhdf5",
         "rhdf5filters"
     ],
-    "SIMD": [
-        "methylMnM"
-    ],
+    "SIMD": [],
     "SimFFPE": [
         "Biostrings",
         "GenomeInfoDb",
