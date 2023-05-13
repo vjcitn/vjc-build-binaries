@@ -2274,7 +2274,6 @@
         "ggtree",
         "graph",
         "graphite",
-        "minet",
         "treeio",
         "zlibbioc"
     ],
@@ -2523,7 +2522,6 @@
         "edgeR",
         "genefilter",
         "impute",
-        "minet",
         "sva",
         "zlibbioc"
     ],
@@ -2832,7 +2830,6 @@
         "epiNEM",
         "genefilter",
         "graph",
-        "minet",
         "mnem",
         "sva",
         "vsn",
@@ -3148,9 +3145,7 @@
         "IRanges",
         "S4Vectors"
     ],
-    "BUS": [
-        "minet"
-    ],
+    "BUS": [],
     "BUScorrect": [
         "Biobase",
         "DelayedArray",
@@ -3317,7 +3312,6 @@
         "ggbio",
         "graph",
         "impute",
-        "minet",
         "rtracklayer",
         "sva",
         "zlibbioc"
@@ -3406,7 +3400,6 @@
         "genefilter",
         "graph",
         "hopach",
-        "minet",
         "phenoTest",
         "zlibbioc"
     ],
@@ -6857,7 +6850,6 @@
         "epiNEM",
         "graph",
         "graphite",
-        "minet",
         "mnem",
         "multtest",
         "zlibbioc"
@@ -8819,7 +8811,6 @@
         "RBGL",
         "Rgraphviz",
         "graph",
-        "minet",
         "mnem"
     ],
     "epistack": [
@@ -10643,8 +10634,7 @@
     ],
     "geNetClassifier": [
         "Biobase",
-        "EBarrays",
-        "minet"
+        "EBarrays"
     ],
     "GeneTonic": [
         "AnnotationDbi",
@@ -15744,7 +15734,6 @@
         "sparseMatrixStats",
         "zlibbioc"
     ],
-    "minet": [],
     "minfi": [
         "AnnotationDbi",
         "Biobase",
@@ -17646,7 +17635,6 @@
         "Rgraphviz",
         "epiNEM",
         "graph",
-        "minet",
         "mnem"
     ],
     "NetActivity": [
@@ -17707,15 +17695,13 @@
         "S4Vectors",
         "XVector",
         "graph",
-        "minet",
         "supraHex",
         "zlibbioc"
     ],
     "NetPathMiner": [],
     "netresponse": [
         "Rgraphviz",
-        "graph",
-        "minet"
+        "graph"
     ],
     "NetSAM": [
         "AnnotationDbi",
@@ -22643,7 +22629,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "minet",
         "viper",
         "zlibbioc"
     ],
@@ -22658,7 +22643,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "minet",
         "viper",
         "zlibbioc"
     ],
@@ -22674,7 +22658,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "minet",
         "viper",
         "zlibbioc"
     ],
