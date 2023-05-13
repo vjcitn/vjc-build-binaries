@@ -12477,7 +12477,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "iBBiG": [],
     "iBMQ": [
         "Biobase"
     ],
@@ -15976,7 +15975,6 @@
         "ggtree",
         "graph",
         "graphite",
-        "iBBiG",
         "impute",
         "miRspongeR",
         "multtest",
