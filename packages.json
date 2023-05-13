@@ -7490,7 +7490,6 @@
         "flowCore",
         "ncdfFlow"
     ],
-    "fobitools": [],
     "FoldGO": [
         "AnnotationDbi",
         "Biostrings",
