@@ -1812,7 +1812,6 @@
     ],
     "biocViews": [],
     "biodbKegg": [],
-    "biodbLipidmaps": [],
     "biodbNcbi": [],
     "biomaRt": [
         "AnnotationDbi",
