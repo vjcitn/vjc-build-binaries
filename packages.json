@@ -7621,7 +7621,6 @@
         "XVector",
         "rhdf5"
     ],
-    "hapFabia": [],
     "Harshlight": [
         "Biostrings",
         "GenomeInfoDb",
