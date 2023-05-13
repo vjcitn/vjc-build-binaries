@@ -14033,7 +14033,6 @@
         "IRanges",
         "S4Arrays"
     ],
-    "Oscope": [],
     "OTUbase": [
         "Biostrings",
         "DelayedArray",
@@ -17586,7 +17585,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "Oscope",
         "S4Arrays",
         "SingleCellExperiment",
         "SummarizedExperiment",
