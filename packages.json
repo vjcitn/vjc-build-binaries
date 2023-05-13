@@ -745,8 +745,7 @@
         "methylumi",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "arrayQualityMetrics": [
         "AnnotationDbi",
@@ -1409,7 +1408,6 @@
         "minfi",
         "rhdf5",
         "rtracklayer",
-        "siggenes",
         "wateRmelon"
     ],
     "bigPint": [
@@ -2622,7 +2620,6 @@
         "missMethyl",
         "rhdf5",
         "rtracklayer",
-        "siggenes",
         "sva",
         "wateRmelon"
     ],
@@ -3681,8 +3678,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "CopyNumberPlots": [
         "AnnotationDbi",
@@ -4472,8 +4468,7 @@
         "methylKit",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "DeepBlueR": [
         "Biostrings",
@@ -4990,8 +4985,7 @@
         "minfi",
         "missMethyl",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "DMRforPairs": [
         "AnnotationDbi",
@@ -5437,8 +5431,7 @@
         "geneplotter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "EnrichedHeatmap": [
         "ComplexHeatmap",
@@ -5667,8 +5660,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "epiNEM": [
         "mnem"
@@ -6235,8 +6227,7 @@
         "methylumi",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "fgga": [],
     "FilterFFPE": [
@@ -6468,8 +6459,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "FuseSOM": [
         "DelayedArray",
@@ -7957,8 +7947,7 @@
         "methylumi",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "iCNV": [
         "BSgenome",
@@ -8529,9 +8518,7 @@
         "plyranges",
         "rtracklayer"
     ],
-    "KCsmart": [
-        "siggenes"
-    ],
+    "KCsmart": [],
     "kebabs": [
         "Biostrings",
         "GenomeInfoDb",
@@ -8766,8 +8753,7 @@
         "methylumi",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "LymphoSeq": [
         "Biostrings",
@@ -8877,8 +8863,7 @@
         "minfi",
         "oligoClasses",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "MAGeCKFlute": [
         "AnnotationDbi",
@@ -9185,7 +9170,6 @@
         "missMethyl",
         "rhdf5",
         "rtracklayer",
-        "siggenes",
         "sva"
     ],
     "MEAT": [
@@ -9212,7 +9196,6 @@
         "minfi",
         "rhdf5",
         "rtracklayer",
-        "siggenes",
         "wateRmelon"
     ],
     "MEB": [
@@ -9522,8 +9505,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "methylCC": [
         "AnnotationDbi",
@@ -9550,8 +9532,7 @@
         "minfi",
         "plyranges",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "methylclock": [
         "AnnotationDbi",
@@ -9581,8 +9562,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "methylGSA": [
         "AnnotationDbi",
@@ -9611,8 +9591,7 @@
         "minfi",
         "missMethyl",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "methylInheritance": [
         "Biostrings",
@@ -9729,8 +9708,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "MetNet": [
         "DelayedArray",
@@ -9970,8 +9948,7 @@
         "methylumi",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "minfi": [
         "AnnotationDbi",
@@ -9993,8 +9970,7 @@
         "bumphunter",
         "genefilter",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "MinimumDistance": [
         "BSgenome",
@@ -10158,8 +10134,7 @@
         "methylumi",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "missRows": [
         "DelayedArray",
@@ -11233,7 +11208,6 @@
         "quantro",
         "rhdf5",
         "rtracklayer",
-        "siggenes",
         "yarn"
     ],
     "NeuCA": [
@@ -12935,8 +12909,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "QuartPAC": [
         "Biostrings",
@@ -13269,8 +13242,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "recoup": [
         "AnnotationDbi",
@@ -13438,8 +13410,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "Repitools": [
         "AnnotationDbi",
@@ -14120,8 +14091,7 @@
         "methylumi",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "Rnits": [],
     "roar": [
@@ -15432,8 +15402,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "shinyMethyl": [
         "AnnotationDbi",
@@ -15456,8 +15425,7 @@
         "genefilter",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "ShortRead": [
         "Biostrings",
@@ -15512,7 +15480,6 @@
         "GenomicRanges",
         "XVector"
     ],
-    "siggenes": [],
     "signatureSearch": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -15877,7 +15844,6 @@
         "minfi",
         "rhdf5",
         "rtracklayer",
-        "siggenes",
         "wateRmelon"
     ],
     "slalom": [
@@ -17499,9 +17465,7 @@
         "genefilter",
         "sva"
     ],
-    "trio": [
-        "siggenes"
-    ],
+    "trio": [],
     "triplex": [
         "Biostrings",
         "GenomeInfoDb",
@@ -18082,8 +18046,7 @@
         "methylumi",
         "minfi",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "wavClusteR": [
         "AnnotationDbi",
@@ -18168,8 +18131,7 @@
         "KEGGREST",
         "XVector",
         "annotate",
-        "genefilter",
-        "siggenes"
+        "genefilter"
     ],
     "Xeva": [
         "BumpyMatrix",
@@ -18254,8 +18216,7 @@
         "minfi",
         "quantro",
         "rhdf5",
-        "rtracklayer",
-        "siggenes"
+        "rtracklayer"
     ],
     "zellkonverter": [
         "DelayedArray",
