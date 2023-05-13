@@ -77,11 +77,11 @@ packaged installation of ‘S4Vectors’ as ‘S4Vectors_0.38.1_R_aarch64-unknow
 * DONE (S4Vectors)
 
 The downloaded source packages are in
-	‘/tmp/RtmptKQzex/downloaded_packages’
+	‘/tmp/Rtmpe1lEhD/downloaded_packages’
 Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
   'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
   'MASS', 'nnet'
 
-real	4m17.485s
-user	4m12.704s
-sys	0m3.682s
+real	4m14.902s
+user	4m10.407s
+sys	0m3.549s
