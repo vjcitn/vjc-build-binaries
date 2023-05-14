@@ -2776,7 +2776,6 @@
         "slingshot"
     ],
     "CONFESS": [
-        "flowMeans",
         "flowMerge"
     ],
     "consensusDE": [
@@ -4968,7 +4967,6 @@
         "ncdfFlow"
     ],
     "flowMatch": [],
-    "flowMeans": [],
     "flowMerge": [],
     "flowPloidy": [],
     "FlowSOM": [],
@@ -8979,9 +8977,7 @@
         "annotate",
         "beachmat"
     ],
-    "optimalFlow": [
-        "flowMeans"
-    ],
+    "optimalFlow": [],
     "ORFhunteR": [
         "BSgenome",
         "Biostrings",
