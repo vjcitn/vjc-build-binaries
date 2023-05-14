@@ -1719,8 +1719,7 @@
     ],
     "easier": [
         "AnnotationHub",
-        "ExperimentHub",
-        "quantiseqr"
+        "ExperimentHub"
     ],
     "EasyCellType": [
         "DOSE",
@@ -4053,7 +4052,6 @@
         "genefilter",
         "sva"
     ],
-    "quantiseqr": [],
     "quantro": [
         "GenomicFeatures",
         "annotate",
