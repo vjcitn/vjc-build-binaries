@@ -2440,10 +2440,8 @@
         "DESeq2",
         "SummarizedExperiment"
     ],
-    "DelayedRandomArray": [],
     "DelayedTensor": [
         "BiocSingular",
-        "DelayedRandomArray",
         "HDF5Array",
         "ScaledMatrix"
     ],
