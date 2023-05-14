@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''gCrisprTools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'gCrisprTools'
+also installing the dependency ‘RobustRankAggreg’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RobustRankAggreg_1.2.1.tar.gz'
+Content type 'binary/octet-stream' length 21518 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/gCrisprTools_2.6.0.tar.gz'
+Content type 'application/x-gzip' length 4251869 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+* installing *source* package ‘RobustRankAggreg’ ...
+** package ‘RobustRankAggreg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RobustRankAggreg’ as ‘RobustRankAggreg_1.2.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RobustRankAggreg)
+* installing *source* package ‘gCrisprTools’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gCrisprTools’ as ‘gCrisprTools_2.6.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gCrisprTools)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpq7JCZF/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
+  'MASS', 'nnet'
+
+real	4m9.573s
+user	4m2.671s
+sys	0m3.629s
