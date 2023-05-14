@@ -5579,10 +5579,7 @@
         "SummarizedExperiment"
     ],
     "MSstatsLiP": [],
-    "MSstatsQC": [],
-    "MSstatsQCgui": [
-        "MSstatsQC"
-    ],
+    "MSstatsQCgui": [],
     "MSstatsShiny": [],
     "MuData": [
         "MultiAssayExperiment",
