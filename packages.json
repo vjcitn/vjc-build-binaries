@@ -5386,7 +5386,6 @@
         "scuttle"
     ],
     "flowAI": [],
-    "flowBeads": [],
     "flowBin": [
         "flowFP",
         "flowViz"
