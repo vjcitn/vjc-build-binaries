@@ -534,7 +534,6 @@
     "basilisk.utils": [],
     "batchelor": [
         "BiocSingular",
-        "ResidualMatrix",
         "SingleCellExperiment",
         "scuttle"
     ],
@@ -1369,7 +1368,6 @@
     "ChromSCape": [
         "BiocSingular",
         "GenomicAlignments",
-        "ResidualMatrix",
         "Rsamtools",
         "SingleCellExperiment",
         "basilisk",
@@ -4938,7 +4936,6 @@
     ],
     "mumosa": [
         "BiocSingular",
-        "ResidualMatrix",
         "SingleCellExperiment",
         "batchelor",
         "scran",
@@ -6134,7 +6131,6 @@
         "Rsamtools",
         "seqbias"
     ],
-    "ResidualMatrix": [],
     "RESOLVE": [
         "AnnotationDbi",
         "BSgenome",
@@ -6707,7 +6703,6 @@
     "scMerge": [
         "BiocSingular",
         "M3Drop",
-        "ResidualMatrix",
         "SingleCellExperiment",
         "basilisk",
         "basilisk.utils",
@@ -7136,7 +7131,6 @@
         "GenomicFeatures",
         "M3Drop",
         "MAST",
-        "ResidualMatrix",
         "Rsamtools",
         "SingleCellExperiment",
         "SingleR",
