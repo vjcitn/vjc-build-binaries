@@ -1,0 +1,125 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''gtrellis'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'gtrellis'
+also installing the dependencies ‘GlobalOptions’, ‘shape’, ‘circlize’, ‘GetoptLong’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/GlobalOptions_0.1.2.tar.gz'
+Content type 'binary/octet-stream' length 305824 bytes (298 KB)
+==================================================
+downloaded 298 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/shape_1.4.6.tar.gz'
+Content type 'binary/octet-stream' length 678227 bytes (662 KB)
+==================================================
+downloaded 662 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/circlize_0.4.15.tar.gz'
+Content type 'binary/octet-stream' length 2498941 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/GetoptLong_1.0.5.tar.gz'
+Content type 'binary/octet-stream' length 767104 bytes (749 KB)
+==================================================
+downloaded 749 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/gtrellis_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 2129640 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+* installing *source* package ‘GlobalOptions’ ...
+** package ‘GlobalOptions’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GlobalOptions’ as ‘GlobalOptions_0.1.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (GlobalOptions)
+* installing *source* package ‘shape’ ...
+** package ‘shape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *source* package ‘circlize’ ...
+** package ‘circlize’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘circlize’ as ‘circlize_0.4.15_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (circlize)
+* installing *source* package ‘GetoptLong’ ...
+** package ‘GetoptLong’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GetoptLong’ as ‘GetoptLong_1.0.5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (GetoptLong)
+* installing *source* package ‘gtrellis’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gtrellis’ as ‘gtrellis_1.32.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gtrellis)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEmpZuQ/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
+  'MASS', 'nnet'
+
+real	4m19.248s
+user	4m12.848s
+sys	0m5.164s
