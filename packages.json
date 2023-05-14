@@ -4515,7 +4515,6 @@
         "SummarizedExperiment",
         "xcms"
     ],
-    "LOLA": [],
     "LoomExperiment": [
         "SingleCellExperiment",
         "SummarizedExperiment"
