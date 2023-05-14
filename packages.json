@@ -630,7 +630,6 @@
     "BufferedMatrixMethods": [
         "BufferedMatrix"
     ],
-    "BUMHMM": [],
     "bumphunter": [
         "GenomicFeatures",
         "biomaRt",
