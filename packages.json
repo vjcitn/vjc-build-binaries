@@ -1766,7 +1766,6 @@
         "basilisk",
         "basilisk.utils"
     ],
-    "DEP": [],
     "derfinder": [
         "BSgenome",
         "GenomicAlignments",
