@@ -4468,7 +4468,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "GSCA": [],
     "gscreend": [
         "SummarizedExperiment"
     ],
