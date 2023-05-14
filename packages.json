@@ -3904,7 +3904,6 @@
     "graphite": [
         "AnnotationDbi"
     ],
-    "GraphPAC": [],
     "GRENITS": [],
     "GreyListChIP": [
         "BSgenome",
@@ -6734,7 +6733,6 @@
         "rtracklayer"
     ],
     "QuartPAC": [
-        "GraphPAC",
         "SpacePAC"
     ],
     "QuasR": [
