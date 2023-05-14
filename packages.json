@@ -1091,7 +1091,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scran",
         "scuttle"
     ],
@@ -1109,7 +1108,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "glmGamPoi",
         "scran",
         "scuttle"
@@ -1168,7 +1166,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "bluster",
         "densvis",
         "scater",
         "scran",
@@ -1567,7 +1564,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scran",
         "scuttle"
     ],
@@ -1694,7 +1690,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "bluster": [],
     "bnbc": [
         "AnnotationDbi",
         "Biostrings",
@@ -2309,7 +2304,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "bluster",
         "densvis",
         "scater",
         "scran",
@@ -2818,7 +2812,6 @@
         "basilisk.utils",
         "batchelor",
         "beachmat",
-        "bluster",
         "densvis",
         "rtracklayer",
         "scater",
@@ -2958,7 +2951,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scran",
         "scuttle"
     ],
@@ -4742,7 +4734,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scran",
         "scuttle"
     ],
@@ -6146,7 +6137,6 @@
         "beachmat",
         "biomaRt",
         "biovizBase",
-        "bluster",
         "densvis",
         "ensembldb",
         "ggbio",
@@ -8123,7 +8113,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "bluster",
         "clusterProfiler",
         "densvis",
         "enrichplot",
@@ -10326,7 +10315,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scran",
         "scuttle"
     ],
@@ -10571,7 +10559,6 @@
         "XVector",
         "batchelor",
         "beachmat",
-        "bluster",
         "scran",
         "scuttle"
     ],
@@ -11918,7 +11905,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "bluster",
         "densvis",
         "scater",
         "scran",
@@ -14295,7 +14281,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "bluster",
         "densvis",
         "rtracklayer",
         "scater",
@@ -14314,7 +14299,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scran",
         "scuttle"
     ],
@@ -14364,7 +14348,6 @@
         "annotate",
         "beachmat",
         "biomaRt",
-        "bluster",
         "ensembldb",
         "rtracklayer",
         "scran",
@@ -14431,7 +14414,6 @@
         "basilisk.utils",
         "batchelor",
         "beachmat",
-        "bluster",
         "densvis",
         "scater",
         "scran",
@@ -14584,7 +14566,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scuttle"
     ],
     "scReClassify": [
@@ -14730,7 +14711,6 @@
         "basilisk.utils",
         "beachmat",
         "biomaRt",
-        "bluster",
         "bumphunter",
         "densvis",
         "ensembldb",
@@ -15314,7 +15294,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scran",
         "scuttle"
     ],
@@ -15355,7 +15334,6 @@
         "batchelor",
         "beachmat",
         "biomaRt",
-        "bluster",
         "celda",
         "densvis",
         "ensembldb",
@@ -15631,7 +15609,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "bluster",
         "densvis",
         "scater",
         "scran",
@@ -15761,7 +15738,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "bluster",
         "densvis",
         "genefilter",
         "scater",
@@ -17549,7 +17525,6 @@
         "SummarizedExperiment",
         "XVector",
         "beachmat",
-        "bluster",
         "scuttle"
     ],
     "VplotR": [
