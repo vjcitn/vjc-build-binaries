@@ -4370,7 +4370,6 @@
         "graphite"
     ],
     "rebook": [],
-    "receptLoss": [],
     "recount": [
         "BSgenome",
         "GenomicFeatures",
