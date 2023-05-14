@@ -2051,13 +2051,11 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "crisprBase": [],
     "crisprBowtie": [
         "BSgenome",
         "GenomicAlignments",
         "Rsamtools",
         "SummarizedExperiment",
-        "crisprBase",
         "rtracklayer"
     ],
     "crisprBwa": [
@@ -2065,7 +2063,6 @@
         "GenomicAlignments",
         "Rsamtools",
         "SummarizedExperiment",
-        "crisprBase",
         "rtracklayer"
     ],
     "crisprDesign": [
@@ -2081,7 +2078,6 @@
         "basilisk",
         "basilisk.utils",
         "biomaRt",
-        "crisprBase",
         "crisprBowtie",
         "crisprScore",
         "rtracklayer"
@@ -2137,7 +2133,6 @@
         "basilisk.utils",
         "biomaRt",
         "biovizBase",
-        "crisprBase",
         "crisprBowtie",
         "crisprDesign",
         "crisprScore",
@@ -2160,7 +2155,6 @@
         "basilisk.utils",
         "biomaRt",
         "biovizBase",
-        "crisprBase",
         "crisprBowtie",
         "crisprDesign",
         "crisprScore",
