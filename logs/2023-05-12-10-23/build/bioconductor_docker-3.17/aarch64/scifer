@@ -1,0 +1,164 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''scifer'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'scifer'
+also installing the dependencies ‘webshot’, ‘svglite’, ‘plyr’, ‘gridExtra’, ‘kableExtra’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/webshot_0.5.4.tar.gz'
+Content type 'binary/octet-stream' length 162775 bytes (158 KB)
+==================================================
+downloaded 158 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/svglite_2.1.1.tar.gz'
+Content type 'binary/octet-stream' length 124805 bytes (121 KB)
+==================================================
+downloaded 121 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/plyr_1.8.8.tar.gz'
+Content type 'binary/octet-stream' length 402003 bytes (392 KB)
+==================================================
+downloaded 392 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'application/x-tar' length 1058173 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/kableExtra_1.3.4.tar.gz'
+Content type 'binary/octet-stream' length 1636105 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/scifer_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 2350662 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+* installing *source* package ‘webshot’ ...
+** package ‘webshot’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘webshot’ as ‘webshot_0.5.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (webshot)
+* installing *source* package ‘svglite’ ...
+** package ‘svglite’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/systemfonts/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/systemfonts/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devSVG.cpp -o devSVG.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o svglite.so cpp11.o devSVG.o -lpng -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-svglite/00new/svglite/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘svglite’ as ‘svglite_2.1.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (svglite)
+* installing *source* package ‘plyr’ ...
+** package ‘plyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loop_apply.c -o loop_apply.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split-numeric.cpp -o split-numeric.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o plyr.so RcppExports.o loop_apply.o split-numeric.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-plyr/00new/plyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *source* package ‘gridExtra’ ...
+** package ‘gridExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *source* package ‘kableExtra’ ...
+** package ‘kableExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘kableExtra’ as ‘kableExtra_1.3.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (kableExtra)
+* installing *source* package ‘scifer’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scifer’ as ‘scifer_1.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (scifer)
+
+The downloaded source packages are in
+	‘/tmp/RtmpcJdN1W/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
+  'MASS', 'nnet'
+
+real	8m10.532s
+user	7m54.483s
+sys	0m10.657s
