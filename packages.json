@@ -1669,8 +1669,7 @@
         "VariantAnnotation",
         "biomaRt",
         "gwascat",
-        "rtracklayer",
-        "universalmotif"
+        "rtracklayer"
     ],
     "CircSeqAlignTk": [
         "AnnotationDbi",
@@ -5058,9 +5057,7 @@
     ],
     "megadepth": [],
     "Melissa": [],
-    "memes": [
-        "universalmotif"
-    ],
+    "memes": [],
     "MeSHDbi": [
         "AnnotationDbi"
     ],
@@ -9593,7 +9590,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "universalmotif": [],
     "VAExprs": [
         "BiocSingular",
         "DelayedMatrixStats",
