@@ -448,7 +448,6 @@
         "GSEABase",
         "annotate"
     ],
-    "BiocSet": [],
     "BiocSklearn": [
         "basilisk",
         "basilisk.utils"
@@ -714,7 +713,6 @@
         "rtracklayer"
     ],
     "CBEA": [
-        "BiocSet",
         "TreeSummarizedExperiment"
     ],
     "cBioPortalData": [
@@ -4068,7 +4066,6 @@
         "rtracklayer"
     ],
     "RegEnrich": [
-        "BiocSet",
         "DOSE",
         "GOSemSim"
     ],
@@ -4909,7 +4906,6 @@
         "scuttle"
     ],
     "sparrow": [
-        "BiocSet",
         "GSEABase",
         "annotate"
     ],
