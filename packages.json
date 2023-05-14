@@ -4132,7 +4132,6 @@
         "basilisk.utils"
     ],
     "hierGWAS": [],
-    "HilbertCurve": [],
     "HiLDA": [
         "AnnotationDbi",
         "BSgenome",
