@@ -4761,7 +4761,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "procoil": [],
     "proDA": [],
     "profileplyr": [
         "ChIPseeker",
