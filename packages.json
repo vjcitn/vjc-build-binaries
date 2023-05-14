@@ -137,7 +137,6 @@
         "apeglm",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -162,7 +161,6 @@
         "alabaster.se",
         "alabaster.spatial",
         "alabaster.vcf",
-        "beachmat",
         "biomaRt",
         "rtracklayer",
         "scuttle"
@@ -199,7 +197,6 @@
         "alabaster.matrix",
         "alabaster.sce",
         "alabaster.se",
-        "beachmat",
         "scuttle"
     ],
     "alabaster.vcf": [
@@ -271,7 +268,6 @@
         "TreeSummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "mia",
         "scater",
@@ -605,7 +601,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scran",
         "scuttle"
     ],
@@ -617,7 +612,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "glmGamPoi",
         "scran",
         "scuttle"
@@ -638,7 +632,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "BatchQC": [
@@ -655,7 +648,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scran",
@@ -679,7 +671,6 @@
     "BDMMAcorrect": [
         "SummarizedExperiment"
     ],
-    "beachmat": [],
     "beadarray": [
         "AnnotationDbi"
     ],
@@ -716,7 +707,6 @@
         "annotate",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "genefilter",
         "mia",
@@ -826,8 +816,7 @@
         "AnnotationDbi"
     ],
     "BiocSingular": [
-        "ScaledMatrix",
-        "beachmat"
+        "ScaledMatrix"
     ],
     "BiocSklearn": [
         "SummarizedExperiment",
@@ -871,7 +860,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scran",
         "scuttle"
     ],
@@ -906,7 +894,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "annotatr",
-        "beachmat",
         "biomaRt",
         "bsseq",
         "bumphunter",
@@ -987,7 +974,6 @@
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
-        "beachmat",
         "bsseq",
         "rtracklayer"
     ],
@@ -1054,7 +1040,6 @@
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
-        "beachmat",
         "rtracklayer"
     ],
     "BubbleTree": [
@@ -1229,7 +1214,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -1327,7 +1311,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scran",
@@ -1361,7 +1344,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -1378,7 +1360,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -1461,7 +1442,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "annotate",
-        "beachmat",
         "biomaRt",
         "biovizBase",
         "bsseq",
@@ -1631,7 +1611,6 @@
         "basilisk",
         "basilisk.utils",
         "batchelor",
-        "beachmat",
         "densvis",
         "rtracklayer",
         "scater",
@@ -1714,7 +1693,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scran",
         "scuttle"
     ],
@@ -1764,7 +1742,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "genefilter",
         "mbkmeans",
         "zinbwave"
@@ -1876,7 +1853,6 @@
         "MIRA",
         "Rsamtools",
         "SummarizedExperiment",
-        "beachmat",
         "bsseq",
         "rtracklayer"
     ],
@@ -1960,7 +1936,6 @@
         "Rsamtools",
         "ScaledMatrix",
         "SummarizedExperiment",
-        "beachmat",
         "rtracklayer"
     ],
     "compEpiTools": [
@@ -1993,7 +1968,6 @@
         "TrajectoryUtils",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "distinct",
         "scater",
@@ -2027,7 +2001,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "biomaRt",
         "genefu"
     ],
@@ -2313,7 +2286,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "cummeRbund": [
@@ -2369,7 +2341,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -2384,7 +2355,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "CytoML": [
@@ -2404,7 +2374,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "cytomapper",
         "scuttle"
     ],
@@ -2563,8 +2532,7 @@
         "BiocSingular",
         "DelayedRandomArray",
         "HDF5Array",
-        "ScaledMatrix",
-        "beachmat"
+        "ScaledMatrix"
     ],
     "DELocal": [
         "DESeq2",
@@ -2584,7 +2552,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "bsseq",
         "genefilter",
         "rtracklayer",
@@ -2654,7 +2621,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "destiny": [
@@ -2742,7 +2708,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scran",
         "scuttle"
     ],
@@ -2757,7 +2722,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -2798,7 +2762,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "annotate",
-        "beachmat",
         "biomaRt",
         "biovizBase",
         "bsseq",
@@ -2837,7 +2800,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "annotatr",
-        "beachmat",
         "biomaRt",
         "bsseq",
         "bumphunter",
@@ -2900,7 +2862,6 @@
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "drugTargetInteractions": [
@@ -2931,7 +2892,6 @@
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
-        "beachmat",
         "bsseq",
         "rtracklayer"
     ],
@@ -3007,7 +2967,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "gage",
         "globaltest",
         "pathview",
@@ -3323,8 +3282,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "UCell",
-        "annotate",
-        "beachmat"
+        "annotate"
     ],
     "escheR": [
         "AnnotationDbi",
@@ -3342,7 +3300,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "rtracklayer",
         "scater",
@@ -3424,7 +3381,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "ExpressionAtlas": [
@@ -3581,7 +3537,6 @@
         "bambu",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "biomaRt",
         "biovizBase",
         "densvis",
@@ -3963,7 +3918,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "girafe": [
@@ -3987,8 +3941,7 @@
         "DelayedMatrixStats",
         "HDF5Array",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "beachmat"
+        "SummarizedExperiment"
     ],
     "glmSparseNet": [
         "AnnotationDbi",
@@ -4179,8 +4132,7 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "annotate",
-        "beachmat"
+        "annotate"
     ],
     "gtrellis": [],
     "GUIDEseq": [
@@ -4504,7 +4456,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "cytomapper",
         "scuttle"
     ],
@@ -4625,7 +4576,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "clusterProfiler",
         "densvis",
         "enrichplot",
@@ -4749,7 +4699,6 @@
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
-        "beachmat",
         "bsseq",
         "rtracklayer"
     ],
@@ -4805,7 +4754,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle",
         "spicyR"
     ],
@@ -5010,8 +4958,7 @@
     ],
     "mbkmeans": [
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "beachmat"
+        "SummarizedExperiment"
     ],
     "mbOmic": [
         "AnnotationDbi"
@@ -5098,7 +5045,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -5262,7 +5208,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "biomaRt",
         "bsseq",
         "bumphunter",
@@ -5364,7 +5309,6 @@
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
-        "beachmat",
         "bsseq",
         "rtracklayer"
     ],
@@ -5405,7 +5349,6 @@
         "TreeSummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -5425,7 +5368,6 @@
         "TreeSummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "mia",
         "scater",
@@ -5450,7 +5392,6 @@
         "TreeSummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "mia",
         "scater",
@@ -5479,8 +5420,7 @@
         "BiocSingular",
         "ScaledMatrix",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "beachmat"
+        "SummarizedExperiment"
     ],
     "mimager": [
         "SummarizedExperiment",
@@ -5544,7 +5484,6 @@
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
-        "beachmat",
         "bsseq",
         "rtracklayer"
     ],
@@ -5702,7 +5641,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "MOMA": [
@@ -5843,7 +5781,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scran",
         "scuttle"
     ],
@@ -5966,7 +5903,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
-        "beachmat",
         "scran",
         "scuttle"
     ],
@@ -5990,7 +5926,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -6079,7 +6014,6 @@
         "Rsamtools",
         "ScaledMatrix",
         "SummarizedExperiment",
-        "beachmat",
         "bsseq",
         "rtracklayer"
     ],
@@ -6148,7 +6082,6 @@
         "annotate",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "clusterExperiment",
         "densvis",
         "genefilter",
@@ -6189,7 +6122,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "NoRCE": [
@@ -6263,7 +6195,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "biomaRt",
         "rtracklayer"
     ],
@@ -6392,8 +6323,7 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "annotate",
-        "beachmat"
+        "annotate"
     ],
     "ORFhunteR": [
         "BSgenome",
@@ -6556,8 +6486,7 @@
     "PCAtools": [
         "BiocSingular",
         "DelayedMatrixStats",
-        "ScaledMatrix",
-        "beachmat"
+        "ScaledMatrix"
     ],
     "PDATK": [
         "AnnotationDbi",
@@ -6589,7 +6518,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -6695,7 +6623,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scran",
@@ -7938,8 +7865,7 @@
         "DelayedMatrixStats",
         "ScaledMatrix",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "beachmat"
+        "SummarizedExperiment"
     ],
     "SCArray.sat": [
         "BiocSingular",
@@ -7947,8 +7873,7 @@
         "SCArray",
         "ScaledMatrix",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "beachmat"
+        "SummarizedExperiment"
     ],
     "SCATE": [
         "AnnotationDbi",
@@ -7966,7 +7891,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scuttle"
     ],
@@ -7985,7 +7909,6 @@
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "scClassify": [
@@ -8016,7 +7939,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "rtracklayer",
         "scater",
@@ -8029,7 +7951,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scran",
         "scuttle"
     ],
@@ -8060,7 +7981,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "biomaRt",
         "ensembldb",
         "rtracklayer",
@@ -8096,7 +8016,6 @@
         "basilisk",
         "basilisk.utils",
         "batchelor",
-        "beachmat",
         "densvis",
         "scater",
         "scran",
@@ -8117,7 +8036,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "annotatr",
-        "beachmat",
         "biomaRt",
         "bsseq",
         "regioneR",
@@ -8180,7 +8098,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "biomaRt",
         "rtracklayer",
         "scuttle"
@@ -8191,7 +8108,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "scReClassify": [
@@ -8236,8 +8152,7 @@
         "BiocSingular",
         "ScaledMatrix",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "beachmat"
+        "SummarizedExperiment"
     ],
     "scTensor": [
         "AnnotationDbi",
@@ -8281,7 +8196,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "biomaRt",
         "bumphunter",
         "densvis",
@@ -8296,8 +8210,7 @@
     "scuttle": [
         "DelayedMatrixStats",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "beachmat"
+        "SummarizedExperiment"
     ],
     "scviR": [
         "BiocSingular",
@@ -8307,7 +8220,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -8536,7 +8448,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "biomaRt",
         "consensusOV",
         "ensembldb",
@@ -8580,7 +8491,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "cytomapper",
         "scuttle"
     ],
@@ -8602,7 +8512,6 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scran",
         "scuttle"
     ],
@@ -8634,7 +8543,6 @@
         "basilisk",
         "basilisk.utils",
         "batchelor",
-        "beachmat",
         "biomaRt",
         "celda",
         "densvis",
@@ -8669,8 +8577,7 @@
         "BiocSingular",
         "DelayedMatrixStats",
         "ScaledMatrix",
-        "SummarizedExperiment",
-        "beachmat"
+        "SummarizedExperiment"
     ],
     "singscore": [
         "AnnotationDbi",
@@ -8693,7 +8600,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "genefilter"
     ],
     "sitadela": [
@@ -8806,7 +8712,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scran",
@@ -8833,7 +8738,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "SpatialCPie": [
@@ -8848,7 +8752,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "scuttle"
     ],
     "SpatialDecon": [
@@ -8861,7 +8764,6 @@
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "SpatialFeatureExperiment": [
@@ -8871,7 +8773,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "spatialHeatmap": [
@@ -8884,7 +8785,6 @@
         "annotate",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "genefilter",
         "scater",
@@ -8934,7 +8834,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "dittoSeq",
         "scuttle"
     ],
@@ -8945,7 +8844,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "SpidermiR": [
@@ -8963,7 +8861,6 @@
         "DelayedMatrixStats",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "SpliceWiz": [
@@ -9023,7 +8920,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "SPOTlight": [
@@ -9069,7 +8965,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "biomaRt",
         "rtracklayer",
         "scuttle"
@@ -9099,7 +8994,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "strandCheckR": [
@@ -9240,7 +9134,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
-        "beachmat",
         "genefilter",
         "singscore",
         "sva"
@@ -9420,8 +9313,7 @@
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "annotate",
-        "beachmat"
+        "annotate"
     ],
     "TnT": [],
     "TOAST": [
@@ -9497,7 +9389,6 @@
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "glmGamPoi"
     ],
     "transite": [],
@@ -9567,7 +9458,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -9719,7 +9609,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "densvis",
         "scater",
         "scuttle"
@@ -9826,7 +9715,6 @@
         "SummarizedExperiment",
         "basilisk",
         "basilisk.utils",
-        "beachmat",
         "scuttle",
         "zellkonverter"
     ],
@@ -9856,7 +9744,6 @@
         "SpatialExperiment",
         "SpatialFeatureExperiment",
         "SummarizedExperiment",
-        "beachmat",
         "scuttle"
     ],
     "VplotR": [
