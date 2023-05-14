@@ -4933,7 +4933,6 @@
     "flowBin": [
         "flowFP"
     ],
-    "flowCHIC": [],
     "flowCut": [
         "DelayedArray",
         "flowDensity",
