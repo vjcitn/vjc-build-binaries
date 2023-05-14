@@ -4279,7 +4279,6 @@
         "basilisk",
         "basilisk.utils"
     ],
-    "rfPred": [],
     "rGADEM": [
         "BSgenome",
         "rtracklayer"
