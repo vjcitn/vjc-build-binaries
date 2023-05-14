@@ -5631,7 +5631,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "MethTargetedNGS": [],
     "MethylAid": [
         "AnnotationDbi",
         "DelayedMatrixStats",
