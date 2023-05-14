@@ -2524,10 +2524,7 @@
     "flowCut": [],
     "flowGate": [],
     "FlowSOM": [],
-    "flowStats": [],
-    "flowVS": [
-        "flowStats"
-    ],
+    "flowVS": [],
     "FoldGO": [
         "topGO"
     ],
