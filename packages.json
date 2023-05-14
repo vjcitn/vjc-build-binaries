@@ -4427,9 +4427,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "GraphPAC": [
-        "iPAC"
-    ],
+    "GraphPAC": [],
     "GRENITS": [],
     "GreyListChIP": [
         "BSgenome",
@@ -4955,7 +4953,6 @@
         "ShortRead",
         "SummarizedExperiment"
     ],
-    "iPAC": [],
     "ipdDb": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -7627,8 +7624,7 @@
     ],
     "QuartPAC": [
         "GraphPAC",
-        "SpacePAC",
-        "iPAC"
+        "SpacePAC"
     ],
     "QuasR": [
         "AnnotationDbi",
@@ -9491,9 +9487,7 @@
         "ggbio",
         "rtracklayer"
     ],
-    "SpacePAC": [
-        "iPAC"
-    ],
+    "SpacePAC": [],
     "Spaniel": [
         "BiocSingular",
         "DelayedMatrixStats",
