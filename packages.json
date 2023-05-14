@@ -6220,7 +6220,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "ngsReports": [],
     "nnSVG": [
         "DelayedMatrixStats",
         "DropletUtils",
