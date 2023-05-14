@@ -2045,7 +2045,6 @@
     "FastqCleaner": [
         "ShortRead"
     ],
-    "FCBF": [],
     "fCCAC": [
         "BSgenome",
         "genomation",
@@ -2053,7 +2052,6 @@
     ],
     "fcoex": [
         "DOSE",
-        "FCBF",
         "GOSemSim",
         "clusterProfiler",
         "enrichplot"
