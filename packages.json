@@ -5098,7 +5098,6 @@
         "genefilter",
         "tilingArray"
     ],
-    "snapcount": [],
     "snifter": [
         "basilisk",
         "basilisk.utils"
