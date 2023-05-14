@@ -10,9 +10,7 @@
         "annotate",
         "genefilter"
     ],
-    "ACE": [
-        "QDNAseq"
-    ],
+    "ACE": [],
     "ADaCGH2": [
         "annotate",
         "genefilter",
@@ -547,7 +545,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "OrganismDbi",
-        "QDNAseq",
         "VariantAnnotation",
         "annotatr",
         "biomaRt",
@@ -2291,9 +2288,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "GeneBreak": [
-        "QDNAseq"
-    ],
+    "GeneBreak": [],
     "genefilter": [
         "annotate"
     ],
@@ -2599,8 +2594,7 @@
         "rtracklayer"
     ],
     "HiCcompare": [
-        "InteractionSet",
-        "QDNAseq"
+        "InteractionSet"
     ],
     "HiCDCPlus": [
         "BSgenome",
@@ -2617,7 +2611,6 @@
     "HiCDOC": [
         "HiCcompare",
         "InteractionSet",
-        "QDNAseq",
         "multiHiCcompare"
     ],
     "HiCExperiment": [
@@ -3610,8 +3603,7 @@
     ],
     "multiHiCcompare": [
         "HiCcompare",
-        "InteractionSet",
-        "QDNAseq"
+        "InteractionSet"
     ],
     "multiMiR": [],
     "MultimodalExperiment": [],
@@ -4247,7 +4239,6 @@
         "annotate",
         "genefilter"
     ],
-    "QDNAseq": [],
     "QFeatures": [],
     "qmtools": [],
     "qpgraph": [
@@ -5428,8 +5419,7 @@
     ],
     "SpectralTAD": [
         "HiCcompare",
-        "InteractionSet",
-        "QDNAseq"
+        "InteractionSet"
     ],
     "SPIAT": [
         "DropletUtils",
@@ -5601,8 +5591,7 @@
     "systemPipeTools": [],
     "TADCompare": [
         "HiCcompare",
-        "InteractionSet",
-        "QDNAseq"
+        "InteractionSet"
     ],
     "TAPseq": [
         "BSgenome",
