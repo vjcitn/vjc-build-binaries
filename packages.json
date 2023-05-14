@@ -2970,9 +2970,7 @@
     "MetaboAnnotation": [
         "QFeatures"
     ],
-    "metabolomicsWorkbenchR": [
-        "struct"
-    ],
+    "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
         "AnnotationHub",
         "ExperimentHub",
@@ -5209,10 +5207,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "struct": [],
-    "structToolbox": [
-        "struct"
-    ],
+    "structToolbox": [],
     "StructuralVariantAnnotation": [
         "BSgenome",
         "GenomicFeatures",
