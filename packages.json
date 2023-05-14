@@ -3428,7 +3428,6 @@
         "AnnotationFilter",
         "GenomeInfoDb",
         "GenomicRanges",
-        "Spectra",
         "XVector"
     ],
     "concordexR": [
@@ -9075,7 +9074,6 @@
         "MultiAssayExperiment",
         "QFeatures",
         "S4Arrays",
-        "Spectra",
         "SummarizedExperiment",
         "XVector"
     ],
@@ -9178,9 +9176,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "MetCirc": [
-        "Spectra"
-    ],
+    "MetCirc": [],
     "methimpute": [
         "Biostrings",
         "GenomeInfoDb",
@@ -9978,7 +9974,6 @@
         "MSnbase",
         "MsFeatures",
         "S4Arrays",
-        "Spectra",
         "SummarizedExperiment",
         "XVector",
         "vsn",
@@ -10218,21 +10213,11 @@
         "GenomicRanges",
         "XVector"
     ],
-    "MsBackendMassbank": [
-        "Spectra"
-    ],
-    "MsBackendMgf": [
-        "Spectra"
-    ],
-    "MsBackendMsp": [
-        "Spectra"
-    ],
-    "MsBackendRawFileReader": [
-        "Spectra"
-    ],
-    "MsBackendSql": [
-        "Spectra"
-    ],
+    "MsBackendMassbank": [],
+    "MsBackendMgf": [],
+    "MsBackendMsp": [],
+    "MsBackendRawFileReader": [],
+    "MsBackendSql": [],
     "MsDataHub": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -10250,7 +10235,6 @@
         "MultiAssayExperiment",
         "QFeatures",
         "S4Arrays",
-        "Spectra",
         "SummarizedExperiment",
         "XVector"
     ],
@@ -10368,7 +10352,6 @@
         "MultiAssayExperiment",
         "QFeatures",
         "S4Arrays",
-        "Spectra",
         "SummarizedExperiment",
         "XVector"
     ],
@@ -15765,7 +15748,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "Spectra": [],
     "SpectralTAD": [
         "Biostrings",
         "DelayedArray",
