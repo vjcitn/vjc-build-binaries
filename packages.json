@@ -4907,7 +4907,6 @@
         "basilisk",
         "basilisk.utils"
     ],
-    "SimFFPE": [],
     "simpleSeg": [
         "DropletUtils",
         "SpatialExperiment",
