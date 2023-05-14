@@ -11315,7 +11315,6 @@
         "genefilter",
         "made4",
         "omicade4",
-        "rexposome",
         "sva"
     ],
     "OmicsLonDA": [
@@ -13322,7 +13321,6 @@
         "basilisk",
         "basilisk.utils"
     ],
-    "rexposome": [],
     "rfaRm": [
         "Biostrings",
         "GenomeInfoDb",
