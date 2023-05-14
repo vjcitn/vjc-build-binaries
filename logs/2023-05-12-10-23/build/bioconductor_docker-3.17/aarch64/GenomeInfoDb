@@ -213,14 +213,14 @@ packaged installation of ‘GenomeInfoDb’ as ‘GenomeInfoDb_1.36.0_R_aarch64-
 * DONE (GenomeInfoDb)
 
 The downloaded source packages are in
-	‘/tmp/RtmpDTtpoW/downloaded_packages’
+	‘/tmp/RtmpmNA8F7/downloaded_packages’
 Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
   'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
   'MASS', 'nnet'
 
-real	6m11.457s
-user	5m55.465s
-sys	0m15.058s
+real	8m5.984s
+user	7m46.620s
+sys	0m17.711s
 * installing *source* package ‘formatR’ ...
 ** package ‘formatR’ successfully unpacked and MD5 sums checked
 ** using staged installation
@@ -667,7 +667,7 @@ packaged installation of ‘restfulr’ as ‘restfulr_0.0.15_R_aarch64-unknown-
 ** libs
 using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
 cd "htslib-1.15.1" && make -f "Makefile.Rhtslib"
-make[1]: Entering directory '/tmp/Rtmp1mEx3Z/R.INSTALL554ab61b9f7/Rhtslib/src/htslib-1.15.1'
+make[1]: Entering directory '/tmp/RtmpObfsO1/R.INSTALL554b111be240/Rhtslib/src/htslib-1.15.1'
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o kfunc.o kfunc.c
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o kstring.o kstring.c
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o bcf_sr_sort.o bcf_sr_sort.c
@@ -768,7 +768,7 @@ gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o hfile_libcurl.pico hfile_libcurl.c
 gcc -shared -Wl,-soname,libhts.so.3 -L/usr/local/lib -fvisibility=hidden -o libhts.so kfunc.pico kstring.pico bcf_sr_sort.pico bgzf.pico errmod.pico faidx.pico header.pico hfile.pico hts.pico hts_expr.pico hts_os.pico md5.pico multipart.pico probaln.pico realn.pico regidx.pico region.pico sam.pico synced_bcf_reader.pico vcf_sweep.pico tbx.pico textutils.pico thread_pool.pico vcf.pico vcfutils.pico cram/cram_codecs.pico cram/cram_decode.pico cram/cram_encode.pico cram/cram_external.pico cram/cram_index.pico cram/cram_io.pico cram/cram_stats.pico cram/mFILE.pico cram/open_trace_file.pico cram/pooled_alloc.pico cram/string_alloc.pico htscodecs/htscodecs/arith_dynamic.pico htscodecs/htscodecs/fqzcomp_qual.pico htscodecs/htscodecs/htscodecs.pico htscodecs/htscodecs/pack.pico htscodecs/htscodecs/rANS_static4x16pr.pico htscodecs/htscodecs/rANS_static.pico htscodecs/htscodecs/rle.pico htscodecs/htscodecs/tokenise_name3.pico hfile_libcurl.pico -lz -lm -lbz2 -llzma -lcurl -lpthread
 ln -sf libhts.so libhts.so.3
-make[1]: Leaving directory '/tmp/Rtmp1mEx3Z/R.INSTALL554ab61b9f7/Rhtslib/src/htslib-1.15.1'
+make[1]: Leaving directory '/tmp/RtmpObfsO1/R.INSTALL554b111be240/Rhtslib/src/htslib-1.15.1'
 mkdir -p "/tmp/tmp/built/Rhtslib/include/htslib"
 cd "htslib-1.15.1/htslib" && cp * "/tmp/tmp/built/Rhtslib/include/htslib"
 gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I"/tmp/tmp/built/Rhtslib/include" -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_Rhtslib.c -o R_init_Rhtslib.o
