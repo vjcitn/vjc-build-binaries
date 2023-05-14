@@ -506,7 +506,6 @@
         "scran",
         "scuttle"
     ],
-    "biotmle": [],
     "biovizBase": [
         "BSgenome",
         "GenomicFeatures",
