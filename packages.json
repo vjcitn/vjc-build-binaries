@@ -1267,7 +1267,6 @@
     ],
     "CNVPanelizer": [],
     "CNVRanger": [
-        "GDSArray",
         "RaggedExperiment"
     ],
     "CNVrd2": [
@@ -2503,7 +2502,6 @@
         "enrichplot",
         "pathview"
     ],
-    "GDSArray": [],
     "genbankr": [
         "BSgenome",
         "GenomicAlignments",
@@ -6512,9 +6510,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "VariantExperiment": [
-        "GDSArray"
-    ],
+    "VariantExperiment": [],
     "VariantFiltering": [
         "AnnotationHub",
         "BSgenome",
