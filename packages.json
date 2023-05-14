@@ -4112,7 +4112,6 @@
         "QFeatures"
     ],
     "MSstatsLiP": [],
-    "MSstatsShiny": [],
     "MuData": [
         "MultiAssayExperiment",
         "SingleCellExperiment"
