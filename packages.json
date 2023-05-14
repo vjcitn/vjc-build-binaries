@@ -311,7 +311,6 @@
         "annotate"
     ],
     "autonomics": [],
-    "awst": [],
     "BaalChIP": [],
     "BadRegionFinder": [
         "BSgenome",
