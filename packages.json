@@ -4096,10 +4096,8 @@
         "scuttle"
     ],
     "mslp": [],
-    "msmsTests": [],
     "MSnID": [
-        "AnnotationHub",
-        "msmsTests"
+        "AnnotationHub"
     ],
     "MSPrep": [
         "annotate",
