@@ -1286,7 +1286,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "DelayedTensor": [],
     "DELocal": [],
     "DeMixT": [
         "BSgenome",
