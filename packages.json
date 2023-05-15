@@ -144,7 +144,6 @@
         "BASiCS",
         "scran"
     ],
-    "batchelor": [],
     "BatchQC": [
         "sva"
     ],
@@ -392,7 +391,6 @@
         "oligoClasses"
     ],
     "ChromSCape": [
-        "batchelor",
         "densvis",
         "scater",
         "scran"
@@ -1379,7 +1377,6 @@
         "clusterProfiler"
     ],
     "mumosa": [
-        "batchelor",
         "scran"
     ],
     "MungeSumstats": [
@@ -1843,7 +1840,6 @@
     "schex": [],
     "scMerge": [
         "M3Drop",
-        "batchelor",
         "densvis",
         "scater",
         "scran"
@@ -1958,7 +1954,6 @@
         "DropletUtils",
         "M3Drop",
         "TSCAN",
-        "batchelor",
         "celda",
         "densvis",
         "ensembldb",
