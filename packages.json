@@ -1257,7 +1257,6 @@
         "Category"
     ],
     "Metab": [],
-    "MetaboAnnotation": [],
     "MetaboSignal": [
         "ensembldb",
         "mygene"
