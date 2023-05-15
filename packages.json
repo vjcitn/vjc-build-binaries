@@ -1135,7 +1135,6 @@
         "BSgenome",
         "GenomicFeatures",
         "Gviz",
-        "TCGAbiolinks",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb"
@@ -2030,7 +2029,6 @@
     "miRLAB": [
         "Category",
         "GOstats",
-        "TCGAbiolinks",
         "genefilter"
     ],
     "miRSM": [
@@ -2094,7 +2092,6 @@
         "TFBSTools"
     ],
     "MoonlightR": [
-        "TCGAbiolinks",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -3334,7 +3331,6 @@
         "singscore",
         "sva"
     ],
-    "TCGAbiolinks": [],
     "TCGAutils": [
         "GenomicFeatures"
     ],
