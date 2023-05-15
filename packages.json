@@ -2571,7 +2571,6 @@
     ],
     "proteasy": [
         "GenomicFeatures",
-        "Rcpi",
         "ensembldb"
     ],
     "ProteoDisco": [
@@ -2681,7 +2680,6 @@
     "RcisTarget": [
         "AUCell"
     ],
-    "Rcpi": [],
     "Rcwl": [
         "basilisk"
     ],
