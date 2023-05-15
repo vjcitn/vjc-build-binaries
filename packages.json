@@ -2970,7 +2970,6 @@
         "bsseq",
         "regioneR"
     ],
-    "SCnorm": [],
     "scone": [
         "EDASeq",
         "GenomicFeatures",
