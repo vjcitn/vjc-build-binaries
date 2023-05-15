@@ -608,7 +608,6 @@
         "sva"
     ],
     "dasper": [],
-    "dce": [],
     "debrowser": [
         "clusterProfiler",
         "sva"
