@@ -1468,8 +1468,7 @@
     "proBAMr": [],
     "profileplyr": [
         "ChIPseeker",
-        "rGREAT",
-        "soGGi"
+        "rGREAT"
     ],
     "pRoloc": [],
     "pRolocGUI": [
@@ -1888,7 +1887,6 @@
     "SNPhood": [
         "VariantAnnotation"
     ],
-    "soGGi": [],
     "SomaticSignatures": [
         "OrganismDbi",
         "VariantAnnotation",
