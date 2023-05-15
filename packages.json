@@ -2409,7 +2409,6 @@
         "QuasR",
         "VariantAnnotation"
     ],
-    "singscore": [],
     "SISPA": [],
     "sitadela": [
         "GenomicFeatures"
@@ -2558,7 +2557,6 @@
     ],
     "TBSignatureProfiler": [
         "ASSIGN",
-        "singscore",
         "sva"
     ],
     "TCGAutils": [
