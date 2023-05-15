@@ -957,9 +957,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "HiCDOC": [
-        "multiHiCcompare"
-    ],
+    "HiCDOC": [],
     "HiCool": [],
     "hierGWAS": [],
     "HiLDA": [],
@@ -1309,7 +1307,6 @@
         "karyoploteR",
         "regioneR"
     ],
-    "multiHiCcompare": [],
     "multiSight": [
         "ReactomePA",
         "clusterProfiler"
