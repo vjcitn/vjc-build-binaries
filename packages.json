@@ -3560,7 +3560,6 @@
         "rtracklayer"
     ],
     "RepViz": [],
-    "ReQON": [],
     "RESOLVE": [
         "BSgenome",
         "GenomicFeatures",
