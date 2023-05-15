@@ -1839,7 +1839,6 @@
         "bumphunter",
         "minfi"
     ],
-    "MGFM": [],
     "MGFR": [],
     "mia": [
         "basilisk",
@@ -2682,7 +2681,6 @@
         "GenomicFeatures"
     ],
     "sampleClassifier": [
-        "MGFM",
         "MGFR"
     ],
     "SBGNview": [],
