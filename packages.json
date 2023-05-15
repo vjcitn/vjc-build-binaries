@@ -910,7 +910,6 @@
         "GenomicFeatures"
     ],
     "CTdata": [],
-    "cTRAP": [],
     "CTSV": [
         "DropletUtils",
         "SpatialExperiment",
