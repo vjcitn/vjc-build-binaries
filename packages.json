@@ -1150,7 +1150,6 @@
         "clusterProfiler"
     ],
     "MethReg": [],
-    "methrix": [],
     "MethylAid": [
         "bumphunter",
         "minfi"
