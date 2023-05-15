@@ -205,7 +205,6 @@
     "BgeeDB": [],
     "BGmix": [],
     "bgx": [],
-    "BicARE": [],
     "bigmelon": [
         "GenomicFeatures",
         "bumphunter",
@@ -1626,7 +1625,6 @@
         "GOstats"
     ],
     "miRSM": [
-        "BicARE",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
