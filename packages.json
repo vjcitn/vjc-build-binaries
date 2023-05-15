@@ -189,7 +189,6 @@
         "ReactomePA",
         "clusterProfiler"
     ],
-    "biocGraph": [],
     "BiocHail": [],
     "BiocOncoTK": [],
     "BiocSklearn": [],
