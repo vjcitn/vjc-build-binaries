@@ -3694,7 +3694,6 @@
         "GenomicFeatures",
         "M3Drop",
         "MAST",
-        "SingleR",
         "TSCAN",
         "TrajectoryUtils",
         "basilisk",
@@ -3722,7 +3721,6 @@
         "ShortRead",
         "VariantAnnotation"
     ],
-    "SingleR": [],
     "singscore": [
         "GSEABase"
     ],
