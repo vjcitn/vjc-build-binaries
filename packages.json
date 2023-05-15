@@ -1918,7 +1918,6 @@
     "scanMiRApp": [
         "ensembldb"
     ],
-    "SCArray.sat": [],
     "scater": [
         "densvis"
     ],
