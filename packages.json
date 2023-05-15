@@ -79,7 +79,6 @@
     "alpine": [
         "GenomicFeatures"
     ],
-    "AMARETTO": [],
     "ANCOMBC": [
         "basilisk",
         "densvis",
