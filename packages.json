@@ -751,7 +751,6 @@
         "methylPipe"
     ],
     "condiments": [
-        "TrajectoryUtils",
         "basilisk",
         "densvis",
         "distinct",
@@ -1315,8 +1314,7 @@
         "VariantAnnotation"
     ],
     "FEAST": [
-        "TSCAN",
-        "TrajectoryUtils"
+        "TSCAN"
     ],
     "ffpe": [
         "GenomicFeatures",
@@ -2963,7 +2961,6 @@
     ],
     "scran": [],
     "scRNAseqApp": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "scruff": [
@@ -3102,7 +3099,6 @@
         "GenomicFeatures",
         "M3Drop",
         "TSCAN",
-        "TrajectoryUtils",
         "basilisk",
         "batchelor",
         "celda",
@@ -3143,9 +3139,7 @@
         "wateRmelon"
     ],
     "slalom": [],
-    "slingshot": [
-        "TrajectoryUtils"
-    ],
+    "slingshot": [],
     "SMITE": [
         "GenomicFeatures",
         "goseq"
@@ -3394,10 +3388,8 @@
         "ensembldb"
     ],
     "tradeSeq": [
-        "TrajectoryUtils",
         "slingshot"
     ],
-    "TrajectoryUtils": [],
     "transcriptogramer": [],
     "transcriptR": [
         "GenomicFeatures",
@@ -3409,7 +3401,6 @@
         "BSgenome"
     ],
     "traviz": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "treekoR": [
@@ -3435,9 +3426,7 @@
     "tRNAscanImport": [
         "BSgenome"
     ],
-    "TSCAN": [
-        "TrajectoryUtils"
-    ],
+    "TSCAN": [],
     "tscR": [],
     "TVTB": [
         "BSgenome",
