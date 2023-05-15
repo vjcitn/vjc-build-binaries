@@ -1235,7 +1235,6 @@
         "genomation"
     ],
     "epidecodeR": [],
-    "epigenomix": [],
     "epigraHMM": [
         "BSgenome",
         "GreyListChIP"
