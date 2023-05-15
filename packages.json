@@ -414,7 +414,6 @@
     "clipper": [
         "qpgraph"
     ],
-    "cliqueMS": [],
     "clusterExperiment": [
         "zinbwave"
     ],
