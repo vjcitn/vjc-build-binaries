@@ -1,0 +1,118 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''structToolbox'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'structToolbox'
+also installing the dependencies ‘ggthemes’, ‘gridExtra’, ‘sp’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggthemes_4.2.4.tar.gz'
+Content type 'binary/octet-stream' length 444042 bytes (433 KB)
+==================================================
+downloaded 433 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'application/x-tar' length 1058173 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/sp_1.6-0.tar.gz'
+Content type 'binary/octet-stream' length 1034764 bytes (1010 KB)
+==================================================
+downloaded 1010 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/structToolbox_1.12.0.tar.gz'
+Content type 'application/x-gzip' length 4784859 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+* installing *source* package ‘ggthemes’ ...
+** package ‘ggthemes’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggthemes’ as ‘ggthemes_4.2.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggthemes)
+* installing *source* package ‘gridExtra’ ...
+** package ‘gridExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *source* package ‘sp’ ...
+** package ‘sp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcentroid.c -o Rcentroid.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gcdist.c -o gcdist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pip.c -o pip.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pip2.c -o pip2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sp_xports.c -o sp_xports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c surfaceArea.c -o surfaceArea.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zerodist.c -o zerodist.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sp.so Rcentroid.o gcdist.o init.o pip.o pip2.o sp_xports.o surfaceArea.o zerodist.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-sp/00new/sp/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sp’ as ‘sp_1.6-0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (sp)
+* installing *source* package ‘structToolbox’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘structToolbox’ as ‘structToolbox_1.12.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (structToolbox)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpf5hAjZ/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'viridisLite', 'waldo', 'class', 'KernSmooth',
+  'MASS', 'nnet'
+
+real	8m5.637s
+user	7m57.432s
+sys	0m6.512s
