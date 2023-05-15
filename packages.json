@@ -1104,7 +1104,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "DEFormats": [],
     "DegNorm": [
         "GenomicFeatures"
     ],
@@ -3043,7 +3042,6 @@
     ],
     "regionReport": [
         "BSgenome",
-        "DEFormats",
         "GenomicFeatures",
         "GenomicFiles",
         "VariantAnnotation",
