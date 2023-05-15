@@ -1642,7 +1642,6 @@
         "MutationalPatterns",
         "VariantAnnotation"
     ],
-    "restfulSE": [],
     "retrofit": [],
     "ReUseData": [
         "Rcwl",
@@ -2038,9 +2037,7 @@
     ],
     "TCGAutils": [],
     "TDbasedUFEadv": [],
-    "tenXplore": [
-        "restfulSE"
-    ],
+    "tenXplore": [],
     "terraTCGAdata": [
         "TCGAutils"
     ],
