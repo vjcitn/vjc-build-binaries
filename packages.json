@@ -1839,7 +1839,6 @@
         "bumphunter",
         "minfi"
     ],
-    "MGFR": [],
     "mia": [
         "basilisk",
         "densvis",
@@ -2679,9 +2678,7 @@
         "EDASeq",
         "GenomicFeatures"
     ],
-    "sampleClassifier": [
-        "MGFR"
-    ],
+    "sampleClassifier": [],
     "SBGNview": [],
     "SCAN.UPC": [
         "oligo",
