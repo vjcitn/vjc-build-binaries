@@ -2746,7 +2746,6 @@
     "MobilityTransformR": [
         "xcms"
     ],
-    "MODA": [],
     "MOFA2": [
         "basilisk",
         "basilisk.utils"
