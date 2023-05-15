@@ -862,7 +862,6 @@
         "EDASeq",
         "sva"
     ],
-    "gcapc": [],
     "GDCRNATools": [
         "clusterProfiler"
     ],
