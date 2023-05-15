@@ -439,9 +439,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "CAMERA": [
-        "xcms"
-    ],
+    "CAMERA": [],
     "canceR": [
         "Category",
         "genefilter",
@@ -664,9 +662,7 @@
     "cliProfiler": [
         "BSgenome"
     ],
-    "cliqueMS": [
-        "xcms"
-    ],
+    "cliqueMS": [],
     "clusterExperiment": [
         "genefilter",
         "zinbwave"
@@ -794,9 +790,7 @@
     "corral": [],
     "coseq": [],
     "CoSIA": [],
-    "cosmiq": [
-        "xcms"
-    ],
+    "cosmiq": [],
     "cosmosR": [],
     "COTAN": [],
     "countsimQC": [
@@ -1329,8 +1323,7 @@
     ],
     "fishpond": [],
     "flagme": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "FLAMES": [
         "BSgenome",
@@ -1682,8 +1675,7 @@
     ],
     "IONiseR": [],
     "IPO": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "IRISFGM": [
         "basilisk",
@@ -1752,8 +1744,7 @@
         "spicyR"
     ],
     "LOBSTAHS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "LRcell": [],
     "lumi": [
@@ -1795,8 +1786,7 @@
         "TRESS"
     ],
     "MAIT": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "mariner": [
         "plotgardener",
@@ -1871,9 +1861,7 @@
         "Category",
         "genefilter"
     ],
-    "Metab": [
-        "xcms"
-    ],
+    "Metab": [],
     "MetaboAnnotation": [],
     "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
@@ -1891,8 +1879,7 @@
     ],
     "metagene2": [],
     "metaMS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "MetaPhOR": [
         "clusterProfiler",
@@ -2071,9 +2058,7 @@
         "BSgenome"
     ],
     "moanin": [],
-    "MobilityTransformR": [
-        "xcms"
-    ],
+    "MobilityTransformR": [],
     "MOFA2": [
         "basilisk"
     ],
@@ -2226,9 +2211,7 @@
     "NBAMSeq": [
         "genefilter"
     ],
-    "ncGTW": [
-        "xcms"
-    ],
+    "ncGTW": [],
     "ndexr": [],
     "nearBynding": [
         "GenomicFeatures",
@@ -2755,9 +2738,7 @@
         "karyoploteR",
         "regioneR"
     ],
-    "Risa": [
-        "xcms"
-    ],
+    "Risa": [],
     "RITAN": [
         "BgeeDB",
         "GenomicFeatures",
@@ -3557,7 +3538,6 @@
         "GenomicFeatures"
     ],
     "wiggleplotr": [],
-    "xcms": [],
     "XDE": [
         "GeneMeta",
         "genefilter"
