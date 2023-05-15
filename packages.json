@@ -647,7 +647,6 @@
         "bumphunter",
         "minfi"
     ],
-    "DeepBlueR": [],
     "deepSNV": [
         "VariantAnnotation"
     ],
