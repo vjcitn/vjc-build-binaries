@@ -2962,7 +2962,6 @@
         "basilisk"
     ],
     "scran": [],
-    "scRepertoire": [],
     "scRNAseqApp": [
         "TrajectoryUtils",
         "slingshot"
