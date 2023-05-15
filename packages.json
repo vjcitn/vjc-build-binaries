@@ -2765,7 +2765,6 @@
         "genefilter",
         "ggbio"
     ],
-    "RepViz": [],
     "RESOLVE": [
         "BSgenome",
         "GenomicFeatures",
