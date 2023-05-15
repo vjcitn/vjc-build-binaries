@@ -1317,7 +1317,6 @@
         "GenomicFeatures"
     ],
     "GeneMeta": [],
-    "GENESIS": [],
     "GeneStructureTools": [
         "BSgenome",
         "GenomicFeatures",
