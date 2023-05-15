@@ -198,7 +198,6 @@
     "BiocHail": [],
     "BiocOncoTK": [],
     "BiocSklearn": [],
-    "BioMM": [],
     "BioNERO": [
         "sva"
     ],
