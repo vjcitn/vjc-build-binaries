@@ -950,7 +950,6 @@
     "HelloRanges": [
         "VariantAnnotation"
     ],
-    "hiAnnotator": [],
     "HiCDCPlus": [
         "GenomicInteractions",
         "Gviz",
@@ -964,9 +963,7 @@
     "HiCool": [],
     "hierGWAS": [],
     "HiLDA": [],
-    "hiReadsProcessor": [
-        "hiAnnotator"
-    ],
+    "hiReadsProcessor": [],
     "HTSeqGenie": [
         "VariantAnnotation",
         "VariantTools",
