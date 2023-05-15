@@ -268,7 +268,6 @@
         "sva"
     ],
     "BioNetStat": [],
-    "biosigner": [],
     "BioTIP": [
         "scran"
     ],
@@ -1994,7 +1993,6 @@
     "multiHiCcompare": [],
     "multiSight": [
         "ReactomePA",
-        "biosigner",
         "clusterProfiler",
         "enrichplot"
     ],
