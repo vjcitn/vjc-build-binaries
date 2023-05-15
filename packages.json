@@ -258,7 +258,6 @@
         "scran",
         "scuttle"
     ],
-    "BasicSTARRseq": [],
     "basilisk": [
         "basilisk.utils"
     ],
