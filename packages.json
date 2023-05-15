@@ -986,7 +986,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "cydar": [],
     "CyTOFpower": [
         "FlowSOM",
         "diffcyt"
