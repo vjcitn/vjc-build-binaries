@@ -1898,7 +1898,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "PharmacoGx": [],
     "phemd": [],
     "phenomis": [],
     "phenoTest": [
@@ -2858,9 +2857,7 @@
     "XDE": [
         "GeneMeta"
     ],
-    "Xeva": [
-        "PharmacoGx"
-    ],
+    "Xeva": [],
     "XNAString": [],
     "YAPSA": [
         "GenomicFeatures",
