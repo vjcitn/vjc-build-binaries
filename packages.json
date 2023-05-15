@@ -619,9 +619,7 @@
         "RUVSeq",
         "ensembldb"
     ],
-    "consensusOV": [
-        "GSVA"
-    ],
+    "consensusOV": [],
     "contiBAIT": [
         "GenomicFeatures",
         "GenomicFiles",
@@ -920,9 +918,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "EGSEA": [
-        "GSVA"
-    ],
+    "EGSEA": [],
     "ELMER": [
         "GenomicFeatures",
         "Gviz",
@@ -1025,9 +1021,7 @@
         "motifmatchr",
         "pipeFrame"
     ],
-    "escape": [
-        "GSVA"
-    ],
+    "escape": [],
     "escheR": [
         "DropletUtils",
         "SpatialExperiment",
@@ -1250,7 +1244,6 @@
         "OrganismDbi"
     ],
     "GSRI": [],
-    "GSVA": [],
     "GUIDEseq": [
         "CRISPRseek",
         "ChIPpeakAnno",
@@ -1863,7 +1856,6 @@
     "NxtIRFcore": [],
     "octad": [
         "EDASeq",
-        "GSVA",
         "GenomicFeatures",
         "RUVSeq"
     ],
@@ -1899,9 +1891,7 @@
         "HelloRanges",
         "VariantAnnotation"
     ],
-    "oppar": [
-        "GSVA"
-    ],
+    "oppar": [],
     "ORFhunteR": [],
     "ORFik": [
         "GenomicFeatures"
@@ -2394,7 +2384,6 @@
     ],
     "scFeatures": [
         "DropletUtils",
-        "GSVA",
         "GenomicFeatures",
         "SingleCellSignalR",
         "SpatialExperiment",
@@ -2527,7 +2516,6 @@
         "VariantAnnotation"
     ],
     "signifinder": [
-        "GSVA",
         "GenomicFeatures",
         "consensusOV",
         "ensembldb"
@@ -2553,7 +2541,6 @@
     ],
     "singleCellTK": [
         "DropletUtils",
-        "GSVA",
         "GenomicFeatures",
         "M3Drop",
         "TSCAN",
@@ -2577,9 +2564,7 @@
         "VariantAnnotation"
     ],
     "singscore": [],
-    "SISPA": [
-        "GSVA"
-    ],
+    "SISPA": [],
     "sitadela": [
         "GenomicFeatures"
     ],
@@ -2737,7 +2722,6 @@
     ],
     "TBSignatureProfiler": [
         "ASSIGN",
-        "GSVA",
         "singscore",
         "sva"
     ],
@@ -2778,9 +2762,7 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "TNBC.CMS": [
-        "GSVA"
-    ],
+    "TNBC.CMS": [],
     "TOP": [
         "ClassifyR"
     ],
