@@ -389,8 +389,7 @@
     ],
     "ChIPQC": [
         "DiffBind",
-        "GreyListChIP",
-        "systemPipeR"
+        "GreyListChIP"
     ],
     "ChIPseeker": [],
     "ChIPXpress": [
@@ -660,8 +659,7 @@
     ],
     "DEXSeq": [],
     "DiffBind": [
-        "GreyListChIP",
-        "systemPipeR"
+        "GreyListChIP"
     ],
     "diffcyt": [
         "FlowSOM"
@@ -2117,7 +2115,6 @@
         "StructuralVariantAnnotation",
         "VariantAnnotation"
     ],
-    "systemPipeR": [],
     "TADCompare": [],
     "TAPseq": [],
     "TBSignatureProfiler": [
@@ -2256,8 +2253,7 @@
         "DiffBind",
         "GreyListChIP",
         "ensembldb",
-        "regioneR",
-        "systemPipeR"
+        "regioneR"
     ],
     "wateRmelon": [
         "bumphunter",
