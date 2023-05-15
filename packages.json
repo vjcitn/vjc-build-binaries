@@ -2681,7 +2681,6 @@
     "TOP": [
         "ClassifyR"
     ],
-    "ToxicoGx": [],
     "trackViewer": [
         "GenomicFeatures",
         "Gviz",
