@@ -58,7 +58,6 @@
     ],
     "airpart": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -106,7 +105,6 @@
     "ANCOMBC": [
         "TreeSummarizedExperiment",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "mia",
         "scater",
@@ -246,10 +244,7 @@
         "scran",
         "scuttle"
     ],
-    "basilisk": [
-        "basilisk.utils"
-    ],
-    "basilisk.utils": [],
+    "basilisk": [],
     "batchelor": [
         "scuttle"
     ],
@@ -259,7 +254,6 @@
     ],
     "BayesSpace": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scran",
@@ -280,7 +274,6 @@
         "MAST",
         "TreeSummarizedExperiment",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "genefilter",
         "mia",
@@ -324,8 +317,7 @@
         "geneplotter"
     ],
     "BiocHail": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "BiocHubsShiny": [
         "ExperimentHub"
@@ -338,8 +330,7 @@
         "GSEABase"
     ],
     "BiocSklearn": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "BioMM": [],
     "BioNAR": [],
@@ -514,7 +505,6 @@
     "CATALYST": [
         "FlowSOM",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -551,8 +541,7 @@
         "enrichplot"
     ],
     "cbpManager": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "ccfindR": [],
     "CCPROMISE": [
@@ -564,7 +553,6 @@
     ],
     "celda": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scran",
@@ -579,7 +567,6 @@
     ],
     "CelliD": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -587,7 +574,6 @@
     "cellity": [],
     "CellMixS": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -619,8 +605,7 @@
         "plyranges"
     ],
     "cfTools": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "cghMCR": [
         "CNTools",
@@ -703,7 +688,6 @@
     "chromPlot": [],
     "ChromSCape": [
         "basilisk",
-        "basilisk.utils",
         "batchelor",
         "densvis",
         "scater",
@@ -846,7 +830,6 @@
     "condiments": [
         "TrajectoryUtils",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "distinct",
         "scater",
@@ -923,14 +906,12 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "basilisk",
-        "basilisk.utils",
         "crisprBowtie",
         "crisprScore"
     ],
     "crisprScore": [
         "ExperimentHub",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "CRISPRseek": [
         "BSgenome"
@@ -951,7 +932,6 @@
         "Gviz",
         "VariantAnnotation",
         "basilisk",
-        "basilisk.utils",
         "biovizBase",
         "crisprBowtie",
         "crisprDesign",
@@ -966,7 +946,6 @@
         "Gviz",
         "VariantAnnotation",
         "basilisk",
-        "basilisk.utils",
         "biovizBase",
         "crisprBowtie",
         "crisprDesign",
@@ -1016,7 +995,6 @@
         "CATALYST",
         "FlowSOM",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -1054,7 +1032,6 @@
     "dasper": [
         "GenomicFeatures",
         "basilisk",
-        "basilisk.utils",
         "plyranges"
     ],
     "dce": [],
@@ -1094,8 +1071,7 @@
         "sva"
     ],
     "densvis": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "derfinder": [
         "BSgenome",
@@ -1165,7 +1141,6 @@
     ],
     "distinct": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -1411,7 +1386,6 @@
         "ExperimentHub",
         "SpatialExperiment",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -1506,7 +1480,6 @@
         "VariantAnnotation",
         "bambu",
         "basilisk",
-        "basilisk.utils",
         "biovizBase",
         "densvis",
         "ensembldb",
@@ -1776,8 +1749,7 @@
     ],
     "HiCool": [
         "HiCExperiment",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "hierGWAS": [],
     "HiLDA": [
@@ -1892,7 +1864,6 @@
     "IRISFGM": [
         "DOSE",
         "basilisk",
-        "basilisk.utils",
         "clusterProfiler",
         "densvis",
         "enrichplot",
@@ -1991,8 +1962,7 @@
     "macat": [],
     "MACSr": [
         "ExperimentHub",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "MADSEQ": [
         "BSgenome",
@@ -2090,7 +2060,6 @@
     ],
     "MEB": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -2215,7 +2184,6 @@
     "mia": [
         "TreeSummarizedExperiment",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -2226,7 +2194,6 @@
     "miaViz": [
         "TreeSummarizedExperiment",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "mia",
         "scater",
@@ -2236,7 +2203,6 @@
         "ANCOMBC",
         "TreeSummarizedExperiment",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "mia",
         "scater",
@@ -2338,8 +2304,7 @@
         "xcms"
     ],
     "MOFA2": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "mogsa": [
         "GSEABase",
@@ -2454,7 +2419,6 @@
     ],
     "muscat": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -2514,7 +2478,6 @@
     "NetSAM": [],
     "netSmooth": [
         "basilisk",
-        "basilisk.utils",
         "clusterExperiment",
         "densvis",
         "genefilter",
@@ -2570,7 +2533,6 @@
         "GenomicFiles",
         "VariantAnnotation",
         "basilisk",
-        "basilisk.utils",
         "bumphunter",
         "dasper",
         "derfinder",
@@ -2676,7 +2638,6 @@
     ],
     "peco": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -2720,7 +2681,6 @@
     ],
     "pipeComp": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scran",
@@ -2918,13 +2878,11 @@
     ],
     "Rcpi": [],
     "Rcwl": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "RcwlPipelines": [
         "Rcwl",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "ReactomePA": [
         "DOSE",
@@ -2943,7 +2901,6 @@
     "recountmethylation": [
         "GenomicFeatures",
         "basilisk",
-        "basilisk.utils",
         "bumphunter",
         "genefilter",
         "minfi"
@@ -3023,8 +2980,7 @@
     "ReUseData": [
         "Rcwl",
         "RcwlPipelines",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "rGADEM": [
         "BSgenome"
@@ -3233,7 +3189,6 @@
     ],
     "scater": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scuttle"
     ],
@@ -3253,7 +3208,6 @@
     "scDataviz": [],
     "scDblFinder": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scran",
@@ -3284,7 +3238,6 @@
     "scMerge": [
         "M3Drop",
         "basilisk",
-        "basilisk.utils",
         "batchelor",
         "densvis",
         "scater",
@@ -3317,7 +3270,6 @@
     "scPipe": [
         "DropletUtils",
         "basilisk",
-        "basilisk.utils",
         "scuttle"
     ],
     "scran": [
@@ -3358,7 +3310,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "basilisk",
-        "basilisk.utils",
         "bumphunter",
         "densvis",
         "ensembldb",
@@ -3371,7 +3322,6 @@
     "scuttle": [],
     "scviR": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -3473,8 +3423,7 @@
         "genefilter"
     ],
     "SimBu": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "simpleSeg": [
         "DropletUtils",
@@ -3498,7 +3447,6 @@
         "TSCAN",
         "TrajectoryUtils",
         "basilisk",
-        "basilisk.utils",
         "batchelor",
         "celda",
         "densvis",
@@ -3557,8 +3505,7 @@
         "tilingArray"
     ],
     "snifter": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "SNPhood": [
         "BSgenome",
@@ -3580,7 +3527,6 @@
     "Spaniel": [
         "DropletUtils",
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scran",
@@ -3601,7 +3547,6 @@
         "DropletUtils",
         "SpatialExperiment",
         "basilisk",
-        "basilisk.utils",
         "scuttle"
     ],
     "SpatialDecon": [
@@ -3619,7 +3564,6 @@
     ],
     "spatialHeatmap": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "genefilter",
         "scater",
@@ -3872,7 +3816,6 @@
     ],
     "tricycle": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -3933,7 +3876,6 @@
     ],
     "VAExprs": [
         "basilisk",
-        "basilisk.utils",
         "densvis",
         "scater",
         "scuttle"
@@ -3976,13 +3918,11 @@
         "VariantAnnotation"
     ],
     "VDJdive": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "VegaMC": [],
     "velociraptor": [
         "basilisk",
-        "basilisk.utils",
         "scuttle",
         "zellkonverter"
     ],
@@ -4056,8 +3996,7 @@
         "quantro"
     ],
     "zellkonverter": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "zenith": [
         "EnrichmentBrowser",
