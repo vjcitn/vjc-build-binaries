@@ -1714,7 +1714,6 @@
     "motifStack": [
         "TFBSTools"
     ],
-    "MsExperiment": [],
     "msgbsR": [
         "GenomicFeatures",
         "OrganismDbi",
@@ -1730,9 +1729,7 @@
         "sva"
     ],
     "msqrob2": [],
-    "MsQuality": [
-        "MsExperiment"
-    ],
+    "MsQuality": [],
     "MultiBaC": [],
     "multicrispr": [
         "CRISPRseek",
