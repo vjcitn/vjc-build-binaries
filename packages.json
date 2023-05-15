@@ -693,7 +693,6 @@
     ],
     "clusterExperiment": [
         "genefilter",
-        "mbkmeans",
         "zinbwave"
     ],
     "clusterProfiler": [
@@ -1881,7 +1880,6 @@
         "genefilter",
         "sva"
     ],
-    "mbkmeans": [],
     "mBPCR": [
         "oligoClasses"
     ],
@@ -2321,7 +2319,6 @@
         "clusterExperiment",
         "densvis",
         "genefilter",
-        "mbkmeans",
         "scater",
         "scuttle",
         "zinbwave"
