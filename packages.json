@@ -2093,7 +2093,6 @@
         "crlmm",
         "oligoClasses"
     ],
-    "miQC": [],
     "MIRA": [
         "BSgenome",
         "bsseq"
