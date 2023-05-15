@@ -6,7 +6,6 @@
     ],
     "ADImpute": [],
     "affycoretools": [
-        "Category",
         "GOstats",
         "OrganismDbi",
         "ReportingTools",
@@ -18,7 +17,6 @@
     ],
     "aggregateBioVar": [],
     "AgiMicroRna": [
-        "Category",
         "GOstats",
         "OrganismDbi",
         "ReportingTools",
@@ -122,7 +120,6 @@
         "motifStack"
     ],
     "attract": [
-        "Category",
         "GOstats"
     ],
     "BadRegionFinder": [
@@ -293,7 +290,6 @@
     ],
     "CAMERA": [],
     "canceR": [
-        "Category",
         "phenoTest"
     ],
     "cardelino": [
@@ -305,9 +301,7 @@
         "densvis",
         "scater"
     ],
-    "Category": [],
     "categoryCompare": [
-        "Category",
         "GOstats"
     ],
     "cbaf": [
@@ -330,9 +324,7 @@
         "scater",
         "scran"
     ],
-    "cellHTS2": [
-        "Category"
-    ],
+    "cellHTS2": [],
     "CelliD": [
         "densvis",
         "scater"
@@ -959,7 +951,6 @@
     ],
     "GeoTcgaData": [],
     "gespeR": [
-        "Category",
         "cellHTS2"
     ],
     "ggbio": [
@@ -977,7 +968,6 @@
         "VariantAnnotation"
     ],
     "GmicR": [
-        "Category",
         "GOstats"
     ],
     "gmoviz": [],
@@ -985,9 +975,7 @@
     "goSorensen": [
         "clusterProfiler"
     ],
-    "GOstats": [
-        "Category"
-    ],
+    "GOstats": [],
     "GOTHiC": [],
     "GRENITS": [],
     "GreyListChIP": [],
@@ -1053,7 +1041,6 @@
         "CODEX"
     ],
     "ideal": [
-        "Category",
         "GOstats",
         "goseq",
         "pcaExplorer"
@@ -1082,9 +1069,7 @@
         "ensembldb",
         "ggbio"
     ],
-    "interactiveDisplay": [
-        "Category"
-    ],
+    "interactiveDisplay": [],
     "IntEREst": [
         "DEXSeq",
         "GenomicFiles",
@@ -1220,9 +1205,7 @@
     ],
     "MEDIPS": [],
     "meshes": [],
-    "meshr": [
-        "Category"
-    ],
+    "meshr": [],
     "Metab": [],
     "MetaboSignal": [
         "ensembldb",
@@ -1307,7 +1290,6 @@
         "oligoClasses"
     ],
     "MineICA": [
-        "Category",
         "GOstats",
         "bumphunter",
         "lumi",
@@ -1326,7 +1308,6 @@
         "bsseq"
     ],
     "miRLAB": [
-        "Category",
         "GOstats"
     ],
     "miRSM": [
@@ -1462,7 +1443,6 @@
         "zinbwave"
     ],
     "netZooR": [
-        "Category",
         "GOstats",
         "bumphunter",
         "minfi",
@@ -1531,7 +1511,6 @@
         "clusterProfiler"
     ],
     "pcaExplorer": [
-        "Category",
         "GOstats"
     ],
     "PDATK": [],
@@ -1550,9 +1529,7 @@
     ],
     "phemd": [],
     "phenomis": [],
-    "phenoTest": [
-        "Category"
-    ],
+    "phenoTest": [],
     "PhenStat": [],
     "PhyloProfile": [],
     "Pigengene": [
@@ -1572,7 +1549,6 @@
     ],
     "pipeFrame": [],
     "PloGO2": [
-        "Category",
         "GOstats"
     ],
     "plotgardener": [],
@@ -1719,7 +1695,6 @@
         "Ringo"
     ],
     "ReportingTools": [
-        "Category",
         "GOstats",
         "OrganismDbi",
         "VariantAnnotation",
@@ -1793,7 +1768,6 @@
         "bumphunter"
     ],
     "RNAinteract": [
-        "Category",
         "cellHTS2"
     ],
     "RNAmodR": [
@@ -1921,7 +1895,6 @@
         "ggbio"
     ],
     "scTensor": [
-        "Category",
         "GOstats",
         "ReactomePA",
         "meshr",
@@ -1961,7 +1934,6 @@
         "sva"
     ],
     "SGCP": [
-        "Category",
         "GOstats"
     ],
     "SGSeq": [],
@@ -2125,7 +2097,6 @@
         "SpatialExperiment"
     ],
     "staRank": [
-        "Category",
         "cellHTS2"
     ],
     "StarBioTrek": [],
