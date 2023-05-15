@@ -939,7 +939,6 @@
         "DropletUtils",
         "SpatialExperiment"
     ],
-    "destiny": [],
     "DExMA": [
         "sva"
     ],
@@ -2217,9 +2216,7 @@
         "enrichplot"
     ],
     "PharmacoGx": [],
-    "phemd": [
-        "destiny"
-    ],
+    "phemd": [],
     "phenomis": [],
     "phenoTest": [
         "Category"
