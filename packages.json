@@ -508,9 +508,7 @@
         "crisprScore"
     ],
     "crisprScore": [],
-    "CRISPRseek": [],
     "crisprseekplus": [
-        "CRISPRseek",
         "ChIPpeakAnno",
         "GUIDEseq",
         "ensembldb",
@@ -958,7 +956,6 @@
     ],
     "GSRI": [],
     "GUIDEseq": [
-        "CRISPRseek",
         "ChIPpeakAnno",
         "ensembldb",
         "regioneR"
@@ -1352,7 +1349,6 @@
     ],
     "MsQuality": [],
     "multicrispr": [
-        "CRISPRseek",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb",
