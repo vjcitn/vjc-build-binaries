@@ -841,9 +841,7 @@
     "doppelgangR": [
         "sva"
     ],
-    "doubletrouble": [
-        "syntenet"
-    ],
+    "doubletrouble": [],
     "dpeak": [],
     "DRIMSeq": [],
     "DropletUtils": [],
@@ -2557,7 +2555,6 @@
         "VariantAnnotation"
     ],
     "SVMDO": [],
-    "syntenet": [],
     "systemPipeR": [],
     "TADCompare": [],
     "TAPseq": [
