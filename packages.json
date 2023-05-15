@@ -507,7 +507,6 @@
     "covRNA": [],
     "cpvSNP": [],
     "crisprBowtie": [],
-    "crisprBwa": [],
     "crisprDesign": [
         "VariantAnnotation",
         "crisprBowtie",
