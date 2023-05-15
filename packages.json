@@ -262,9 +262,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "biocGraph": [
-        "geneplotter"
-    ],
+    "biocGraph": [],
     "BiocHail": [
         "basilisk"
     ],
@@ -305,8 +303,7 @@
     ],
     "BiSeq": [],
     "blacksheepr": [
-        "DEXSeq",
-        "geneplotter"
+        "DEXSeq"
     ],
     "BLMA": [],
     "BloodGen3Module": [],
@@ -957,9 +954,7 @@
     "DExMA": [
         "sva"
     ],
-    "DEXSeq": [
-        "geneplotter"
-    ],
+    "DEXSeq": [],
     "DiffBind": [
         "BSgenome",
         "GreyListChIP",
@@ -978,8 +973,7 @@
     "diffUTR": [
         "DEXSeq",
         "GenomicFeatures",
-        "ensembldb",
-        "geneplotter"
+        "ensembldb"
     ],
     "Dino": [
         "scran"
@@ -1089,7 +1083,6 @@
     "ENmix": [
         "GenomicFeatures",
         "bumphunter",
-        "geneplotter",
         "minfi"
     ],
     "EnrichmentBrowser": [],
@@ -1335,7 +1328,6 @@
     ],
     "genefu": [],
     "GeneMeta": [],
-    "geneplotter": [],
     "GENESIS": [],
     "GeneStructureTools": [
         "BSgenome",
@@ -1598,8 +1590,7 @@
         "DEXSeq",
         "GenomicFeatures",
         "GenomicFiles",
-        "VariantAnnotation",
-        "geneplotter"
+        "VariantAnnotation"
     ],
     "IONiseR": [],
     "IPO": [
@@ -1624,7 +1615,6 @@
         "DRIMSeq",
         "GenomicFeatures",
         "ensembldb",
-        "geneplotter",
         "tximeta"
     ],
     "isomiRs": [],
@@ -1857,8 +1847,7 @@
         "ensembldb"
     ],
     "MethylSeekR": [
-        "BSgenome",
-        "geneplotter"
+        "BSgenome"
     ],
     "methylSig": [
         "BSgenome",
@@ -2232,7 +2221,6 @@
     ],
     "pairedGSEA": [
         "DEXSeq",
-        "geneplotter",
         "sva"
     ],
     "panelcn.mops": [],
@@ -2646,8 +2634,7 @@
     ],
     "RNAinteract": [
         "Category",
-        "cellHTS2",
-        "geneplotter"
+        "cellHTS2"
     ],
     "RNAmodR": [
         "BSgenome",
