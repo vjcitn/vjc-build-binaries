@@ -717,8 +717,7 @@
         "ensembldb"
     ],
     "consensusOV": [
-        "GSVA",
-        "genefu"
+        "GSVA"
     ],
     "consensusSeekeR": [],
     "consICA": [],
@@ -1319,7 +1318,6 @@
     "geneAttribution": [
         "GenomicFeatures"
     ],
-    "genefu": [],
     "GeneMeta": [],
     "GENESIS": [],
     "GeneStructureTools": [
@@ -2219,9 +2217,7 @@
         "Category",
         "GOstats"
     ],
-    "PDATK": [
-        "genefu"
-    ],
+    "PDATK": [],
     "pdInfoBuilder": [
         "oligo",
         "oligoClasses"
@@ -2885,8 +2881,7 @@
         "GSVA",
         "GenomicFeatures",
         "consensusOV",
-        "ensembldb",
-        "genefu"
+        "ensembldb"
     ],
     "SigsPack": [
         "BSgenome",
