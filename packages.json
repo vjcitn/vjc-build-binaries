@@ -2259,7 +2259,6 @@
         "methylumi",
         "minfi"
     ],
-    "roar": [],
     "Rqc": [
         "GenomicFeatures",
         "GenomicFiles",
