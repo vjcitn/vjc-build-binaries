@@ -88,7 +88,6 @@
     "AMARETTO": [],
     "amplican": [],
     "ANCOMBC": [
-        "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
         "mia",
@@ -245,7 +244,6 @@
     "BEclear": [],
     "benchdamic": [
         "ANCOMBC",
-        "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
         "genefilter",
@@ -478,9 +476,7 @@
         "cBioPortalData",
         "genefilter"
     ],
-    "CBEA": [
-        "TreeSummarizedExperiment"
-    ],
+    "CBEA": [],
     "cBioPortalData": [
         "GenomicFeatures",
         "RTCGAToolbox",
@@ -1286,8 +1282,7 @@
     ],
     "ExperimentSubset": [
         "DropletUtils",
-        "SpatialExperiment",
-        "TreeSummarizedExperiment"
+        "SpatialExperiment"
     ],
     "extraChIPs": [
         "BSgenome",
@@ -1979,16 +1974,12 @@
     "MGFM": [],
     "MGFR": [],
     "mia": [
-        "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
         "scater"
     ],
-    "miaSim": [
-        "TreeSummarizedExperiment"
-    ],
+    "miaSim": [],
     "miaViz": [
-        "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
         "mia",
@@ -1996,7 +1987,6 @@
     ],
     "microbiomeMarker": [
         "ANCOMBC",
-        "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
         "mia",
@@ -2006,9 +1996,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "microSTASIS": [
-        "TreeSummarizedExperiment"
-    ],
+    "microSTASIS": [],
     "miloR": [],
     "mimager": [
         "oligo",
@@ -3439,7 +3427,6 @@
         "FlowSOM",
         "diffcyt"
     ],
-    "TreeSummarizedExperiment": [],
     "trena": [
         "BSgenome",
         "MotifDb"
