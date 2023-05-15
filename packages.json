@@ -1645,12 +1645,8 @@
         "HiCcompare",
         "multiHiCcompare"
     ],
-    "HiCExperiment": [],
-    "HiContacts": [
-        "HiCExperiment"
-    ],
+    "HiContacts": [],
     "HiCool": [
-        "HiCExperiment",
         "basilisk"
     ],
     "hierGWAS": [],
