@@ -254,7 +254,6 @@
     "BEclear": [],
     "benchdamic": [
         "ANCOMBC",
-        "MAST",
         "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
@@ -510,9 +509,7 @@
     "CCPROMISE": [
         "PROMISE"
     ],
-    "celaref": [
-        "MAST"
-    ],
+    "celaref": [],
     "celda": [
         "basilisk",
         "densvis",
@@ -1865,7 +1862,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "MAST": [],
     "mastR": [],
     "MatrixQCvis": [],
     "MatrixRider": [
@@ -2523,9 +2519,7 @@
     "pogos": [
         "ontoProc"
     ],
-    "POWSC": [
-        "MAST"
-    ],
+    "POWSC": [],
     "ppcseq": [],
     "PPInfer": [],
     "pram": [],
@@ -3226,7 +3220,6 @@
         "GSVA",
         "GenomicFeatures",
         "M3Drop",
-        "MAST",
         "TSCAN",
         "TrajectoryUtils",
         "basilisk",
