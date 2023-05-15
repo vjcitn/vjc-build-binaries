@@ -267,7 +267,6 @@
     "BioNERO": [
         "sva"
     ],
-    "BioNetStat": [],
     "BioTIP": [
         "scran"
     ],
