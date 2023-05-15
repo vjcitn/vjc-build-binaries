@@ -131,7 +131,6 @@
         "DRIMSeq"
     ],
     "bandle": [
-        "MLInterfaces",
         "pRoloc"
     ],
     "banocc": [],
@@ -1250,7 +1249,6 @@
         "VariantAnnotation",
         "deepSNV"
     ],
-    "MLInterfaces": [],
     "MMAPPR2": [
         "VariantAnnotation",
         "VariantTools",
@@ -1479,11 +1477,8 @@
         "soGGi"
     ],
     "projectR": [],
-    "pRoloc": [
-        "MLInterfaces"
-    ],
+    "pRoloc": [],
     "pRolocGUI": [
-        "MLInterfaces",
         "pRoloc"
     ],
     "PROPS": [
@@ -1840,9 +1835,7 @@
         "bumphunter",
         "minfi"
     ],
-    "SigCheck": [
-        "MLInterfaces"
-    ],
+    "SigCheck": [],
     "signatureSearch": [
         "clusterProfiler"
     ],
