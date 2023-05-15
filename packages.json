@@ -1481,7 +1481,6 @@
         "PADOG",
         "globaltest",
         "pathview",
-        "safe",
         "topGO"
     ],
     "ELMER": [
@@ -1513,8 +1512,7 @@
     "EnrichmentBrowser": [
         "GSEABase",
         "graphite",
-        "pathview",
-        "safe"
+        "pathview"
     ],
     "enrichplot": [
         "DOSE"
@@ -2007,8 +2005,7 @@
         "ExperimentHub",
         "GSEABase",
         "graphite",
-        "pathview",
-        "safe"
+        "pathview"
     ],
     "gsean": [
         "PPInfer"
@@ -3788,7 +3785,6 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "safe": [],
     "sampleClassifier": [
         "MGFM",
         "MGFR"
@@ -4778,8 +4774,7 @@
         "EnrichmentBrowser",
         "GSEABase",
         "graphite",
-        "pathview",
-        "safe"
+        "pathview"
     ],
     "zinbwave": [
         "genefilter"
