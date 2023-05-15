@@ -1,0 +1,84 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RcisTarget'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'RcisTarget'
+also installing the dependencies ‘assertthat’, ‘arrow’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'application/x-tar' length 12741 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/arrow_12.0.0.tar.gz'
+Content type 'binary/octet-stream' length 4097202 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/RcisTarget_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 13100382 bytes (12.5 MB)
+==================================================
+downloaded 12.5 MB
+
+* installing *source* package ‘assertthat’ ...
+** package ‘assertthat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *source* package ‘arrow’ ...
+** package ‘arrow’ successfully unpacked and MD5 sums checked
+** using staged installation
+*** Building on linux aarch64
+*** Found local C++ source: 'tools/cpp'
+*** Building libarrow from source
+    For build options and troubleshooting, see the install guide:
+    https://arrow.apache.org/docs/r/articles/install.html
+**** cmake: /usr/bin/cmake
+**** arrow  
+**** Error building Arrow C++. Re-run with ARROW_R_DEV=true for debug information. 
+------------------------- NOTE ---------------------------
+There was an issue preparing the Arrow C++ libraries.
+See https://arrow.apache.org/docs/r/articles/install.html
+---------------------------------------------------------
+ERROR: configuration failed for package ‘arrow’
+* removing ‘/tmp/tmp/built/arrow’
+ERROR: dependency ‘arrow’ is not available for package ‘RcisTarget’
+* removing ‘/tmp/tmp/built/RcisTarget’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpj58KkO/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘arrow’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘RcisTarget’ had non-zero exit status
+
+real	4m31.814s
+user	4m22.923s
+sys	0m14.650s
+* installing *source* package ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp’ as ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp_1.20.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcisTarget.hg19.motifDBs.cisbpOnly.500bp)
