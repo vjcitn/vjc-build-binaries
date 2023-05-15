@@ -41,7 +41,6 @@
         "OrganismDbi"
     ],
     "airpart": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -74,7 +73,6 @@
         "GenomicFeatures"
     ],
     "ANCOMBC": [
-        "basilisk",
         "densvis",
         "mia",
         "scater"
@@ -174,13 +172,11 @@
         "BASiCS",
         "scran"
     ],
-    "basilisk": [],
     "batchelor": [],
     "BatchQC": [
         "sva"
     ],
     "BayesSpace": [
-        "basilisk",
         "densvis",
         "scater",
         "scran"
@@ -193,7 +189,6 @@
     "BEclear": [],
     "benchdamic": [
         "ANCOMBC",
-        "basilisk",
         "densvis",
         "mia",
         "scater",
@@ -225,15 +220,11 @@
         "enrichplot"
     ],
     "biocGraph": [],
-    "BiocHail": [
-        "basilisk"
-    ],
+    "BiocHail": [],
     "BiocOncoTK": [
         "GenomicFeatures"
     ],
-    "BiocSklearn": [
-        "basilisk"
-    ],
+    "BiocSklearn": [],
     "BioMM": [],
     "BioNERO": [
         "sva"
@@ -362,7 +353,6 @@
     ],
     "CATALYST": [
         "FlowSOM",
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -387,13 +377,10 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "cbpManager": [
-        "basilisk"
-    ],
+    "cbpManager": [],
     "CCPROMISE": [],
     "celaref": [],
     "celda": [
-        "basilisk",
         "densvis",
         "scater",
         "scran"
@@ -403,12 +390,10 @@
         "Category"
     ],
     "CelliD": [
-        "basilisk",
         "densvis",
         "scater"
     ],
     "CellMixS": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -429,9 +414,7 @@
         "genomation"
     ],
     "cfDNAPro": [],
-    "cfTools": [
-        "basilisk"
-    ],
+    "cfTools": [],
     "cghMCR": [
         "CNTools"
     ],
@@ -492,7 +475,6 @@
         "oligoClasses"
     ],
     "ChromSCape": [
-        "basilisk",
         "batchelor",
         "densvis",
         "scater",
@@ -597,7 +579,6 @@
         "methylPipe"
     ],
     "condiments": [
-        "basilisk",
         "densvis",
         "distinct",
         "scater",
@@ -642,13 +623,10 @@
     "crisprDesign": [
         "GenomicFeatures",
         "VariantAnnotation",
-        "basilisk",
         "crisprBowtie",
         "crisprScore"
     ],
-    "crisprScore": [
-        "basilisk"
-    ],
+    "crisprScore": [],
     "CRISPRseek": [],
     "crisprseekplus": [
         "CRISPRseek",
@@ -662,7 +640,6 @@
         "GenomicFeatures",
         "Gviz",
         "VariantAnnotation",
-        "basilisk",
         "biovizBase",
         "crisprBowtie",
         "crisprDesign",
@@ -674,7 +651,6 @@
         "GenomicFeatures",
         "Gviz",
         "VariantAnnotation",
-        "basilisk",
         "biovizBase",
         "crisprBowtie",
         "crisprDesign",
@@ -715,7 +691,6 @@
     "cytofQC": [
         "CATALYST",
         "FlowSOM",
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -744,8 +719,7 @@
         "sva"
     ],
     "dasper": [
-        "GenomicFeatures",
-        "basilisk"
+        "GenomicFeatures"
     ],
     "dce": [],
     "debrowser": [
@@ -775,9 +749,7 @@
         "bsseq",
         "sva"
     ],
-    "densvis": [
-        "basilisk"
-    ],
+    "densvis": [],
     "derfinder": [
         "GenomicFeatures",
         "GenomicFiles",
@@ -830,7 +802,6 @@
         "scran"
     ],
     "distinct": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -1011,7 +982,6 @@
     "escheR": [
         "DropletUtils",
         "SpatialExperiment",
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -1082,7 +1052,6 @@
         "OrganismDbi",
         "VariantAnnotation",
         "bambu",
-        "basilisk",
         "biovizBase",
         "densvis",
         "ensembldb",
@@ -1265,9 +1234,7 @@
         "multiHiCcompare"
     ],
     "HiContacts": [],
-    "HiCool": [
-        "basilisk"
-    ],
+    "HiCool": [],
     "hierGWAS": [],
     "HiLDA": [
         "GenomicFeatures"
@@ -1347,7 +1314,6 @@
         "CAMERA"
     ],
     "IRISFGM": [
-        "basilisk",
         "clusterProfiler",
         "densvis",
         "enrichplot",
@@ -1413,9 +1379,7 @@
     ],
     "M3Drop": [],
     "m6Aboost": [],
-    "MACSr": [
-        "basilisk"
-    ],
+    "MACSr": [],
     "MADSEQ": [
         "GenomicFeatures",
         "VariantAnnotation"
@@ -1489,7 +1453,6 @@
         "wateRmelon"
     ],
     "MEB": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -1571,20 +1534,17 @@
         "minfi"
     ],
     "mia": [
-        "basilisk",
         "densvis",
         "scater"
     ],
     "miaSim": [],
     "miaViz": [
-        "basilisk",
         "densvis",
         "mia",
         "scater"
     ],
     "microbiomeMarker": [
         "ANCOMBC",
-        "basilisk",
         "densvis",
         "mia",
         "scater"
@@ -1655,9 +1615,7 @@
     ],
     "MMDiff2": [],
     "MobilityTransformR": [],
-    "MOFA2": [
-        "basilisk"
-    ],
+    "MOFA2": [],
     "mogsa": [],
     "MoleculeExperiment": [
         "DropletUtils",
@@ -1730,7 +1688,6 @@
         "VariantAnnotation"
     ],
     "muscat": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -1774,7 +1731,6 @@
         "GenomicFeatures"
     ],
     "netSmooth": [
-        "basilisk",
         "clusterExperiment",
         "densvis",
         "scater",
@@ -1808,7 +1764,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "VariantAnnotation",
-        "basilisk",
         "bumphunter",
         "dasper",
         "derfinder"
@@ -1880,7 +1835,6 @@
     ],
     "PECA": [],
     "peco": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -1909,7 +1863,6 @@
         "ensembldb"
     ],
     "pipeComp": [
-        "basilisk",
         "densvis",
         "scater",
         "scran"
@@ -2043,12 +1996,9 @@
         "GenomicFeatures"
     ],
     "RcisTarget": [],
-    "Rcwl": [
-        "basilisk"
-    ],
+    "Rcwl": [],
     "RcwlPipelines": [
-        "Rcwl",
-        "basilisk"
+        "Rcwl"
     ],
     "ReactomePA": [
         "enrichplot"
@@ -2063,7 +2013,6 @@
     ],
     "recountmethylation": [
         "GenomicFeatures",
-        "basilisk",
         "bumphunter",
         "minfi"
     ],
@@ -2121,8 +2070,7 @@
     "retrofit": [],
     "ReUseData": [
         "Rcwl",
-        "RcwlPipelines",
-        "basilisk"
+        "RcwlPipelines"
     ],
     "rGADEM": [],
     "RgnTX": [
@@ -2279,7 +2227,6 @@
     "SCArray.sat": [],
     "SCATE": [],
     "scater": [
-        "basilisk",
         "densvis"
     ],
     "scBFA": [
@@ -2293,7 +2240,6 @@
     ],
     "sccomp": [],
     "scDblFinder": [
-        "basilisk",
         "densvis",
         "scater",
         "scran"
@@ -2312,7 +2258,6 @@
     "schex": [],
     "scMerge": [
         "M3Drop",
-        "basilisk",
         "batchelor",
         "densvis",
         "scater",
@@ -2337,8 +2282,7 @@
     ],
     "scp": [],
     "scPipe": [
-        "DropletUtils",
-        "basilisk"
+        "DropletUtils"
     ],
     "scran": [],
     "scRNAseqApp": [
@@ -2366,7 +2310,6 @@
     "scTreeViz": [
         "GenomicFeatures",
         "OrganismDbi",
-        "basilisk",
         "bumphunter",
         "densvis",
         "ensembldb",
@@ -2376,7 +2319,6 @@
         "scran"
     ],
     "scviR": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -2442,9 +2384,7 @@
     "SimBindProfiles": [
         "Ringo"
     ],
-    "SimBu": [
-        "basilisk"
-    ],
+    "SimBu": [],
     "simpleSeg": [
         "DropletUtils",
         "SpatialExperiment",
@@ -2458,7 +2398,6 @@
         "GenomicFeatures",
         "M3Drop",
         "TSCAN",
-        "basilisk",
         "batchelor",
         "celda",
         "densvis",
@@ -2498,9 +2437,7 @@
     "snapCGH": [
         "tilingArray"
     ],
-    "snifter": [
-        "basilisk"
-    ],
+    "snifter": [],
     "SNPhood": [
         "GenomicFeatures",
         "VariantAnnotation"
@@ -2516,7 +2453,6 @@
     ],
     "Spaniel": [
         "DropletUtils",
-        "basilisk",
         "densvis",
         "scater",
         "scran"
@@ -2528,8 +2464,7 @@
     ],
     "spatialDE": [
         "DropletUtils",
-        "SpatialExperiment",
-        "basilisk"
+        "SpatialExperiment"
     ],
     "SpatialDecon": [
         "GeomxTools",
@@ -2543,7 +2478,6 @@
         "SpatialExperiment"
     ],
     "spatialHeatmap": [
-        "basilisk",
         "densvis",
         "scater",
         "scran"
@@ -2702,7 +2636,6 @@
         "GenomicFeatures"
     ],
     "tricycle": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -2749,7 +2682,6 @@
         "VariantAnnotation"
     ],
     "VAExprs": [
-        "basilisk",
         "densvis",
         "scater"
     ],
@@ -2781,11 +2713,8 @@
         "GenomicFiles",
         "VariantAnnotation"
     ],
-    "VDJdive": [
-        "basilisk"
-    ],
+    "VDJdive": [],
     "velociraptor": [
-        "basilisk",
         "zellkonverter"
     ],
     "ViSEAGO": [],
@@ -2840,9 +2769,7 @@
         "minfi",
         "quantro"
     ],
-    "zellkonverter": [
-        "basilisk"
-    ],
+    "zellkonverter": [],
     "zenith": [],
     "zinbwave": [],
     "ZygosityPredictor": [
