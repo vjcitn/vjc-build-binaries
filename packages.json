@@ -406,7 +406,6 @@
     "CiteFuse": [
         "scran"
     ],
-    "cleanUpdTSeq": [],
     "clipper": [
         "qpgraph"
     ],
@@ -1001,9 +1000,7 @@
         "cytomapper"
     ],
     "infinityFlow": [],
-    "InPAS": [
-        "cleanUpdTSeq"
-    ],
+    "InPAS": [],
     "INSPEcT": [],
     "intansv": [
         "OrganismDbi",
