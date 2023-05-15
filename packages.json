@@ -259,7 +259,6 @@
     "BiocHail": [
         "basilisk"
     ],
-    "BiocHubsShiny": [],
     "BiocOncoTK": [
         "GenomicFeatures"
     ],
