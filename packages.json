@@ -1524,9 +1524,7 @@
         "enrichplot"
     ],
     "methInheritSim": [],
-    "MethReg": [
-        "sesame"
-    ],
+    "MethReg": [],
     "methrix": [],
     "MethylAid": [
         "GenomicFeatures",
@@ -2411,7 +2409,6 @@
     ],
     "seqsetvis": [],
     "SeqSQC": [],
-    "sesame": [],
     "SEtools": [
         "sva"
     ],
