@@ -1709,14 +1709,12 @@
     "motifbreakR": [
         "GenomicFeatures",
         "Gviz",
-        "MotifDb",
         "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb",
         "motifStack"
     ],
-    "MotifDb": [],
     "motifmatchr": [
         "TFBSTools"
     ],
@@ -2327,9 +2325,7 @@
         "TCGAutils"
     ],
     "RTNsurvival": [],
-    "rTRMui": [
-        "MotifDb"
-    ],
+    "rTRMui": [],
     "RUVSeq": [
         "EDASeq",
         "GenomicFeatures"
@@ -2780,9 +2776,7 @@
         "FlowSOM",
         "diffcyt"
     ],
-    "trena": [
-        "MotifDb"
-    ],
+    "trena": [],
     "TRESS": [
         "GenomicFeatures"
     ],
