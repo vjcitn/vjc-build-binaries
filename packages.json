@@ -3015,7 +3015,6 @@
         "ensembldb",
         "motifmatchr"
     ],
-    "speckle": [],
     "SpectralTAD": [],
     "SPIAT": [
         "DropletUtils",
