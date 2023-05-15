@@ -401,7 +401,6 @@
         "FlowSOM",
         "diffcyt"
     ],
-    "Cepo": [],
     "CeTF": [
         "clusterProfiler",
         "enrichplot"
@@ -2225,9 +2224,7 @@
     "scCB2": [
         "DropletUtils"
     ],
-    "scClassify": [
-        "Cepo"
-    ],
+    "scClassify": [],
     "sccomp": [],
     "scDblFinder": [
         "densvis",
