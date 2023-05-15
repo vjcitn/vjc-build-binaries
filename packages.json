@@ -1295,7 +1295,6 @@
         "hiAnnotator"
     ],
     "HiTC": [],
-    "hpar": [],
     "HTSeqGenie": [
         "GenomicFeatures",
         "VariantAnnotation",
@@ -1531,7 +1530,6 @@
     "MetaboSignal": [
         "GenomicFeatures",
         "ensembldb",
-        "hpar",
         "mygene"
     ],
     "MetaCyto": [
