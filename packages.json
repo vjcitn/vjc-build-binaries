@@ -2407,7 +2407,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "seqsetvis": [],
     "SeqSQC": [],
     "SEtools": [
         "sva"
