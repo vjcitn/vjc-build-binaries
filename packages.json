@@ -24,7 +24,6 @@
         "GOstats",
         "GSEABase",
         "GenomicFeatures",
-        "Glimma",
         "OrganismDbi",
         "ReportingTools",
         "VariantAnnotation",
@@ -44,7 +43,6 @@
         "GOstats",
         "GSEABase",
         "GenomicFeatures",
-        "Glimma",
         "OrganismDbi",
         "ReportingTools",
         "VariantAnnotation",
@@ -1676,7 +1674,6 @@
         "GSEABase",
         "genefilter"
     ],
-    "Glimma": [],
     "glmGamPoi": [],
     "glmSparseNet": [],
     "GlobalAncova": [
