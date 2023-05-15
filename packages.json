@@ -225,7 +225,6 @@
     ],
     "BASiCStan": [
         "BASiCS",
-        "glmGamPoi",
         "scran",
         "scuttle"
     ],
@@ -1548,7 +1547,6 @@
     "GISPA": [
         "genefilter"
     ],
-    "glmGamPoi": [],
     "glmSparseNet": [],
     "GlobalAncova": [],
     "gmapR": [
@@ -3617,9 +3615,7 @@
         "GenomicFeatures",
         "chipseq"
     ],
-    "transformGamPoi": [
-        "glmGamPoi"
-    ],
+    "transformGamPoi": [],
     "tRanslatome": [],
     "traseR": [
         "BSgenome"
