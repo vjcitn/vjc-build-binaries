@@ -1339,7 +1339,6 @@
     "INSPEcT": [
         "GenomicFeatures"
     ],
-    "InTAD": [],
     "intansv": [
         "GenomicFeatures",
         "OrganismDbi",
