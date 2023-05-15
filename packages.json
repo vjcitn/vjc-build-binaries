@@ -1030,7 +1030,6 @@
         "GenomicFeatures",
         "SGSeq"
     ],
-    "EWCE": [],
     "exomePeak2": [
         "GenomicFeatures"
     ],
