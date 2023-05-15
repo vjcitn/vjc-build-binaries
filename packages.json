@@ -1427,7 +1427,6 @@
         "densvis",
         "scater"
     ],
-    "periodicDNA": [],
     "PFP": [
         "clusterProfiler"
     ],
