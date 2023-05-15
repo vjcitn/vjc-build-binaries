@@ -1041,7 +1041,6 @@
         "bumphunter",
         "minfi"
     ],
-    "EnrichmentBrowser": [],
     "enrichplot": [],
     "enrichTF": [
         "BSgenome",
@@ -1381,9 +1380,7 @@
         "BSgenome"
     ],
     "groHMM": [],
-    "GSEABenchmarkeR": [
-        "EnrichmentBrowser"
-    ],
+    "GSEABenchmarkeR": [],
     "gsean": [],
     "GSReg": [
         "GenomicFeatures",
@@ -3268,9 +3265,7 @@
     "zellkonverter": [
         "basilisk"
     ],
-    "zenith": [
-        "EnrichmentBrowser"
-    ],
+    "zenith": [],
     "zinbwave": [],
     "ZygosityPredictor": [
         "BSgenome",
