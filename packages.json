@@ -170,7 +170,6 @@
         "Category",
         "GOstats"
     ],
-    "AUCell": [],
     "BadRegionFinder": [
         "BSgenome",
         "GenomicFeatures",
@@ -2398,9 +2397,7 @@
     "rCGH": [
         "GenomicFeatures"
     ],
-    "RcisTarget": [
-        "AUCell"
-    ],
+    "RcisTarget": [],
     "Rcwl": [
         "basilisk"
     ],
@@ -2701,7 +2698,6 @@
         "scran"
     ],
     "scFeatures": [
-        "AUCell",
         "DropletUtils",
         "GSVA",
         "GenomicFeatures",
