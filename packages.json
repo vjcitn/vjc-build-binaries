@@ -916,7 +916,6 @@
         "scater"
     ],
     "meshes": [],
-    "meshr": [],
     "MetaboSignal": [
         "ensembldb",
         "mygene"
@@ -1446,7 +1445,6 @@
     ],
     "scTensor": [
         "ReactomePA",
-        "meshr",
         "schex"
     ],
     "scTGIF": [
