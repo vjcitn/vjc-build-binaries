@@ -350,7 +350,6 @@
     ],
     "enrichTF": [],
     "ensembldb": [],
-    "ensemblVEP": [],
     "epimutacions": [
         "Gviz",
         "biovizBase",
@@ -605,7 +604,6 @@
     "mitoClone2": [],
     "MMAPPR2": [
         "VariantTools",
-        "ensemblVEP",
         "gmapR"
     ],
     "MoleculeExperiment": [],
@@ -967,7 +965,6 @@
     "TVTB": [
         "Gviz",
         "biovizBase",
-        "ensemblVEP",
         "ensembldb"
     ],
     "tximeta": [
