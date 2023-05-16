@@ -892,13 +892,8 @@
     "SpotClean": [],
     "standR": [],
     "stJoincount": [],
-    "StructuralVariantAnnotation": [],
-    "svaNUMT": [
-        "StructuralVariantAnnotation"
-    ],
-    "svaRetro": [
-        "StructuralVariantAnnotation"
-    ],
+    "svaNUMT": [],
+    "svaRetro": [],
     "TBSignatureProfiler": [],
     "TFHAZ": [],
     "TileDBArray": [],
