@@ -1,0 +1,130 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''exomePeak2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'exomePeak2'
+also installing the dependencies ‘biglm’, ‘mclust’, ‘speedglm’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/biglm_0.9-2.1.tar.gz'
+Content type 'binary/octet-stream' length 12676 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/mclust_6.0.0.tar.gz'
+Content type 'binary/octet-stream' length 2730263 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/speedglm_0.3-5.tar.gz'
+Content type 'binary/octet-stream' length 33005 bytes (32 KB)
+==================================================
+downloaded 32 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/exomePeak2_1.12.0.tar.gz'
+Content type 'application/x-gzip' length 2384025 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘biglm’ ...
+** package ‘biglm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c boundedQR.c -o boundedQR.o
+gfortran  -fPIC  -g -O2  -c boundedQRf.f -o boundedQRf.o
+boundedQRf.f:107:72:
+
+  107 |    10 WORK(ROW) = SQRT(D(ROW))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+boundedQRf.f:153:72:
+
+  153 |    10 WORK(COL) = SQRT(D(COL))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o biglm.so boundedQR.o boundedQRf.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-biglm/00new/biglm/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘biglm’ as ‘biglm_0.9-2.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (biglm)
+* installing *source* package ‘mclust’ ...
+** package ‘mclust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gfortran  -fPIC  -g -O2  -c dmvnorm.f -o dmvnorm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fPIC  -g -O2  -c mclust.f -o mclust.o
+gfortran  -fPIC  -g -O2  -c mclustaddson.f -o mclustaddson.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mclust.so dmvnorm.o init.o mclust.o mclustaddson.o -llapack -lblas -lgfortran -lm -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mclust/00new/mclust/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mclust’ as ‘mclust_6.0.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (mclust)
+* installing *source* package ‘speedglm’ ...
+** package ‘speedglm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘speedglm’ as ‘speedglm_0.3-5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (speedglm)
+* installing *source* package ‘exomePeak2’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘exomePeak2’ as ‘exomePeak2_1.12.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (exomePeak2)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFUZk7K/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	9m4.029s
+user	8m55.096s
+sys	0m6.005s
