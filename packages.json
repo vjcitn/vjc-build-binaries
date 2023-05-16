@@ -42,7 +42,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ATACCoGAPS": [],
     "ATACseqQC": [
         "ChIPpeakAnno",
         "ensembldb",
