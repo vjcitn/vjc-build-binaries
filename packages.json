@@ -175,7 +175,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "circRNAprofiler": [],
     "CircSeqAlignTk": [
         "Rhisat2"
     ],
