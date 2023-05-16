@@ -654,7 +654,6 @@
     ],
     "pipeComp": [],
     "ppcseq": [],
-    "preciseTAD": [],
     "primirTSS": [
         "Gviz",
         "biovizBase",
