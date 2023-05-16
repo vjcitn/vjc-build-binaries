@@ -419,7 +419,6 @@
     ],
     "GA4GHshiny": [],
     "GARS": [],
-    "genbankr": [],
     "GeneStructureTools": [
         "Gviz",
         "biovizBase",
