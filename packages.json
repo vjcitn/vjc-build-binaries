@@ -767,7 +767,6 @@
         "ensembldb",
         "regioneR"
     ],
-    "Guitar": [],
     "Gviz": [
         "VariantAnnotation",
         "biovizBase",
