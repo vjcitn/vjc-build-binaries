@@ -706,7 +706,6 @@
         "epivizr",
         "epivizrData"
     ],
-    "shinyMethyl": [],
     "signifinder": [
         "ensembldb"
     ],
