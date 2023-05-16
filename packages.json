@@ -568,7 +568,6 @@
     "MungeSumstats": [],
     "muscat": [],
     "musicatk": [],
-    "MutationalPatterns": [],
     "NADfinder": [
         "ATACseqQC",
         "ChIPpeakAnno",
@@ -679,9 +678,7 @@
         "ensembldb",
         "ggbio"
     ],
-    "RESOLVE": [
-        "MutationalPatterns"
-    ],
+    "RESOLVE": [],
     "retrofit": [],
     "ReUseData": [],
     "RgnTX": [
