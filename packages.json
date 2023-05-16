@@ -51,7 +51,6 @@
         "ensembldb",
         "regioneR"
     ],
-    "ATACseqTFEA": [],
     "BANDITS": [
         "DRIMSeq"
     ],
