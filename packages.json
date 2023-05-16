@@ -811,7 +811,6 @@
     "Voyager": [
         "SpatialFeatureExperiment"
     ],
-    "vtpnet": [],
     "vulcan": [
         "ChIPpeakAnno",
         "ensembldb",
