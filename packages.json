@@ -296,7 +296,6 @@
     "cytoviewer": [
         "cytomapper"
     ],
-    "decompTumor2Sig": [],
     "deconvR": [
         "minfi"
     ],
@@ -665,9 +664,7 @@
     "multiSight": [],
     "MungeSumstats": [],
     "muscat": [],
-    "musicatk": [
-        "decompTumor2Sig"
-    ],
+    "musicatk": [],
     "MutationalPatterns": [],
     "myvariant": [],
     "NADfinder": [
