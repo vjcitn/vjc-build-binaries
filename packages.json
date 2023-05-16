@@ -413,7 +413,6 @@
         "ensembldb",
         "ggbio"
     ],
-    "GenVisR": [],
     "GeoDiff": [
         "GeomxTools",
         "NanoStringNCTools"
