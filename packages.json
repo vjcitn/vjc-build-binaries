@@ -1187,10 +1187,7 @@
     "RCASPAR": [],
     "rCGH": [],
     "RcisTarget": [],
-    "Rcwl": [],
-    "RcwlPipelines": [
-        "Rcwl"
-    ],
+    "RcwlPipelines": [],
     "ReactomePA": [],
     "rebook": [],
     "recount": [
@@ -1241,7 +1238,6 @@
     ],
     "retrofit": [],
     "ReUseData": [
-        "Rcwl",
         "RcwlPipelines"
     ],
     "RgnTX": [
