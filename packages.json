@@ -60,7 +60,6 @@
         "ensembldb"
     ],
     "ATACCoGAPS": [
-        "chromVAR",
         "motifmatchr"
     ],
     "ATACseqQC": [
@@ -243,7 +242,6 @@
     "ChromSCape": [
         "scater"
     ],
-    "chromVAR": [],
     "cicero": [
         "Gviz",
         "biovizBase",
