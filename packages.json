@@ -496,7 +496,6 @@
         "minfi",
         "oligoClasses"
     ],
-    "magpie": [],
     "maser": [
         "Gviz",
         "biovizBase",
