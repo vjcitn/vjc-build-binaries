@@ -418,7 +418,6 @@
         "minfi"
     ],
     "GA4GHshiny": [],
-    "GARS": [],
     "GeneStructureTools": [
         "Gviz",
         "biovizBase",
