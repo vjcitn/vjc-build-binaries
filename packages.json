@@ -591,7 +591,6 @@
         "ensembldb",
         "ggbio"
     ],
-    "RESOLVE": [],
     "retrofit": [],
     "RgnTX": [
         "regioneR"

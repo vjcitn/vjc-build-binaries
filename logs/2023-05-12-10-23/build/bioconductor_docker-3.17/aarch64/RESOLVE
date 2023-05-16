@@ -1,0 +1,422 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RESOLVE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'RESOLVE'
+also installing the dependencies ‘shape’, ‘RcppEigen’, ‘SnowballC’, ‘BSgenome.Hsapiens.1000genomes.hs37d5’, ‘glmnet’, ‘gridExtra’, ‘lsa’, ‘nnls’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/shape_1.4.6.tar.gz'
+Content type 'binary/octet-stream' length 678227 bytes (662 KB)
+==================================================
+downloaded 662 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1470560 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/SnowballC_0.7.1.tar.gz'
+Content type 'binary/octet-stream' length 404081 bytes (394 KB)
+==================================================
+downloaded 394 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Hsapiens.1000genomes.hs37d5_0.99.1.tar.gz'
+Content type 'application/x-gzip' length 687514862 bytes (655.7 MB)
+==================================================
+downloaded 655.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/glmnet_4.1-7.tar.gz'
+Content type 'binary/octet-stream' length 2447139 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'application/x-tar' length 1058173 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/lsa_0.73.3.tar.gz'
+Content type 'binary/octet-stream' length 122803 bytes (119 KB)
+==================================================
+downloaded 119 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/nnls_1.4.tar.gz'
+Content type 'application/x-tar' length 10673 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/RESOLVE_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 732495 bytes (715 KB)
+==================================================
+downloaded 715 KB
+
+* installing *source* package ‘shape’ ...
+** package ‘shape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *source* package ‘RcppEigen’ ...
+** package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o init.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RcppEigen/00new/RcppEigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *source* package ‘SnowballC’ ...
+** package ‘SnowballC’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SnowballC_init.c -o SnowballC_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c api.c -o api.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libstemmer_utf8.c -o libstemmer_utf8.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem.c -o stem.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_arabic.c -o stem_UTF_8_arabic.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_basque.c -o stem_UTF_8_basque.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_catalan.c -o stem_UTF_8_catalan.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_danish.c -o stem_UTF_8_danish.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_dutch.c -o stem_UTF_8_dutch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_english.c -o stem_UTF_8_english.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_finnish.c -o stem_UTF_8_finnish.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_french.c -o stem_UTF_8_french.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_german.c -o stem_UTF_8_german.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_greek.c -o stem_UTF_8_greek.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_hindi.c -o stem_UTF_8_hindi.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_hungarian.c -o stem_UTF_8_hungarian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_indonesian.c -o stem_UTF_8_indonesian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_irish.c -o stem_UTF_8_irish.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_italian.c -o stem_UTF_8_italian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_lithuanian.c -o stem_UTF_8_lithuanian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_nepali.c -o stem_UTF_8_nepali.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_norwegian.c -o stem_UTF_8_norwegian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_porter.c -o stem_UTF_8_porter.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_portuguese.c -o stem_UTF_8_portuguese.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_romanian.c -o stem_UTF_8_romanian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_russian.c -o stem_UTF_8_russian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_spanish.c -o stem_UTF_8_spanish.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_swedish.c -o stem_UTF_8_swedish.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_tamil.c -o stem_UTF_8_tamil.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem_UTF_8_turkish.c -o stem_UTF_8_turkish.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utilities.c -o utilities.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SnowballC.so SnowballC_init.o api.o libstemmer_utf8.o stem.o stem_UTF_8_arabic.o stem_UTF_8_basque.o stem_UTF_8_catalan.o stem_UTF_8_danish.o stem_UTF_8_dutch.o stem_UTF_8_english.o stem_UTF_8_finnish.o stem_UTF_8_french.o stem_UTF_8_german.o stem_UTF_8_greek.o stem_UTF_8_hindi.o stem_UTF_8_hungarian.o stem_UTF_8_indonesian.o stem_UTF_8_irish.o stem_UTF_8_italian.o stem_UTF_8_lithuanian.o stem_UTF_8_nepali.o stem_UTF_8_norwegian.o stem_UTF_8_porter.o stem_UTF_8_portuguese.o stem_UTF_8_romanian.o stem_UTF_8_russian.o stem_UTF_8_spanish.o stem_UTF_8_swedish.o stem_UTF_8_tamil.o stem_UTF_8_turkish.o utilities.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-SnowballC/00new/SnowballC/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SnowballC’ as ‘SnowballC_0.7.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (SnowballC)
+* installing *source* package ‘BSgenome.Hsapiens.1000genomes.hs37d5’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.1000genomes.hs37d5’ as ‘BSgenome.Hsapiens.1000genomes.hs37d5_0.99.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.1000genomes.hs37d5)
+* installing *source* package ‘gridExtra’ ...
+** package ‘gridExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *source* package ‘nnls’ ...
+** package ‘nnls’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gfortran  -fPIC  -g -O2  -c lawson_hanson_nnls.f -o lawson_hanson_nnls.o
+lawson_hanson_nnls.f:112:72:
+
+  112 |    10     CL=MAX(abs(U(1,J)),CL)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+lawson_hanson_nnls.f:113:72:
+
+  113 |       IF (CL) 130,130,20
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+lawson_hanson_nnls.f:117:72:
+
+  117 |    30     SM=SM+(U(1,J)*CLINV)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+lawson_hanson_nnls.f:119:72:
+
+  119 |       IF (U(1,LPIVOT)) 50,50,40
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+lawson_hanson_nnls.f:126:72:
+
+  126 |    60 IF (CL) 130,130,70
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+lawson_hanson_nnls.f:131:72:
+
+  131 |       IF (B) 80,130,130
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+lawson_hanson_nnls.f:142:72:
+
+  142 |    90         I3=I3+ICE
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+lawson_hanson_nnls.f:143:72:
+
+  143 |           IF (SM) 100,120,100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+lawson_hanson_nnls.f:148:72:
+
+  148 |   110         I4=I4+ICE
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+lawson_hanson_nnls.f:227:72:
+
+  227 |    20     INDEX(I)=I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+lawson_hanson_nnls.f:246:72:
+
+  246 |    40        SM=SM+A(L,J)*B(L)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+lawson_hanson_nnls.f:276:72:
+
+  276 |    90       UNORM=UNORM+A(L,J)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+lawson_hanson_nnls.f:285:72:
+
+  285 |   120        ZZ(L)=B(L)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 120 at (1)
+lawson_hanson_nnls.f:309:72:
+
+  309 |   150    B(L)=ZZ(L)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+lawson_hanson_nnls.f:326:72:
+
+  326 |   180       A(L,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+lawson_hanson_nnls.f:428:72:
+
+  428 |   310     ZZ(I)=B(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+lawson_hanson_nnls.f:438:72:
+
+  438 |   340     X(I)=ZZ(IP)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 340 at (1)
+lawson_hanson_nnls.f:451:72:
+
+  451 |   360       SM=SM+B(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 360 at (1)
+lawson_hanson_nnls.f:454:72:
+
+  454 |   380       W(J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 380 at (1)
+gfortran  -fPIC  -g -O2  -c nnnpls.f -o nnnpls.o
+nnnpls.f:96:72:
+
+   96 |    20     INDEX(I)=I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+nnnpls.f:115:72:
+
+  115 |    40        SM=SM+A(L,J)*B(L)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+nnnpls.f:145:72:
+
+  145 |    90       UNORM=UNORM+A(L,J)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+nnnpls.f:154:72:
+
+  154 |   120        ZZ(L)=B(L)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 120 at (1)
+nnnpls.f:178:72:
+
+  178 |   150    B(L)=ZZ(L)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+nnnpls.f:195:72:
+
+  195 |   180       A(L,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+nnnpls.f:297:72:
+
+  297 |   310     ZZ(I)=B(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+nnnpls.f:307:72:
+
+  307 |   340     X(I)=ZZ(IP)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 340 at (1)
+nnnpls.f:330:72:
+
+  330 |   360       SM=SM+B(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 360 at (1)
+nnnpls.f:333:72:
+
+  333 |   380       W(J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 380 at (1)
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o nnls.so lawson_hanson_nnls.o nnnpls.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-nnls/00new/nnls/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘nnls’ as ‘nnls_1.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (nnls)
+* installing *source* package ‘glmnet’ ...
+** package ‘glmnet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gfortran  -fPIC  -g -O2  -c coxnet5dpclean.f -o coxnet5dpclean.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c elnet_exp.cpp -o elnet_exp.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c glmnet_init.cpp -o glmnet_init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c internal.cpp -o internal.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pb.c -o pb.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pb_exp.cpp -o pb_exp.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/RcppEigen/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -Iglmnetpp/include -Iglmnetpp/src -Iglmnetpp/test -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wls_exp.cpp -o wls_exp.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o glmnet.so RcppExports.o coxnet5dpclean.o elnet_exp.o glmnet_init.o internal.o pb.o pb_exp.o wls_exp.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-glmnet/00new/glmnet/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘glmnet’ as ‘glmnet_4.1-7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (glmnet)
+* installing *source* package ‘lsa’ ...
+** package ‘lsa’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lsa’ as ‘lsa_0.73.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (lsa)
+* installing *source* package ‘RESOLVE’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RESOLVE’ as ‘RESOLVE_1.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RESOLVE)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXgYxq9/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	37m4.226s
+user	36m35.785s
+sys	0m25.754s
