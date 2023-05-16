@@ -205,9 +205,7 @@
         "ensembldb",
         "methylPipe"
     ],
-    "condiments": [
-        "distinct"
-    ],
+    "condiments": [],
     "CONFESS": [],
     "consensusDE": [
         "ensembldb"
@@ -278,7 +276,6 @@
     "diffUTR": [
         "ensembldb"
     ],
-    "distinct": [],
     "DMRcate": [
         "Gviz",
         "biovizBase",
