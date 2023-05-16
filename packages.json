@@ -565,7 +565,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "pipeComp": [],
     "ppcseq": [],
     "primirTSS": [
         "Gviz",
