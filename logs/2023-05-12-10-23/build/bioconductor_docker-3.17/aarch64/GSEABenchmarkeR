@@ -1,0 +1,156 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GSEABenchmarkeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'GSEABenchmarkeR'
+also installing the dependencies ‘KEGGandMetacoreDzPathwaysGEO’, ‘KEGGdzPathwaysGEO’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/KEGGandMetacoreDzPathwaysGEO_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 103362869 bytes (98.6 MB)
+==================================================
+downloaded 98.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/KEGGdzPathwaysGEO_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 314643305 bytes (300.1 MB)
+==================================================
+downloaded 300.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GSEABenchmarkeR_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 568405 bytes (555 KB)
+==================================================
+downloaded 555 KB
+
+* installing *source* package ‘KEGGandMetacoreDzPathwaysGEO’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGandMetacoreDzPathwaysGEO’ as ‘KEGGandMetacoreDzPathwaysGEO_1.20.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (KEGGandMetacoreDzPathwaysGEO)
+* installing *source* package ‘KEGGdzPathwaysGEO’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGdzPathwaysGEO’ as ‘KEGGdzPathwaysGEO_1.38.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (KEGGdzPathwaysGEO)
+* installing *source* package ‘GSEABenchmarkeR’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSEABenchmarkeR’ as ‘GSEABenchmarkeR_1.20.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (GSEABenchmarkeR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp35zKTi/downloaded_packages’
+Old packages: 'EnrichmentBrowser', 'S4Arrays', 'cachem', 'evaluate', 'httpuv',
+  'httr', 'httr2', 'later', 'profvis', 'sass', 'testthat', 'tzdb',
+  'viridisLite', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	10m39.954s
+user	10m27.877s
+sys	0m9.627s
+* installing *source* package ‘R.methodsS3’ ...
+** package ‘R.methodsS3’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *source* package ‘R.oo’ ...
+** package ‘R.oo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getMethods to getMethods.default, which was defined in environment R.oo.
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getClasses to getClasses.default, which was defined in environment R.oo.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.25.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *source* package ‘R.utils’ ...
+** package ‘R.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function warnings to warnings.default, which was defined in environment R.utils.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *source* package ‘GEOquery’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GEOquery’ as ‘GEOquery_2.68.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (GEOquery)
+* installing *source* package ‘GSE62944’ ...
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSE62944’ as ‘GSE62944_1.28.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (GSE62944)
