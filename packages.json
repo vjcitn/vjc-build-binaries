@@ -189,9 +189,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "circRNAprofiler": [
-        "gwascat"
-    ],
+    "circRNAprofiler": [],
     "CircSeqAlignTk": [
         "Rhisat2"
     ],
@@ -446,7 +444,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "gwascat": [],
     "gwasurvivr": [],
     "HelloRanges": [],
     "HiCDCPlus": [
@@ -1005,9 +1002,7 @@
     "Voyager": [
         "SpatialFeatureExperiment"
     ],
-    "vtpnet": [
-        "gwascat"
-    ],
+    "vtpnet": [],
     "vulcan": [
         "ChIPpeakAnno",
         "ensembldb",
