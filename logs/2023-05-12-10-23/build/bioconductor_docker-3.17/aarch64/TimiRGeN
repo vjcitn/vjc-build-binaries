@@ -1,0 +1,111 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''TimiRGeN'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'TimiRGeN'
+also installing the dependencies ‘FreqProf’, ‘ggdendro’, ‘gghighlight’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/FreqProf_0.0.1.tar.gz'
+Content type 'application/x-tar' length 13531 bytes (13 KB)
+==================================================
+downloaded 13 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggdendro_0.1.23.tar.gz'
+Content type 'binary/octet-stream' length 103556 bytes (101 KB)
+==================================================
+downloaded 101 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gghighlight_0.4.0.tar.gz'
+Content type 'binary/octet-stream' length 1081390 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/TimiRGeN_1.10.0.tar.gz'
+Content type 'application/x-gzip' length 4530664 bytes (4.3 MB)
+==================================================
+downloaded 4.3 MB
+
+* installing *source* package ‘FreqProf’ ...
+** package ‘FreqProf’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FreqProf’ as ‘FreqProf_0.0.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (FreqProf)
+* installing *source* package ‘ggdendro’ ...
+** package ‘ggdendro’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggdendro’ as ‘ggdendro_0.1.23_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggdendro)
+* installing *source* package ‘gghighlight’ ...
+** package ‘gghighlight’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gghighlight’ as ‘gghighlight_0.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gghighlight)
+* installing *source* package ‘TimiRGeN’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TimiRGeN’ as ‘TimiRGeN_1.10.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (TimiRGeN)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmooGWr/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	6m12.113s
+user	6m3.905s
+sys	0m6.610s
