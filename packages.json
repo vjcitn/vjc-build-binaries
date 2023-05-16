@@ -1335,7 +1335,6 @@
     ],
     "phenoTest": [],
     "PhenStat": [],
-    "PhyloProfile": [],
     "Pigengene": [
         "ReactomePA",
         "clusterProfiler"
