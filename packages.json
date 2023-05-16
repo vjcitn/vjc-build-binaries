@@ -262,9 +262,7 @@
         "regioneR"
     ],
     "CNVrd2": [],
-    "COCOA": [
-        "MIRA"
-    ],
+    "COCOA": [],
     "comapr": [
         "Gviz",
         "biovizBase",
@@ -727,7 +725,6 @@
         "crlmm",
         "oligoClasses"
     ],
-    "MIRA": [],
     "miRLAB": [],
     "miRSM": [
         "miRspongeR"
