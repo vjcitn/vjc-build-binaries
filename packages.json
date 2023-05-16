@@ -90,7 +90,6 @@
     "BadRegionFinder": [
         "VariantAnnotation"
     ],
-    "ballgown": [],
     "BANDITS": [
         "DRIMSeq"
     ],
@@ -1462,9 +1461,7 @@
     "VariantTools": [
         "VariantAnnotation"
     ],
-    "VaSP": [
-        "ballgown"
-    ],
+    "VaSP": [],
     "VCFArray": [
         "GenomicFiles",
         "VariantAnnotation"
