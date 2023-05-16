@@ -1,8 +1,7 @@
 {
     "a4": [],
     "ADaCGH2": [
-        "snapCGH",
-        "tilingArray"
+        "snapCGH"
     ],
     "ADImpute": [],
     "affycoretools": [
@@ -1825,9 +1824,7 @@
     "SMITE": [
         "goseq"
     ],
-    "snapCGH": [
-        "tilingArray"
-    ],
+    "snapCGH": [],
     "snifter": [],
     "SNPhood": [
         "VariantAnnotation"
@@ -1932,7 +1929,6 @@
         "ORFik"
     ],
     "TileDBArray": [],
-    "tilingArray": [],
     "TimiRGeN": [
         "clusterProfiler"
     ],
