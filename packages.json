@@ -503,7 +503,6 @@
     "GARS": [
         "DaMiRseq"
     ],
-    "GDCRNATools": [],
     "genbankr": [],
     "GeneStructureTools": [
         "Gviz",
