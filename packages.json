@@ -973,10 +973,7 @@
         "densvis",
         "scater"
     ],
-    "iSEEhex": [],
-    "iSEEu": [
-        "iSEEhex"
-    ],
+    "iSEEu": [],
     "IsoformSwitchAnalyzeR": [
         "DRIMSeq",
         "ensembldb",
