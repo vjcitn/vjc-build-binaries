@@ -550,7 +550,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "methylSig": [],
     "methylumi": [
         "minfi"
     ],
