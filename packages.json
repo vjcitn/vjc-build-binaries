@@ -59,17 +59,13 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ATACCoGAPS": [
-        "motifmatchr"
-    ],
+    "ATACCoGAPS": [],
     "ATACseqQC": [
         "ChIPpeakAnno",
         "ensembldb",
         "regioneR"
     ],
-    "ATACseqTFEA": [
-        "motifmatchr"
-    ],
+    "ATACseqTFEA": [],
     "atSNP": [],
     "BadRegionFinder": [],
     "BANDITS": [
@@ -413,15 +409,11 @@
         "biovizBase",
         "ensembldb"
     ],
-    "enhancerHomologSearch": [
-        "motifmatchr"
-    ],
+    "enhancerHomologSearch": [],
     "ENmix": [
         "minfi"
     ],
-    "enrichTF": [
-        "motifmatchr"
-    ],
+    "enrichTF": [],
     "ensembldb": [],
     "ensemblVEP": [],
     "epialleleR": [],
@@ -450,9 +442,7 @@
     "erma": [
         "GenomicFiles"
     ],
-    "esATAC": [
-        "motifmatchr"
-    ],
+    "esATAC": [],
     "escheR": [
         "scater"
     ],
@@ -730,7 +720,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "motifmatchr": [],
     "msgbsR": [
         "biovizBase",
         "ensembldb",
@@ -799,9 +788,7 @@
         "Repitools"
     ],
     "PAA": [],
-    "pageRank": [
-        "motifmatchr"
-    ],
+    "pageRank": [],
     "PanomiR": [],
     "pcaExplorer": [],
     "pdInfoBuilder": [
@@ -1114,8 +1101,7 @@
         "GenomicInteractions",
         "Gviz",
         "biovizBase",
-        "ensembldb",
-        "motifmatchr"
+        "ensembldb"
     ],
     "SPIAT": [],
     "spicyR": [],
