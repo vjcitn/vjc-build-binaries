@@ -1083,7 +1083,6 @@
         "HelloRanges",
         "VariantAnnotation"
     ],
-    "ORFik": [],
     "OutSplice": [
         "Repitools"
     ],
@@ -1254,9 +1253,7 @@
     "Rhisat2": [
         "SGSeq"
     ],
-    "RiboCrypt": [
-        "ORFik"
-    ],
+    "RiboCrypt": [],
     "RiboDiPA": [],
     "RiboProfiling": [
         "VariantAnnotation",
@@ -1551,9 +1548,7 @@
         "TCGAutils"
     ],
     "TFEA.ChIP": [],
-    "TFHAZ": [
-        "ORFik"
-    ],
+    "TFHAZ": [],
     "TileDBArray": [],
     "TimiRGeN": [],
     "TitanCNA": [
