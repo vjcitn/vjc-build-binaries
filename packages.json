@@ -457,9 +457,7 @@
         "ensembldb",
         "regioneR"
     ],
-    "lisaClust": [
-        "spicyR"
-    ],
+    "lisaClust": [],
     "lumi": [
         "methylumi"
     ],
@@ -831,7 +829,6 @@
         "ensembldb"
     ],
     "SPIAT": [],
-    "spicyR": [],
     "SPLINTER": [
         "Gviz",
         "biovizBase",
