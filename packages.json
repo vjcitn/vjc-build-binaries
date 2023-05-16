@@ -617,7 +617,6 @@
         "oligoClasses"
     ],
     "magpie": [],
-    "mariner": [],
     "maser": [
         "Gviz",
         "biovizBase",
