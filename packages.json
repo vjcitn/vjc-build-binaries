@@ -34,8 +34,7 @@
         "oligoClasses"
     ],
     "arrayMvout": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "ASpli": [
         "Gviz",
@@ -60,7 +59,6 @@
     "bgx": [],
     "bigmelon": [
         "lumi",
-        "methylumi",
         "wateRmelon"
     ],
     "BindingSiteFinder": [
@@ -135,7 +133,6 @@
         "biovizBase",
         "ensembldb",
         "lumi",
-        "methylumi",
         "missMethyl",
         "wateRmelon"
     ],
@@ -276,7 +273,6 @@
         "Gviz",
         "biovizBase",
         "ensembldb",
-        "methylumi",
         "missMethyl"
     ],
     "DMRforPairs": [
@@ -334,8 +330,7 @@
         "ensembldb"
     ],
     "ffpe": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "FLAMES": [
         "biovizBase",
@@ -396,8 +391,7 @@
         "gmapR"
     ],
     "iCheck": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "IgGeneUsage": [],
     "infinityFlow": [],
@@ -421,14 +415,11 @@
         "ensembldb",
         "regioneR"
     ],
-    "lumi": [
-        "methylumi"
-    ],
+    "lumi": [],
     "M3Drop": [],
     "MAGAR": [
         "RnBeads",
         "crlmm",
-        "methylumi",
         "oligoClasses"
     ],
     "maser": [
@@ -448,12 +439,10 @@
         "Gviz",
         "biovizBase",
         "ensembldb",
-        "methylumi",
         "missMethyl"
     ],
     "MEAT": [
         "lumi",
-        "methylumi",
         "wateRmelon"
     ],
     "MetaboSignal": [
@@ -468,7 +457,6 @@
     "MethylAid": [],
     "methylclock": [],
     "methylGSA": [
-        "methylumi",
         "missMethyl"
     ],
     "methylPipe": [
@@ -476,7 +464,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "methylumi": [],
     "miaViz": [],
     "microbiomeMarker": [
         "ANCOMBC"
@@ -486,8 +473,7 @@
         "oligoClasses"
     ],
     "MineICA": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "MinimumDistance": [
         "VanillaICE",
@@ -495,9 +481,7 @@
         "oligoClasses"
     ],
     "miRSM": [],
-    "missMethyl": [
-        "methylumi"
-    ],
+    "missMethyl": [],
     "MMAPPR2": [
         "gmapR"
     ],
@@ -662,9 +646,7 @@
     "RnaSeqSampleSize": [
         "recount"
     ],
-    "RnBeads": [
-        "methylumi"
-    ],
+    "RnBeads": [],
     "Rqc": [
         "biovizBase",
         "ensembldb"
@@ -717,7 +699,6 @@
     "SingleMoleculeFootprinting": [],
     "skewr": [
         "lumi",
-        "methylumi",
         "wateRmelon"
     ],
     "SomaticSignatures": [
@@ -794,8 +775,7 @@
         "regioneR"
     ],
     "wateRmelon": [
-        "lumi",
-        "methylumi"
+        "lumi"
     ],
     "YAPSA": [
         "SomaticSignatures",
