@@ -924,7 +924,6 @@
     "sccomp": [],
     "scDblFinder": [],
     "scFeatures": [
-        "SingleCellSignalR",
         "ensembldb"
     ],
     "schex": [],
@@ -974,7 +973,6 @@
     "simpleSeg": [
         "cytomapper"
     ],
-    "SingleCellSignalR": [],
     "singleCellTK": [
         "M3Drop",
         "celda",
