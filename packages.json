@@ -510,9 +510,7 @@
         "methylumi",
         "minfi"
     ],
-    "ideal": [
-        "pcaExplorer"
-    ],
+    "ideal": [],
     "IgGeneUsage": [],
     "igvR": [],
     "IMAS": [],
@@ -730,7 +728,6 @@
     ],
     "OutSplice": [],
     "pageRank": [],
-    "pcaExplorer": [],
     "pdInfoBuilder": [
         "oligo",
         "oligoClasses"
