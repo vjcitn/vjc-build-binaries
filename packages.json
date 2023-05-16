@@ -228,9 +228,7 @@
         "ensembldb",
         "regioneR"
     ],
-    "ChIPQC": [
-        "DiffBind"
-    ],
+    "ChIPQC": [],
     "ChIPXpress": [
         "frma",
         "oligo",
@@ -392,7 +390,6 @@
     ],
     "DESpace": [],
     "DExMA": [],
-    "DiffBind": [],
     "diffcyt": [
         "FlowSOM"
     ],
@@ -1276,7 +1273,6 @@
     ],
     "vulcan": [
         "ChIPpeakAnno",
-        "DiffBind",
         "ensembldb",
         "regioneR"
     ],
