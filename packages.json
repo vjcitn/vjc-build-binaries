@@ -133,7 +133,6 @@
         "cBioPortalData"
     ],
     "cBioPortalData": [],
-    "celda": [],
     "CelliD": [],
     "censcyt": [
         "FlowSOM",
@@ -764,7 +763,6 @@
     "simpleSeg": [],
     "singleCellTK": [
         "M3Drop",
-        "celda",
         "ensembldb",
         "scDblFinder",
         "scMerge"
