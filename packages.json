@@ -91,7 +91,6 @@
     ],
     "brainflowprobes": [
         "biovizBase",
-        "derfinder",
         "derfinderPlot",
         "ensembldb",
         "ggbio"
@@ -271,10 +270,8 @@
         "FlowSOM"
     ],
     "deconvR": [],
-    "derfinder": [],
     "derfinderPlot": [
         "biovizBase",
-        "derfinder",
         "ensembldb",
         "ggbio"
     ],
@@ -578,9 +575,7 @@
         "yarn"
     ],
     "octad": [],
-    "ODER": [
-        "derfinder"
-    ],
+    "ODER": [],
     "OGRE": [
         "Gviz",
         "biovizBase",
@@ -618,7 +613,6 @@
         "ensembldb"
     ],
     "psichomics": [
-        "derfinder",
         "recount"
     ],
     "puma": [
@@ -643,9 +637,7 @@
     "RCASPAR": [],
     "RcisTarget": [],
     "rebook": [],
-    "recount": [
-        "derfinder"
-    ],
+    "recount": [],
     "recountmethylation": [],
     "REDseq": [
         "ChIPpeakAnno",
@@ -656,9 +648,7 @@
     "regioneReloaded": [
         "regioneR"
     ],
-    "regionReport": [
-        "derfinder"
-    ],
+    "regionReport": [],
     "regutools": [
         "Gviz",
         "biovizBase",
@@ -697,7 +687,6 @@
         "regioneR"
     ],
     "RNAAgeCalc": [
-        "derfinder",
         "recount"
     ],
     "RNAmodR": [
@@ -724,7 +713,6 @@
         "ensembldb"
     ],
     "RnaSeqSampleSize": [
-        "derfinder",
         "recount"
     ],
     "RnBeads": [
