@@ -546,9 +546,7 @@
     "proteasy": [
         "ensembldb"
     ],
-    "psichomics": [
-        "recount"
-    ],
+    "psichomics": [],
     "puma": [
         "oligo",
         "oligoClasses"
@@ -569,7 +567,6 @@
     "RCASPAR": [],
     "RcisTarget": [],
     "rebook": [],
-    "recount": [],
     "REDseq": [
         "ChIPpeakAnno",
         "ensembldb",
@@ -613,9 +610,7 @@
     "RLSeq": [
         "regioneR"
     ],
-    "RNAAgeCalc": [
-        "recount"
-    ],
+    "RNAAgeCalc": [],
     "RNAmodR": [
         "Gviz",
         "biovizBase",
@@ -639,9 +634,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "RnaSeqSampleSize": [
-        "recount"
-    ],
+    "RnaSeqSampleSize": [],
     "RnBeads": [],
     "Rqc": [
         "biovizBase",
