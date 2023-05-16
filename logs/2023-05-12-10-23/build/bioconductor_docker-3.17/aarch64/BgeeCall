@@ -1,0 +1,153 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BgeeCall'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'BgeeCall'
+also installing the dependencies ‘datawizard’, ‘insight’, ‘sjlabelled’, ‘sjmisc’, ‘rslurm’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/datawizard_0.7.1.tar.gz'
+Content type 'binary/octet-stream' length 482016 bytes (470 KB)
+==================================================
+downloaded 470 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/insight_0.19.1.tar.gz'
+Content type 'binary/octet-stream' length 924723 bytes (903 KB)
+==================================================
+downloaded 903 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/sjlabelled_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 155598 bytes (151 KB)
+==================================================
+downloaded 151 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/sjmisc_2.8.9.tar.gz'
+Content type 'binary/octet-stream' length 234896 bytes (229 KB)
+==================================================
+downloaded 229 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/rslurm_0.6.2.tar.gz'
+Content type 'binary/octet-stream' length 111199 bytes (108 KB)
+==================================================
+downloaded 108 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BgeeCall_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 5939792 bytes (5.7 MB)
+==================================================
+downloaded 5.7 MB
+
+* installing *source* package ‘insight’ ...
+** package ‘insight’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘insight’ as ‘insight_0.19.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (insight)
+* installing *source* package ‘rslurm’ ...
+** package ‘rslurm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rslurm’ as ‘rslurm_0.6.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (rslurm)
+* installing *source* package ‘datawizard’ ...
+** package ‘datawizard’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘datawizard’ as ‘datawizard_0.7.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (datawizard)
+* installing *source* package ‘sjlabelled’ ...
+** package ‘sjlabelled’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sjlabelled’ as ‘sjlabelled_1.2.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (sjlabelled)
+* installing *source* package ‘sjmisc’ ...
+** package ‘sjmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sjmisc’ as ‘sjmisc_2.8.9_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (sjmisc)
+* installing *source* package ‘BgeeCall’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BgeeCall’ as ‘BgeeCall_1.16.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BgeeCall)
+
+The downloaded source packages are in
+	‘/tmp/RtmpG3o7hm/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	13m52.347s
+user	13m38.904s
+sys	0m9.922s
