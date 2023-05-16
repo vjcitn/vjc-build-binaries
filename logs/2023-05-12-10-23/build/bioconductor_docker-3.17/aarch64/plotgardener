@@ -1,0 +1,151 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''plotgardener'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'plotgardener'
+also installing the dependencies ‘gridGraphics’, ‘yulab.utils’, ‘ggplotify’, ‘strawr’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gridGraphics_0.5-1.tar.gz'
+Content type 'binary/octet-stream' length 69269 bytes (67 KB)
+==================================================
+downloaded 67 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/yulab.utils_0.0.6.tar.gz'
+Content type 'binary/octet-stream' length 7626 bytes
+==================================================
+downloaded 7626 bytes
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggplotify_0.1.0.tar.gz'
+Content type 'binary/octet-stream' length 117840 bytes (115 KB)
+==================================================
+downloaded 115 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/strawr_0.0.91.tar.gz'
+Content type 'binary/octet-stream' length 769236 bytes (751 KB)
+==================================================
+downloaded 751 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/plotgardener_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 2779965 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+* installing *source* package ‘gridGraphics’ ...
+** package ‘gridGraphics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridGraphics’ as ‘gridGraphics_0.5-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gridGraphics)
+* installing *source* package ‘yulab.utils’ ...
+** package ‘yulab.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘yulab.utils’ as ‘yulab.utils_0.0.6_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (yulab.utils)
+* installing *source* package ‘strawr’ ...
+** package ‘strawr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c straw.cpp -o straw.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o strawr.so RcppExports.o straw.o -lcurl -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-strawr/00new/strawr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘strawr’ as ‘strawr_0.0.91_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (strawr)
+* installing *source* package ‘ggplotify’ ...
+** package ‘ggplotify’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggplotify’ as ‘ggplotify_0.1.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggplotify)
+* installing *source* package ‘plotgardener’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c checkRow.cpp -o checkRow.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rebinBigwig.cpp -o rebinBigwig.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o plotgardener.so RcppExports.o checkRow.o rebinBigwig.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-plotgardener/00new/plotgardener/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotgardener’ as ‘plotgardener_1.6.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plotgardener)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYEjrJr/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	15m22.127s
+user	15m5.488s
+sys	0m13.155s
+* installing *source* package ‘plotgardenerData’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotgardenerData’ as ‘plotgardenerData_1.6.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plotgardenerData)

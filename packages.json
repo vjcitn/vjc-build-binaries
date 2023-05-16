@@ -1081,9 +1081,7 @@
     "MAIT": [
         "CAMERA"
     ],
-    "mariner": [
-        "plotgardener"
-    ],
+    "mariner": [],
     "maser": [
         "Gviz",
         "VariantAnnotation",
@@ -1452,7 +1450,6 @@
     "PloGO2": [
         "GOstats"
     ],
-    "plotgardener": [],
     "ppcseq": [],
     "preciseTAD": [
         "rCGH"
@@ -2046,8 +2043,7 @@
         "ensembldb"
     ],
     "Ularcirc": [
-        "Organism.dplyr",
-        "plotgardener"
+        "Organism.dplyr"
     ],
     "UMI4Cats": [
         "regioneR"
