@@ -123,9 +123,7 @@
         "ensembldb",
         "ggbio"
     ],
-    "borealis": [
-        "DSS"
-    ],
+    "borealis": [],
     "brainflowprobes": [
         "GenomicFiles",
         "biovizBase",
@@ -200,7 +198,6 @@
     ],
     "ChAMP": [
         "DMRcate",
-        "DSS",
         "Gviz",
         "biovizBase",
         "ensembldb",
@@ -365,9 +362,7 @@
         "minfi"
     ],
     "deepSNV": [],
-    "DeMixT": [
-        "DSS"
-    ],
+    "DeMixT": [],
     "derfinder": [
         "GenomicFiles"
     ],
@@ -400,7 +395,6 @@
         "scater"
     ],
     "DMRcate": [
-        "DSS",
         "Gviz",
         "biovizBase",
         "ensembldb",
@@ -427,7 +421,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "DSS": [],
     "ELMER": [
         "Gviz",
         "biovizBase",
@@ -621,9 +614,7 @@
         "regioneR"
     ],
     "katdetectr": [],
-    "kissDE": [
-        "DSS"
-    ],
+    "kissDE": [],
     "KnowSeq": [],
     "lineagespot": [],
     "lisaClust": [
@@ -710,9 +701,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "methylSig": [
-        "DSS"
-    ],
+    "methylSig": [],
     "methylumi": [
         "minfi"
     ],
