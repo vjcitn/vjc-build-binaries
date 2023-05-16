@@ -1017,7 +1017,6 @@
         "ensemblVEP",
         "gmapR"
     ],
-    "MOFA2": [],
     "MoleculeExperiment": [
         "SpatialExperiment"
     ],
