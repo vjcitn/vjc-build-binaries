@@ -1378,8 +1378,7 @@
         "ensembldb",
         "scDblFinder",
         "scMerge",
-        "scater",
-        "zellkonverter"
+        "scater"
     ],
     "SingleMoleculeFootprinting": [
         "GenomicFiles",
@@ -1539,9 +1538,7 @@
         "VariantAnnotation"
     ],
     "VDJdive": [],
-    "velociraptor": [
-        "zellkonverter"
-    ],
+    "velociraptor": [],
     "vissE": [],
     "Voyager": [
         "SpatialFeatureExperiment"
@@ -1577,7 +1574,6 @@
         "minfi",
         "quantro"
     ],
-    "zellkonverter": [],
     "ZygosityPredictor": [
         "VariantAnnotation"
     ]
