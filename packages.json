@@ -129,20 +129,16 @@
         "pRoloc"
     ],
     "banocc": [],
-    "BASiCS": [
-        "scran"
-    ],
+    "BASiCS": [],
     "BASiCStan": [
-        "BASiCS",
-        "scran"
+        "BASiCS"
     ],
     "BatchQC": [
         "sva"
     ],
     "BayesSpace": [
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
     "BBCAnalyzer": [
         "VariantAnnotation"
@@ -181,9 +177,7 @@
     "BioNERO": [
         "sva"
     ],
-    "BioTIP": [
-        "scran"
-    ],
+    "BioTIP": [],
     "biovizBase": [
         "VariantAnnotation",
         "ensembldb"
@@ -304,8 +298,7 @@
     "cbpManager": [],
     "celda": [
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
     "cellHTS2": [],
     "CelliD": [
@@ -376,8 +369,7 @@
     ],
     "ChromSCape": [
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
     "chromVAR": [],
     "cicero": [
@@ -394,9 +386,7 @@
         "Rhisat2",
         "SGSeq"
     ],
-    "CiteFuse": [
-        "scran"
-    ],
+    "CiteFuse": [],
     "clipper": [
         "qpgraph"
     ],
@@ -626,9 +616,7 @@
     "diffUTR": [
         "ensembldb"
     ],
-    "Dino": [
-        "scran"
-    ],
+    "Dino": [],
     "distinct": [
         "densvis",
         "scater"
@@ -817,8 +805,7 @@
         "densvis",
         "ensembldb",
         "ggbio",
-        "scater",
-        "scran"
+        "scater"
     ],
     "FlowSOM": [],
     "FRASER": [
@@ -1001,8 +988,7 @@
     "IRISFGM": [
         "clusterProfiler",
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
     "iSEEhex": [],
     "iSEEu": [
@@ -1267,9 +1253,7 @@
         "ensembldb",
         "ggbio"
     ],
-    "msImpute": [
-        "scran"
-    ],
+    "msImpute": [],
     "MSPrep": [
         "sva"
     ],
@@ -1284,9 +1268,7 @@
         "ReactomePA",
         "clusterProfiler"
     ],
-    "mumosa": [
-        "scran"
-    ],
+    "mumosa": [],
     "MungeSumstats": [
         "VariantAnnotation"
     ],
@@ -1422,8 +1404,7 @@
     ],
     "pipeComp": [
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
     "pipeFrame": [],
     "PloGO2": [
@@ -1702,24 +1683,19 @@
     "sccomp": [],
     "scDblFinder": [
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
-    "scDD": [
-        "scran"
-    ],
+    "scDD": [],
     "scFeatures": [
         "SingleCellSignalR",
         "SpatialExperiment",
-        "ensembldb",
-        "scran"
+        "ensembldb"
     ],
     "schex": [],
     "scMerge": [
         "M3Drop",
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
     "scMET": [],
     "scmeth": [
@@ -1736,7 +1712,6 @@
         "VariantAnnotation"
     ],
     "scPipe": [],
-    "scran": [],
     "scRNAseqApp": [
         "slingshot"
     ],
@@ -1763,8 +1738,7 @@
         "ensembldb",
         "epivizr",
         "epivizrData",
-        "scater",
-        "scran"
+        "scater"
     ],
     "scviR": [
         "densvis",
@@ -1819,9 +1793,7 @@
         "SpatialExperiment",
         "cytomapper"
     ],
-    "SingleCellSignalR": [
-        "scran"
-    ],
+    "SingleCellSignalR": [],
     "singleCellTK": [
         "M3Drop",
         "TSCAN",
@@ -1831,7 +1803,6 @@
         "scDblFinder",
         "scMerge",
         "scater",
-        "scran",
         "sva",
         "zellkonverter",
         "zinbwave"
@@ -1870,8 +1841,7 @@
     ],
     "Spaniel": [
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
     "SparseSignatures": [],
     "spaSim": [
@@ -1890,8 +1860,7 @@
     ],
     "spatialHeatmap": [
         "densvis",
-        "scater",
-        "scran"
+        "scater"
     ],
     "SpatialOmicsOverlay": [
         "GeomxTools",
