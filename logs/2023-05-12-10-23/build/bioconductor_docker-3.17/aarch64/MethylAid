@@ -1,0 +1,151 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MethylAid'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'MethylAid'
+also installing the dependencies ‘gridBase’, ‘hexbin’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/gridBase_0.4-7.tar.gz'
+Content type 'application/x-tar' length 154082 bytes (150 KB)
+==================================================
+downloaded 150 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/hexbin_1.28.3.tar.gz'
+Content type 'binary/octet-stream' length 1205415 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/MethylAid_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 3159333 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+* installing *source* package ‘gridBase’ ...
+** package ‘gridBase’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridBase’ as ‘gridBase_0.4-7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gridBase)
+* installing *source* package ‘hexbin’ ...
+** package ‘hexbin’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gfortran  -fPIC  -g -O2  -c hbin.f -o hbin.o
+gfortran  -fPIC  -g -O2  -c hcell.f -o hcell.o
+gfortran  -fPIC  -g -O2  -c herode.f -o herode.o
+gfortran  -fPIC  -g -O2  -c hsm.f -o hsm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o hexbin.so hbin.o hcell.o herode.o hsm.o reg.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-hexbin/00new/hexbin/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hexbin’ as ‘hexbin_1.28.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (hexbin)
+* installing *source* package ‘MethylAid’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MethylAid’ as ‘MethylAid_1.34.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (MethylAid)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNvNz12/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	9m16.539s
+user	9m6.962s
+sys	0m7.561s
+* installing *source* package ‘MethylAidData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MethylAidData’ as ‘MethylAidData_1.32.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (MethylAidData)
+* installing *source* package ‘IlluminaHumanMethylationEPICmanifest’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICmanifest’ as ‘IlluminaHumanMethylationEPICmanifest_0.3.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICmanifest)
+* installing *source* package ‘IlluminaHumanMethylationEPICanno.ilm10b2.hg19’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICanno.ilm10b2.hg19’ as ‘IlluminaHumanMethylationEPICanno.ilm10b2.hg19_0.6.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICanno.ilm10b2.hg19)
+* installing *source* package ‘minfiDataEPIC’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘minfiDataEPIC’ as ‘minfiDataEPIC_1.26.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (minfiDataEPIC)
