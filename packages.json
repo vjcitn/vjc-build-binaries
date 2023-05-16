@@ -398,7 +398,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "fcScan": [],
     "ffpe": [
         "lumi",
         "methylumi",
