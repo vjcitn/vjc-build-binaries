@@ -1045,7 +1045,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "tradeSeq": [],
     "treekoR": [
         "FlowSOM",
         "diffcyt"
