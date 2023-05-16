@@ -1216,7 +1216,6 @@
         "bumphunter",
         "minfi"
     ],
-    "recoup": [],
     "REDseq": [
         "ChIPpeakAnno",
         "ensembldb",
