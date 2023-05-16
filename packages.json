@@ -451,7 +451,6 @@
     "metagene": [
         "ensembldb"
     ],
-    "MethylAid": [],
     "methylclock": [],
     "methylGSA": [
         "missMethyl"
