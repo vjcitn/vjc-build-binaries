@@ -96,7 +96,6 @@
         "ensembldb",
         "ggbio"
     ],
-    "borealis": [],
     "brainflowprobes": [
         "GenomicFiles",
         "biovizBase",
