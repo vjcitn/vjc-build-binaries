@@ -742,7 +742,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "HiCDOC": [],
     "hierGWAS": [],
     "HTSeqGenie": [
         "VariantAnnotation",
