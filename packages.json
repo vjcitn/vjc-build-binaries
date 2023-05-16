@@ -229,7 +229,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "coMethDMR": [],
     "compEpiTools": [
         "Gviz",
         "biovizBase",
