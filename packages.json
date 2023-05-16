@@ -799,7 +799,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "VAExprs": [],
     "VanillaICE": [
         "crlmm",
         "oligoClasses"
