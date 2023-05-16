@@ -347,7 +347,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "funtooNorm": [],
     "GeneStructureTools": [
         "Gviz",
         "biovizBase",
