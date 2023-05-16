@@ -775,9 +775,7 @@
     "OMICsPCA": [
         "HelloRanges"
     ],
-    "OutSplice": [
-        "Repitools"
-    ],
+    "OutSplice": [],
     "PAA": [],
     "pageRank": [],
     "pcaExplorer": [],
@@ -877,7 +875,6 @@
     "REMP": [
         "minfi"
     ],
-    "Repitools": [],
     "ReportingTools": [
         "biovizBase",
         "ensembldb",
