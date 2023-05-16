@@ -300,7 +300,6 @@
     "cytoviewer": [
         "cytomapper"
     ],
-    "DAMEfinder": [],
     "decompTumor2Sig": [],
     "deconvR": [
         "minfi"
