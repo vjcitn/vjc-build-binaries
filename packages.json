@@ -471,7 +471,6 @@
         "bumphunter"
     ],
     "DaMiRseq": [],
-    "dasper": [],
     "debrowser": [],
     "decompTumor2Sig": [
         "VariantAnnotation"
@@ -1111,7 +1110,6 @@
         "GenomicFiles",
         "VariantAnnotation",
         "bumphunter",
-        "dasper",
         "derfinder"
     ],
     "OGRE": [
