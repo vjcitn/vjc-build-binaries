@@ -435,8 +435,7 @@
     "condiments": [
         "densvis",
         "distinct",
-        "scater",
-        "slingshot"
+        "scater"
     ],
     "CONFESS": [],
     "consensusDE": [
@@ -1639,9 +1638,7 @@
         "VariantAnnotation"
     ],
     "scPipe": [],
-    "scRNAseqApp": [
-        "slingshot"
-    ],
+    "scRNAseqApp": [],
     "scruff": [
         "OrganismDbi",
         "VariantAnnotation",
@@ -1743,7 +1740,6 @@
         "minfi",
         "wateRmelon"
     ],
-    "slingshot": [],
     "SMITE": [
         "goseq"
     ],
@@ -1867,13 +1863,9 @@
         "biovizBase",
         "ensembldb"
     ],
-    "tradeSeq": [
-        "slingshot"
-    ],
+    "tradeSeq": [],
     "transcriptR": [],
-    "traviz": [
-        "slingshot"
-    ],
+    "traviz": [],
     "treekoR": [
         "FlowSOM",
         "diffcyt"
