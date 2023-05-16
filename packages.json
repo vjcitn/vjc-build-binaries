@@ -124,10 +124,7 @@
     "CATALYST": [
         "FlowSOM"
     ],
-    "cbaf": [
-        "cBioPortalData"
-    ],
-    "cBioPortalData": [],
+    "cbaf": [],
     "censcyt": [
         "FlowSOM",
         "diffcyt"
