@@ -440,10 +440,8 @@
     "COTAN": [],
     "cpvSNP": [],
     "crisprDesign": [
-        "VariantAnnotation",
-        "crisprScore"
+        "VariantAnnotation"
     ],
-    "crisprScore": [],
     "crisprseekplus": [
         "ChIPpeakAnno",
         "GUIDEseq",
@@ -455,7 +453,6 @@
         "VariantAnnotation",
         "biovizBase",
         "crisprDesign",
-        "crisprScore",
         "crisprViz",
         "ensembldb"
     ],
@@ -464,7 +461,6 @@
         "VariantAnnotation",
         "biovizBase",
         "crisprDesign",
-        "crisprScore",
         "ensembldb"
     ],
     "crlmm": [
