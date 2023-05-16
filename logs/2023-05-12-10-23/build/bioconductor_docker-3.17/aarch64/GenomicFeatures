@@ -27,14 +27,14 @@ packaged installation of ‘GenomicFeatures’ as ‘GenomicFeatures_1.52.0_R_aa
 * DONE (GenomicFeatures)
 
 The downloaded source packages are in
-	‘/tmp/RtmpxxAVV6/downloaded_packages’
+	‘/tmp/RtmpXZmWtJ/downloaded_packages’
 Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
   'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
   'class', 'KernSmooth', 'MASS', 'nnet'
 
-real	4m50.920s
-user	4m47.085s
-sys	0m2.931s
+real	4m53.892s
+user	4m49.527s
+sys	0m3.122s
 * installing *source* package ‘BSgenome.Celegans.UCSC.ce11’ ...
 ** using staged installation
 ** R
