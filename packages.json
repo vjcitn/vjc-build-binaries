@@ -73,7 +73,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ASSIGN": [],
     "ATACCoGAPS": [
         "chromVAR",
         "motifmatchr"
@@ -1399,9 +1398,7 @@
         "StructuralVariantAnnotation",
         "VariantAnnotation"
     ],
-    "TBSignatureProfiler": [
-        "ASSIGN"
-    ],
+    "TBSignatureProfiler": [],
     "terraTCGAdata": [],
     "TFEA.ChIP": [],
     "TFHAZ": [],
