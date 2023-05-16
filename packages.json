@@ -5,7 +5,6 @@
     ],
     "ADImpute": [],
     "affycoretools": [
-        "GOstats",
         "OrganismDbi",
         "ReportingTools",
         "VariantAnnotation",
@@ -16,7 +15,6 @@
     ],
     "aggregateBioVar": [],
     "AgiMicroRna": [
-        "GOstats",
         "OrganismDbi",
         "ReportingTools",
         "VariantAnnotation",
@@ -106,9 +104,7 @@
     "atSNP": [
         "motifStack"
     ],
-    "attract": [
-        "GOstats"
-    ],
+    "attract": [],
     "BadRegionFinder": [
         "VariantAnnotation"
     ],
@@ -248,9 +244,7 @@
         "FlowSOM",
         "scater"
     ],
-    "categoryCompare": [
-        "GOstats"
-    ],
+    "categoryCompare": [],
     "cbaf": [
         "RTCGAToolbox",
         "TCGAutils",
@@ -751,11 +745,8 @@
     "gmapR": [
         "VariantAnnotation"
     ],
-    "GmicR": [
-        "GOstats"
-    ],
+    "GmicR": [],
     "goSorensen": [],
-    "GOstats": [],
     "GRENITS": [],
     "GSReg": [
         "OrganismDbi"
@@ -805,7 +796,6 @@
     ],
     "iCNV": [],
     "ideal": [
-        "GOstats",
         "pcaExplorer"
     ],
     "IgGeneUsage": [],
@@ -999,7 +989,6 @@
         "oligoClasses"
     ],
     "MineICA": [
-        "GOstats",
         "bumphunter",
         "lumi",
         "methylumi",
@@ -1014,9 +1003,7 @@
         "oligoClasses"
     ],
     "MIRA": [],
-    "miRLAB": [
-        "GOstats"
-    ],
+    "miRLAB": [],
     "miRSM": [
         "ReactomePA",
         "miRspongeR"
@@ -1114,7 +1101,6 @@
         "scater"
     ],
     "netZooR": [
-        "GOstats",
         "bumphunter",
         "minfi",
         "quantro",
@@ -1164,9 +1150,7 @@
     ],
     "pairedGSEA": [],
     "PanomiR": [],
-    "pcaExplorer": [
-        "GOstats"
-    ],
+    "pcaExplorer": [],
     "pdInfoBuilder": [
         "oligo",
         "oligoClasses"
@@ -1189,9 +1173,7 @@
     "pipeComp": [
         "scater"
     ],
-    "PloGO2": [
-        "GOstats"
-    ],
+    "PloGO2": [],
     "ppcseq": [],
     "preciseTAD": [
         "rCGH"
@@ -1313,7 +1295,6 @@
     ],
     "Repitools": [],
     "ReportingTools": [
-        "GOstats",
         "OrganismDbi",
         "VariantAnnotation",
         "biovizBase",
@@ -1473,7 +1454,6 @@
         "ggbio"
     ],
     "scTensor": [
-        "GOstats",
         "ReactomePA",
         "meshr",
         "schex"
@@ -1501,9 +1481,7 @@
         "VariantAnnotation"
     ],
     "SEtools": [],
-    "SGCP": [
-        "GOstats"
-    ],
+    "SGCP": [],
     "SGSeq": [],
     "shinyepico": [
         "bumphunter",
