@@ -776,7 +776,6 @@
     ],
     "HiCDOC": [],
     "hierGWAS": [],
-    "HiLDA": [],
     "HTSeqGenie": [
         "VariantAnnotation",
         "VariantTools",
@@ -1469,9 +1468,7 @@
         "scater"
     ],
     "segmenter": [],
-    "selectKSigs": [
-        "HiLDA"
-    ],
+    "selectKSigs": [],
     "seqArchRplus": [],
     "seqCAT": [
         "VariantAnnotation"
