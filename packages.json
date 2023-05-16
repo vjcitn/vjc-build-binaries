@@ -783,7 +783,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "SPIAT": [],
     "SPLINTER": [
         "Gviz",
         "biovizBase",
