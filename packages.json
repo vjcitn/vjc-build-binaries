@@ -59,7 +59,6 @@
     ],
     "ATACseqTFEA": [],
     "atSNP": [],
-    "BadRegionFinder": [],
     "BANDITS": [
         "DRIMSeq"
     ],
