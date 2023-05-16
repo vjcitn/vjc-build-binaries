@@ -66,9 +66,7 @@
     "BANDITS": [
         "DRIMSeq"
     ],
-    "bandle": [
-        "pRoloc"
-    ],
+    "bandle": [],
     "banocc": [],
     "BASiCStan": [],
     "BayesSpace": [],
@@ -757,10 +755,7 @@
         "ensembldb"
     ],
     "profileplyr": [],
-    "pRoloc": [],
-    "pRolocGUI": [
-        "pRoloc"
-    ],
+    "pRolocGUI": [],
     "proteasy": [
         "ensembldb"
     ],
