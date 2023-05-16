@@ -1759,7 +1759,6 @@
         "densvis",
         "scater"
     ],
-    "SparseSignatures": [],
     "spaSim": [
         "SpatialExperiment"
     ],
