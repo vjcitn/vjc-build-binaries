@@ -289,7 +289,6 @@
     "deconvR": [
         "minfi"
     ],
-    "DeMixT": [],
     "derfinder": [],
     "derfinderPlot": [
         "biovizBase",
