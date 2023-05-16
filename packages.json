@@ -270,7 +270,6 @@
     "CBNplot": [
         "clusterProfiler"
     ],
-    "cbpManager": [],
     "celda": [
         "densvis",
         "scater"
