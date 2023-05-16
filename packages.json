@@ -1934,7 +1934,6 @@
         "crlmm",
         "oligoClasses"
     ],
-    "VarCon": [],
     "VariantAnnotation": [],
     "VariantFiltering": [
         "Gviz",
