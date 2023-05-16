@@ -284,7 +284,6 @@
         "biovizBase",
         "bumphunter",
         "ensembldb",
-        "goseq",
         "lumi",
         "methylumi",
         "minfi",
@@ -755,7 +754,6 @@
     "GmicR": [
         "GOstats"
     ],
-    "goseq": [],
     "goSorensen": [],
     "GOstats": [],
     "GRENITS": [],
@@ -808,7 +806,6 @@
     "iCNV": [],
     "ideal": [
         "GOstats",
-        "goseq",
         "pcaExplorer"
     ],
     "IgGeneUsage": [],
@@ -1336,9 +1333,7 @@
         "regioneR"
     ],
     "rGREAT": [],
-    "rgsepd": [
-        "goseq"
-    ],
+    "rgsepd": [],
     "Rhisat2": [
         "SGSeq"
     ],
@@ -1558,9 +1553,7 @@
         "minfi",
         "wateRmelon"
     ],
-    "SMITE": [
-        "goseq"
-    ],
+    "SMITE": [],
     "snapCGH": [],
     "snifter": [],
     "SNPhood": [
