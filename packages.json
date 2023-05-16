@@ -81,8 +81,7 @@
     "ASSIGN": [],
     "ATACCoGAPS": [
         "chromVAR",
-        "motifmatchr",
-        "rGREAT"
+        "motifmatchr"
     ],
     "ATACseqQC": [
         "ChIPpeakAnno",
@@ -1122,9 +1121,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "profileplyr": [
-        "rGREAT"
-    ],
+    "profileplyr": [],
     "pRoloc": [],
     "pRolocGUI": [
         "pRoloc"
@@ -1239,7 +1236,6 @@
     "RgnTX": [
         "regioneR"
     ],
-    "rGREAT": [],
     "rgsepd": [],
     "Rhisat2": [
         "SGSeq"
