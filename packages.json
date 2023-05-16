@@ -226,12 +226,10 @@
     "categoryCompare": [],
     "cbaf": [
         "RTCGAToolbox",
-        "TCGAutils",
         "cBioPortalData"
     ],
     "cBioPortalData": [
-        "RTCGAToolbox",
-        "TCGAutils"
+        "RTCGAToolbox"
     ],
     "CBNplot": [],
     "celda": [
@@ -1281,9 +1279,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "RTCGAToolbox": [
-        "TCGAutils"
-    ],
+    "RTCGAToolbox": [],
     "RUVSeq": [],
     "SCAN.UPC": [
         "oligo",
@@ -1464,12 +1460,9 @@
     "TBSignatureProfiler": [
         "ASSIGN"
     ],
-    "TCGAutils": [],
     "TDbasedUFEadv": [],
     "tenXplore": [],
-    "terraTCGAdata": [
-        "TCGAutils"
-    ],
+    "terraTCGAdata": [],
     "TFEA.ChIP": [],
     "TFHAZ": [],
     "TileDBArray": [],
