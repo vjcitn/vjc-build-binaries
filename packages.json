@@ -139,12 +139,9 @@
         "FlowSOM"
     ],
     "cbaf": [
-        "RTCGAToolbox",
         "cBioPortalData"
     ],
-    "cBioPortalData": [
-        "RTCGAToolbox"
-    ],
+    "cBioPortalData": [],
     "celda": [],
     "CelliD": [],
     "CellMixS": [],
@@ -802,7 +799,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "RTCGAToolbox": [],
     "SCAN.UPC": [
         "oligo",
         "oligoClasses"

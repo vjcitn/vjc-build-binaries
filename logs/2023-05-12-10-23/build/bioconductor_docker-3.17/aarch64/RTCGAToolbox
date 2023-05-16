@@ -1,0 +1,140 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RTCGAToolbox'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'RTCGAToolbox'
+also installing the dependencies ‘RCircos’, ‘RJSONIO’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RCircos_1.2.2.tar.gz'
+Content type 'binary/octet-stream' length 1849243 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RJSONIO_1.3-1.8.tar.gz'
+Content type 'binary/octet-stream' length 1160456 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/RTCGAToolbox_2.30.0.tar.gz'
+Content type 'application/x-gzip' length 2446319 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘RCircos’ ...
+** package ‘RCircos’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RCircos’ as ‘RCircos_1.2.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RCircos)
+* installing *source* package ‘RJSONIO’ ...
+** package ‘RJSONIO’ successfully unpacked and MD5 sums checked
+** using staged installation
+Trying to find libjson.h header file
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+USE_LOCAL = ""
+Minor Version: 6
+Using local libjson code. Copying files from src/libjson/Source
+/tmp/RtmpmVplyj/R.INSTALL29195c4d5781/RJSONIO
+JSONAllocator.cpp
+JSONChildren.cpp
+JSONDebug.cpp
+JSONIterators.cpp
+JSONMemory.cpp
+JSONNode.cpp
+JSONNode_Mutex.cpp
+JSONPreparse.cpp
+JSONStream.cpp
+JSONValidator.cpp
+JSONWorker.cpp
+JSONWriter.cpp
+internalJSONNode.cpp
+libjson.cpp
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating tools/cleanup
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ConvertUTF.c -o ConvertUTF.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONAllocator.cpp -o JSONAllocator.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONChildren.cpp -o JSONChildren.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONDebug.cpp -o JSONDebug.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONIterators.cpp -o JSONIterators.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONMemory.cpp -o JSONMemory.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONNode.cpp -o JSONNode.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONNode_Mutex.cpp -o JSONNode_Mutex.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONPreparse.cpp -o JSONPreparse.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONStream.cpp -o JSONStream.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONValidator.cpp -o JSONValidator.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONWorker.cpp -o JSONWorker.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSONWriter.cpp -o JSONWriter.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSON_parser.c -o JSON_parser.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RJSON.c -o RJSON.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c internalJSONNode.cpp -o internalJSONNode.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libjson.cpp -o libjson.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rlibjson.c -o rlibjson.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rparser.c -o rparser.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RJSONIO.so ConvertUTF.o JSONAllocator.o JSONChildren.o JSONDebug.o JSONIterators.o JSONMemory.o JSONNode.o JSONNode_Mutex.o JSONPreparse.o JSONStream.o JSONValidator.o JSONWorker.o JSONWriter.o JSON_parser.o RJSON.o init.o internalJSONNode.o libjson.o rlibjson.o rparser.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RJSONIO/00new/RJSONIO/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RJSONIO’ as ‘RJSONIO_1.3-1.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RJSONIO)
+* installing *source* package ‘RTCGAToolbox’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RTCGAToolbox’ as ‘RTCGAToolbox_2.30.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RTCGAToolbox)
+
+The downloaded source packages are in
+	‘/tmp/RtmpgIvTbU/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	6m22.764s
+user	6m11.591s
+sys	0m10.491s
