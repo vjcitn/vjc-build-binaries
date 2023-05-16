@@ -218,7 +218,6 @@
     "cardelino": [
         "VariantAnnotation"
     ],
-    "casper": [],
     "CATALYST": [
         "FlowSOM",
         "scater"
