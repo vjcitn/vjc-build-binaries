@@ -277,7 +277,6 @@
     ],
     "CONFESS": [],
     "consensusDE": [
-        "RUVSeq",
         "ensembldb"
     ],
     "contiBAIT": [
@@ -758,9 +757,7 @@
         "yarn"
     ],
     "nnSVG": [],
-    "octad": [
-        "RUVSeq"
-    ],
+    "octad": [],
     "ODER": [
         "GenomicFiles",
         "derfinder"
@@ -907,9 +904,7 @@
         "ensembldb",
         "ggbio"
     ],
-    "ribosomeProfilingQC": [
-        "RUVSeq"
-    ],
+    "ribosomeProfilingQC": [],
     "RIPAT": [
         "biovizBase",
         "ensembldb",
@@ -967,7 +962,6 @@
         "ensembldb"
     ],
     "RTCGAToolbox": [],
-    "RUVSeq": [],
     "SCAN.UPC": [
         "oligo",
         "oligoClasses"
@@ -996,9 +990,7 @@
         "annotatr",
         "regioneR"
     ],
-    "scone": [
-        "RUVSeq"
-    ],
+    "scone": [],
     "scoreInvHap": [],
     "scRNAseqApp": [],
     "scruff": [
@@ -1102,9 +1094,7 @@
         "ensembldb"
     ],
     "SpotClean": [],
-    "standR": [
-        "RUVSeq"
-    ],
+    "standR": [],
     "staRank": [],
     "stJoincount": [],
     "StructuralVariantAnnotation": [],
