@@ -220,9 +220,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "canceR": [
-        "phenoTest"
-    ],
+    "canceR": [],
     "cardelino": [
         "VariantAnnotation"
     ],
@@ -1108,7 +1106,6 @@
         "scater"
     ],
     "PFP": [],
-    "phenoTest": [],
     "PhenStat": [],
     "Pigengene": [
         "ReactomePA"
