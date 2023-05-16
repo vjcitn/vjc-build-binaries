@@ -305,8 +305,7 @@
         "gwascat"
     ],
     "CircSeqAlignTk": [
-        "Rhisat2",
-        "SGSeq"
+        "Rhisat2"
     ],
     "CiteFuse": [],
     "clipper": [],
@@ -596,9 +595,7 @@
     "escheR": [
         "scater"
     ],
-    "EventPointer": [
-        "SGSeq"
-    ],
+    "EventPointer": [],
     "ExperimentHubData": [
         "AnnotationHubData"
     ],
@@ -1214,9 +1211,7 @@
         "regioneR"
     ],
     "rgsepd": [],
-    "Rhisat2": [
-        "SGSeq"
-    ],
+    "Rhisat2": [],
     "RiboCrypt": [],
     "RiboDiPA": [],
     "RiboProfiling": [
@@ -1371,7 +1366,6 @@
     ],
     "SEtools": [],
     "SGCP": [],
-    "SGSeq": [],
     "shinyepico": [
         "bumphunter",
         "minfi"
