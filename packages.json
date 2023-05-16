@@ -924,7 +924,6 @@
     "scBFA": [],
     "sccomp": [],
     "scDblFinder": [],
-    "scDD": [],
     "scFeatures": [
         "SingleCellSignalR",
         "ensembldb"
