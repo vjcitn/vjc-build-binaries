@@ -256,7 +256,6 @@
         "regioneR"
     ],
     "COTAN": [],
-    "crisprDesign": [],
     "crisprseekplus": [
         "ChIPpeakAnno",
         "GUIDEseq",
@@ -266,14 +265,12 @@
     "crisprVerse": [
         "Gviz",
         "biovizBase",
-        "crisprDesign",
         "crisprViz",
         "ensembldb"
     ],
     "crisprViz": [
         "Gviz",
         "biovizBase",
-        "crisprDesign",
         "ensembldb"
     ],
     "crlmm": [
