@@ -131,7 +131,6 @@
     ],
     "bioCancer": [],
     "BioNERO": [],
-    "BioTIP": [],
     "biovizBase": [
         "VariantAnnotation",
         "ensembldb"
