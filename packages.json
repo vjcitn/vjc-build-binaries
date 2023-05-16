@@ -916,8 +916,7 @@
     ],
     "meshes": [],
     "MetaboSignal": [
-        "ensembldb",
-        "mygene"
+        "ensembldb"
     ],
     "MetaCyto": [
         "FlowSOM"
@@ -1067,7 +1066,6 @@
     "MutationalPatterns": [
         "VariantAnnotation"
     ],
-    "mygene": [],
     "myvariant": [
         "VariantAnnotation"
     ],
