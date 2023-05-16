@@ -113,7 +113,6 @@
         "VariantAnnotation"
     ],
     "ballgown": [],
-    "bambu": [],
     "BANDITS": [
         "DRIMSeq"
     ],
@@ -688,7 +687,6 @@
     "FLAMES": [
         "OrganismDbi",
         "VariantAnnotation",
-        "bambu",
         "biovizBase",
         "ensembldb",
         "ggbio",
