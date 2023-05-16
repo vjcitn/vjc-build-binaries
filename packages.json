@@ -424,7 +424,6 @@
     ],
     "hierGWAS": [],
     "HTSeqGenie": [
-        "VariantTools",
         "gmapR"
     ],
     "iCheck": [
@@ -542,7 +541,6 @@
     ],
     "mitoClone2": [],
     "MMAPPR2": [
-        "VariantTools",
         "gmapR"
     ],
     "mosbi": [
@@ -871,7 +869,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "VariantTools": [],
     "VCFArray": [],
     "VDJdive": [],
     "vissE": [],
