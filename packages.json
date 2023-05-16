@@ -441,7 +441,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "gwasurvivr": [],
     "HelloRanges": [],
     "HiCDCPlus": [
         "GenomicInteractions",
