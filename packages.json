@@ -289,7 +289,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "customProDB": [],
     "CyTOFpower": [
         "FlowSOM",
         "diffcyt"
