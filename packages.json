@@ -533,7 +533,6 @@
     "NanoStringNCTools": [],
     "ndexr": [],
     "netZooR": [
-        "quantro",
         "yarn"
     ],
     "OGRE": [
@@ -580,7 +579,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "quantro": [],
     "QUBIC": [],
     "R3CPET": [
         "biovizBase",
@@ -809,8 +807,6 @@
         "ensembldb",
         "ggbio"
     ],
-    "yarn": [
-        "quantro"
-    ],
+    "yarn": [],
     "ZygosityPredictor": []
 }
