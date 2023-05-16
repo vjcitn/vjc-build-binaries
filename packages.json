@@ -65,15 +65,12 @@
     "ATACseqQC": [
         "ChIPpeakAnno",
         "ensembldb",
-        "motifStack",
         "regioneR"
     ],
     "ATACseqTFEA": [
         "motifmatchr"
     ],
-    "atSNP": [
-        "motifStack"
-    ],
+    "atSNP": [],
     "BadRegionFinder": [],
     "BANDITS": [
         "DRIMSeq"
@@ -348,9 +345,7 @@
     "cytoviewer": [
         "cytomapper"
     ],
-    "dagLogo": [
-        "motifStack"
-    ],
+    "dagLogo": [],
     "DAMEfinder": [],
     "DaMiRseq": [],
     "decompTumor2Sig": [],
@@ -740,11 +735,9 @@
     "motifbreakR": [
         "Gviz",
         "biovizBase",
-        "ensembldb",
-        "motifStack"
+        "ensembldb"
     ],
     "motifmatchr": [],
-    "motifStack": [],
     "msgbsR": [
         "biovizBase",
         "ensembldb",
@@ -775,7 +768,6 @@
         "Gviz",
         "biovizBase",
         "ensembldb",
-        "motifStack",
         "regioneR",
         "trackViewer"
     ],
@@ -949,8 +941,7 @@
         "ggbio"
     ],
     "ribosomeProfilingQC": [
-        "RUVSeq",
-        "motifStack"
+        "RUVSeq"
     ],
     "RIPAT": [
         "biovizBase",
