@@ -19,11 +19,9 @@
     ],
     "airpart": [],
     "alabaster": [
-        "alabaster.mae",
-        "alabaster.vcf"
+        "alabaster.mae"
     ],
     "alabaster.mae": [],
-    "alabaster.vcf": [],
     "AllelicImbalance": [
         "Gviz",
         "biovizBase",
