@@ -364,7 +364,6 @@
     "enrichTF": [],
     "ensembldb": [],
     "ensemblVEP": [],
-    "epialleleR": [],
     "epimutacions": [
         "Gviz",
         "biovizBase",
