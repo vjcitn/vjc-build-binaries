@@ -247,7 +247,6 @@
     ],
     "CiteFuse": [],
     "clipper": [],
-    "clusterExperiment": [],
     "cn.farms": [
         "oligo",
         "oligoClasses"
@@ -822,7 +821,6 @@
     "NanoStringNCTools": [],
     "ndexr": [],
     "netSmooth": [
-        "clusterExperiment",
         "scater"
     ],
     "netZooR": [
