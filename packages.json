@@ -147,8 +147,7 @@
         "ANCOMBC",
         "densvis",
         "mia",
-        "scater",
-        "zinbwave"
+        "scater"
     ],
     "BgeeCall": [],
     "BGmix": [],
@@ -384,9 +383,7 @@
     "clipper": [
         "qpgraph"
     ],
-    "clusterExperiment": [
-        "zinbwave"
-    ],
+    "clusterExperiment": [],
     "clusterProfiler": [],
     "cn.farms": [
         "oligo",
@@ -1279,8 +1276,7 @@
     "netSmooth": [
         "clusterExperiment",
         "densvis",
-        "scater",
-        "zinbwave"
+        "scater"
     ],
     "netZooR": [
         "GOstats",
@@ -1637,9 +1633,7 @@
     "scater": [
         "densvis"
     ],
-    "scBFA": [
-        "zinbwave"
-    ],
+    "scBFA": [],
     "scCB2": [],
     "scClassify": [],
     "sccomp": [],
@@ -1762,8 +1756,7 @@
         "scMerge",
         "scater",
         "sva",
-        "zellkonverter",
-        "zinbwave"
+        "zellkonverter"
     ],
     "SingleMoleculeFootprinting": [
         "GenomicFiles",
@@ -2023,7 +2016,6 @@
     ],
     "zellkonverter": [],
     "zenith": [],
-    "zinbwave": [],
     "ZygosityPredictor": [
         "VariantAnnotation"
     ]
