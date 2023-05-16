@@ -746,7 +746,6 @@
         "NanoStringNCTools"
     ],
     "SpatialFeatureExperiment": [],
-    "spatialHeatmap": [],
     "SpatialOmicsOverlay": [
         "GeomxTools",
         "NanoStringNCTools"
