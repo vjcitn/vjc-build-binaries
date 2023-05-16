@@ -1,7 +1,5 @@
 {
-    "ADaCGH2": [
-        "snapCGH"
-    ],
+    "ADaCGH2": [],
     "ADImpute": [],
     "affycoretools": [
         "ReportingTools",
@@ -1046,7 +1044,6 @@
         "wateRmelon"
     ],
     "SMITE": [],
-    "snapCGH": [],
     "SNPhood": [],
     "SomaticSignatures": [
         "biovizBase",
