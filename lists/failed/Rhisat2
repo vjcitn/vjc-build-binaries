@@ -1,0 +1,39 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Rhisat2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'Rhisat2'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Rhisat2_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 7072316 bytes (6.7 MB)
+==================================================
+downloaded 6.7 MB
+
+* installing *source* package ‘Rhisat2’ ...
+** using staged installation
+** libs
+/usr/bin/g++ -O3 -m64 -msse2 -funroll-loops -g3 -DCOMPILER_OPTIONS="\"-O3 -m64 -msse2 -funroll-loops -g3 -std=c++11\"" -std=c++11 \
+-fno-strict-aliasing -DHISAT2_VERSION="\"2.2.1\"" -DBUILD_HOST="\"buildkitsandbox\"" -DBUILD_TIME="\"Tue May 16 04:37:11 PM UTC 2023\"" -DCOMPILER_VERSION="\"`/usr/bin/g++ -v 2>&1 | tail -1`\"" -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -DBOWTIE_MM  -DUSESIMDE -DBOWTIE2 -DNDEBUG -Wall -DMASSIVE_DATA_RLCSA \
+-I. -I third_party \
+-o hisat2-build-s hisat2_build.cpp \
+ccnt_lut.cpp ref_read.cpp alphabet.cpp shmem.cpp edit.cpp gfm.cpp reference.cpp ds.cpp multikey_qsort.cpp limit.cpp random_source.cpp tinythread.cpp diff_sample.cpp hisat2_build_main.cpp \
+-lpthread 
+g++: error: unrecognized command-line option ‘-m64’
+g++: error: unrecognized command-line option ‘-msse2’
+make: *** [Makefile:363: hisat2-build-s] Error 1
+ERROR: compilation failed for package ‘Rhisat2’
+* removing ‘/tmp/tmp/built/Rhisat2’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp2vjudl/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+Warning message:
+In install.packages(...) :
+  installation of package ‘Rhisat2’ had non-zero exit status
+
+real	0m34.109s
+user	0m32.034s
+sys	0m0.643s
