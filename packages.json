@@ -694,7 +694,6 @@
     "Rbec": [],
     "RCASPAR": [],
     "RcisTarget": [],
-    "RcwlPipelines": [],
     "rebook": [],
     "recount": [
         "derfinder"
@@ -731,9 +730,7 @@
         "MutationalPatterns"
     ],
     "retrofit": [],
-    "ReUseData": [
-        "RcwlPipelines"
-    ],
+    "ReUseData": [],
     "RgnTX": [
         "regioneR"
     ],
