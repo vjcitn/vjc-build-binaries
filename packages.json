@@ -639,7 +639,6 @@
         "ensembldb",
         "ggbio"
     ],
-    "ribosomeProfilingQC": [],
     "RIPAT": [
         "biovizBase",
         "ensembldb",
