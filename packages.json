@@ -31,7 +31,6 @@
         "OrganismDbi"
     ],
     "airpart": [
-        "densvis",
         "scater"
     ],
     "alabaster": [
@@ -56,7 +55,6 @@
     ],
     "alpine": [],
     "ANCOMBC": [
-        "densvis",
         "mia",
         "scater"
     ],
@@ -129,7 +127,6 @@
     ],
     "BatchQC": [],
     "BayesSpace": [
-        "densvis",
         "scater"
     ],
     "BBCAnalyzer": [
@@ -138,7 +135,6 @@
     "BEclear": [],
     "benchdamic": [
         "ANCOMBC",
-        "densvis",
         "mia",
         "scater"
     ],
@@ -251,7 +247,6 @@
     "casper": [],
     "CATALYST": [
         "FlowSOM",
-        "densvis",
         "scater"
     ],
     "categoryCompare": [
@@ -268,15 +263,12 @@
     ],
     "CBNplot": [],
     "celda": [
-        "densvis",
         "scater"
     ],
     "CelliD": [
-        "densvis",
         "scater"
     ],
     "CellMixS": [
-        "densvis",
         "scater"
     ],
     "CEMiTool": [],
@@ -327,7 +319,6 @@
         "oligoClasses"
     ],
     "ChromSCape": [
-        "densvis",
         "scater"
     ],
     "chromVAR": [],
@@ -400,7 +391,6 @@
         "methylPipe"
     ],
     "condiments": [
-        "densvis",
         "distinct",
         "scater"
     ],
@@ -476,7 +466,6 @@
     "cytofQC": [
         "CATALYST",
         "FlowSOM",
-        "densvis",
         "scater"
     ],
     "cytomapper": [
@@ -512,7 +501,6 @@
     "DeMixT": [
         "DSS"
     ],
-    "densvis": [],
     "derfinder": [
         "GenomicFiles",
         "VariantAnnotation",
@@ -550,7 +538,6 @@
     ],
     "Dino": [],
     "distinct": [
-        "densvis",
         "scater"
     ],
     "DMRcate": [
@@ -664,7 +651,6 @@
     ],
     "escheR": [
         "SpatialExperiment",
-        "densvis",
         "scater"
     ],
     "EventPointer": [
@@ -705,7 +691,6 @@
         "VariantAnnotation",
         "bambu",
         "biovizBase",
-        "densvis",
         "ensembldb",
         "ggbio",
         "scater"
@@ -876,7 +861,6 @@
     ],
     "IPO": [],
     "IRISFGM": [
-        "densvis",
         "scater"
     ],
     "iSEEu": [],
@@ -971,7 +955,6 @@
         "wateRmelon"
     ],
     "MEB": [
-        "densvis",
         "scater"
     ],
     "meshes": [],
@@ -1024,17 +1007,14 @@
         "minfi"
     ],
     "mia": [
-        "densvis",
         "scater"
     ],
     "miaViz": [
-        "densvis",
         "mia",
         "scater"
     ],
     "microbiomeMarker": [
         "ANCOMBC",
-        "densvis",
         "mia",
         "scater"
     ],
@@ -1126,7 +1106,6 @@
         "VariantAnnotation"
     ],
     "muscat": [
-        "densvis",
         "scater"
     ],
     "musicatk": [
@@ -1157,7 +1136,6 @@
     "nearBynding": [],
     "netSmooth": [
         "clusterExperiment",
-        "densvis",
         "scater"
     ],
     "netZooR": [
@@ -1220,7 +1198,6 @@
         "oligoClasses"
     ],
     "peco": [
-        "densvis",
         "scater"
     ],
     "PFP": [],
@@ -1236,7 +1213,6 @@
         "ensembldb"
     ],
     "pipeComp": [
-        "densvis",
         "scater"
     ],
     "PloGO2": [
@@ -1489,15 +1465,12 @@
     "scanMiRApp": [
         "ensembldb"
     ],
-    "scater": [
-        "densvis"
-    ],
+    "scater": [],
     "scBFA": [],
     "scCB2": [],
     "scClassify": [],
     "sccomp": [],
     "scDblFinder": [
-        "densvis",
         "scater"
     ],
     "scDD": [],
@@ -1509,7 +1482,6 @@
     "schex": [],
     "scMerge": [
         "M3Drop",
-        "densvis",
         "scater"
     ],
     "scMET": [],
@@ -1545,14 +1517,12 @@
     "scTreeViz": [
         "OrganismDbi",
         "bumphunter",
-        "densvis",
         "ensembldb",
         "epivizr",
         "epivizrData",
         "scater"
     ],
     "scviR": [
-        "densvis",
         "scater"
     ],
     "segmenter": [
@@ -1601,7 +1571,6 @@
     "singleCellTK": [
         "M3Drop",
         "celda",
-        "densvis",
         "ensembldb",
         "scDblFinder",
         "scMerge",
@@ -1637,7 +1606,6 @@
         "ggbio"
     ],
     "Spaniel": [
-        "densvis",
         "scater"
     ],
     "spaSim": [
@@ -1655,7 +1623,6 @@
         "SpatialExperiment"
     ],
     "spatialHeatmap": [
-        "densvis",
         "scater"
     ],
     "SpatialOmicsOverlay": [
@@ -1746,7 +1713,6 @@
     "trena": [],
     "TRESS": [],
     "tricycle": [
-        "densvis",
         "scater"
     ],
     "trigger": [],
@@ -1779,7 +1745,6 @@
         "VariantAnnotation"
     ],
     "VAExprs": [
-        "densvis",
         "scater"
     ],
     "VanillaICE": [
