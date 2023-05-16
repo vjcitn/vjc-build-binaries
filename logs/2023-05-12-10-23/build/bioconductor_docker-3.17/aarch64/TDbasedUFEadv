@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''TDbasedUFEadv'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'TDbasedUFEadv'
+also installing the dependencies ‘WriteXLS’, ‘enrichR’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/WriteXLS_6.4.0.tar.gz'
+Content type 'binary/octet-stream' length 771050 bytes (752 KB)
+==================================================
+downloaded 752 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/enrichR_3.2.tar.gz'
+Content type 'binary/octet-stream' length 196698 bytes (192 KB)
+==================================================
+downloaded 192 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/TDbasedUFEadv_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 3662962 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+* installing *source* package ‘WriteXLS’ ...
+** package ‘WriteXLS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘WriteXLS’ as ‘WriteXLS_6.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (WriteXLS)
+* installing *source* package ‘enrichR’ ...
+** package ‘enrichR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘enrichR’ as ‘enrichR_3.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (enrichR)
+* installing *source* package ‘TDbasedUFEadv’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TDbasedUFEadv’ as ‘TDbasedUFEadv_1.0.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (TDbasedUFEadv)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDsnxeU/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	4m11.040s
+user	4m5.287s
+sys	0m4.607s
