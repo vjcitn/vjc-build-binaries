@@ -25,9 +25,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ANCOMBC": [
-        "mia"
-    ],
+    "ANCOMBC": [],
     "annotatr": [
         "regioneR"
     ],
@@ -57,8 +55,7 @@
     "BASiCStan": [],
     "BEclear": [],
     "benchdamic": [
-        "ANCOMBC",
-        "mia"
+        "ANCOMBC"
     ],
     "BGmix": [],
     "bgx": [],
@@ -496,13 +493,9 @@
         "ensembldb"
     ],
     "methylumi": [],
-    "mia": [],
-    "miaViz": [
-        "mia"
-    ],
+    "miaViz": [],
     "microbiomeMarker": [
-        "ANCOMBC",
-        "mia"
+        "ANCOMBC"
     ],
     "mimager": [
         "oligo",
