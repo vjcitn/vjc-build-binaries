@@ -282,10 +282,7 @@
         "CATALYST",
         "FlowSOM"
     ],
-    "cytomapper": [],
-    "cytoviewer": [
-        "cytomapper"
-    ],
+    "cytoviewer": [],
     "deconvR": [
         "minfi"
     ],
@@ -461,9 +458,7 @@
     "ideal": [],
     "IgGeneUsage": [],
     "IMAS": [],
-    "imcRtools": [
-        "cytomapper"
-    ],
+    "imcRtools": [],
     "infinityFlow": [],
     "intansv": [
         "biovizBase",
@@ -879,9 +874,7 @@
         "ensembldb"
     ],
     "SigsPack": [],
-    "simpleSeg": [
-        "cytomapper"
-    ],
+    "simpleSeg": [],
     "singleCellTK": [
         "M3Drop",
         "celda",
