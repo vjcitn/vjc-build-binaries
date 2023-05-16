@@ -271,7 +271,6 @@
         "densvis",
         "scater"
     ],
-    "cellHTS2": [],
     "CelliD": [
         "densvis",
         "scater"
@@ -773,9 +772,7 @@
         "NanoStringNCTools"
     ],
     "GeoTcgaData": [],
-    "gespeR": [
-        "cellHTS2"
-    ],
+    "gespeR": [],
     "ggbio": [
         "OrganismDbi",
         "VariantAnnotation",
@@ -1433,9 +1430,7 @@
     "rnaEditr": [
         "bumphunter"
     ],
-    "RNAinteract": [
-        "cellHTS2"
-    ],
+    "RNAinteract": [],
     "RNAmodR": [
         "Gviz",
         "VariantAnnotation",
@@ -1696,9 +1691,7 @@
         "RUVSeq",
         "SpatialExperiment"
     ],
-    "staRank": [
-        "cellHTS2"
-    ],
+    "staRank": [],
     "stJoincount": [
         "SpatialExperiment"
     ],
