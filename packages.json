@@ -691,7 +691,6 @@
         "ensembldb"
     ],
     "sccomp": [],
-    "scDblFinder": [],
     "scFeatures": [
         "ensembldb"
     ],
@@ -729,7 +728,6 @@
     "singleCellTK": [
         "M3Drop",
         "ensembldb",
-        "scDblFinder",
         "scMerge"
     ],
     "SingleMoleculeFootprinting": [],
