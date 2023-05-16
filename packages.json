@@ -470,7 +470,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "CSSQ": [],
     "CTSV": [
         "SpatialExperiment"
     ],
