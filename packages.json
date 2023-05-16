@@ -297,7 +297,6 @@
     "deconvR": [
         "minfi"
     ],
-    "deepSNV": [],
     "DeMixT": [],
     "derfinder": [
         "GenomicFiles"
@@ -631,9 +630,7 @@
         "methylumi",
         "minfi"
     ],
-    "mitoClone2": [
-        "deepSNV"
-    ],
+    "mitoClone2": [],
     "MMAPPR2": [
         "VariantTools",
         "ensemblVEP",
