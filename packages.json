@@ -315,9 +315,7 @@
         "SGSeq"
     ],
     "CiteFuse": [],
-    "clipper": [
-        "qpgraph"
-    ],
+    "clipper": [],
     "clusterExperiment": [],
     "cn.farms": [
         "oligo",
@@ -1171,7 +1169,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "qpgraph": [],
     "qsmooth": [],
     "qsvaR": [],
     "quantro": [
