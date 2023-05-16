@@ -181,7 +181,6 @@
         "ensembldb",
         "regioneR"
     ],
-    "ChIPQC": [],
     "ChIPXpress": [
         "frma",
         "oligo",
