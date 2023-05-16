@@ -1115,9 +1115,7 @@
     ],
     "PloGO2": [],
     "ppcseq": [],
-    "preciseTAD": [
-        "rCGH"
-    ],
+    "preciseTAD": [],
     "primirTSS": [
         "Gviz",
         "VariantAnnotation",
@@ -1185,7 +1183,6 @@
     "Rbec": [],
     "RCAS": [],
     "RCASPAR": [],
-    "rCGH": [],
     "RcisTarget": [],
     "RcwlPipelines": [],
     "ReactomePA": [],
