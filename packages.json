@@ -472,10 +472,8 @@
     ],
     "COTAN": [],
     "cpvSNP": [],
-    "crisprBowtie": [],
     "crisprDesign": [
         "VariantAnnotation",
-        "crisprBowtie",
         "crisprScore"
     ],
     "crisprScore": [],
@@ -489,7 +487,6 @@
         "Gviz",
         "VariantAnnotation",
         "biovizBase",
-        "crisprBowtie",
         "crisprDesign",
         "crisprScore",
         "crisprViz",
@@ -499,7 +496,6 @@
         "Gviz",
         "VariantAnnotation",
         "biovizBase",
-        "crisprBowtie",
         "crisprDesign",
         "crisprScore",
         "ensembldb"
