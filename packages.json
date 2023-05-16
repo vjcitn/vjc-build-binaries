@@ -669,8 +669,7 @@
     ],
     "enrichTF": [
         "clusterProfiler",
-        "motifmatchr",
-        "pipeFrame"
+        "motifmatchr"
     ],
     "ensembldb": [],
     "ensemblVEP": [
@@ -726,8 +725,7 @@
     "esATAC": [
         "ChIPseeker",
         "clusterProfiler",
-        "motifmatchr",
-        "pipeFrame"
+        "motifmatchr"
     ],
     "escheR": [
         "SpatialExperiment",
@@ -1352,7 +1350,6 @@
         "densvis",
         "scater"
     ],
-    "pipeFrame": [],
     "PloGO2": [
         "GOstats"
     ],
