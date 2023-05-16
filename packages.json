@@ -1021,7 +1021,6 @@
     "NanoMethViz": [],
     "NanoStringNCTools": [],
     "ndexr": [],
-    "nearBynding": [],
     "netSmooth": [
         "clusterExperiment",
         "scater"
