@@ -791,7 +791,6 @@
     "HiCDOC": [],
     "hierGWAS": [],
     "HiLDA": [],
-    "hiReadsProcessor": [],
     "HTSeqGenie": [
         "VariantAnnotation",
         "VariantTools",
