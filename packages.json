@@ -18,9 +18,7 @@
     "ASpli": [
         "Gviz"
     ],
-    "ATACseqQC": [
-        "ChIPpeakAnno"
-    ],
+    "ATACseqQC": [],
     "BANDITS": [
         "DRIMSeq"
     ],
@@ -70,7 +68,6 @@
         "Gviz"
     ],
     "ChIPexoQual": [],
-    "ChIPpeakAnno": [],
     "ChIPXpress": [
         "frma",
         "oligo"
@@ -108,7 +105,6 @@
     ],
     "COTAN": [],
     "crisprseekplus": [
-        "ChIPpeakAnno",
         "GUIDEseq"
     ],
     "crisprVerse": [
@@ -134,9 +130,7 @@
     "derfinderPlot": [
         "ggbio"
     ],
-    "DEScan2": [
-        "ChIPpeakAnno"
-    ],
+    "DEScan2": [],
     "diffcyt": [],
     "DifferentialRegulation": [
         "BANDITS",
@@ -191,9 +185,7 @@
     "ggbio": [],
     "gmapR": [],
     "GRENITS": [],
-    "GUIDEseq": [
-        "ChIPpeakAnno"
-    ],
+    "GUIDEseq": [],
     "Gviz": [],
     "HiCDCPlus": [
         "GenomicInteractions",
@@ -252,7 +244,6 @@
     ],
     "NADfinder": [
         "ATACseqQC",
-        "ChIPpeakAnno",
         "Gviz",
         "trackViewer"
     ],
@@ -285,9 +276,7 @@
     "Rbec": [],
     "RcisTarget": [],
     "rebook": [],
-    "REDseq": [
-        "ChIPpeakAnno"
-    ],
+    "REDseq": [],
     "regutools": [
         "Gviz"
     ],
@@ -389,9 +378,7 @@
     "Voyager": [
         "SpatialFeatureExperiment"
     ],
-    "vulcan": [
-        "ChIPpeakAnno"
-    ],
+    "vulcan": [],
     "YAPSA": [
         "SomaticSignatures",
         "ggbio"

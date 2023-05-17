@@ -1,0 +1,77 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ChIPpeakAnno'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'ChIPpeakAnno'
+also installing the dependency ‘VennDiagram’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/VennDiagram_1.7.3.tar.gz'
+Content type 'binary/octet-stream' length 79145 bytes (77 KB)
+==================================================
+downloaded 77 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ChIPpeakAnno_3.34.1.tar.gz'
+Content type 'application/x-gzip' length 19312328 bytes (18.4 MB)
+==================================================
+downloaded 18.4 MB
+
+* installing *source* package ‘VennDiagram’ ...
+** package ‘VennDiagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VennDiagram’ as ‘VennDiagram_1.7.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (VennDiagram)
+* installing *source* package ‘ChIPpeakAnno’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘annoGR’ with signature ‘"EnsDb"’: no definition for class “EnsDb”
+in method for ‘toGRanges’ with signature ‘"EnsDb"’: no definition for class “EnsDb”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ChIPpeakAnno’ as ‘ChIPpeakAnno_3.34.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ChIPpeakAnno)
+
+The downloaded source packages are in
+	‘/tmp/RtmpaUteqG/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	14m13.001s
+user	14m2.191s
+sys	0m6.380s
+* installing *source* package ‘BSgenome.Celegans.UCSC.ce10’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Celegans.UCSC.ce10’ as ‘BSgenome.Celegans.UCSC.ce10_1.4.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (BSgenome.Celegans.UCSC.ce10)
