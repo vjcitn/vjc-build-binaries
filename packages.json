@@ -172,7 +172,6 @@
         "BANDITS",
         "DRIMSeq"
     ],
-    "diffUTR": [],
     "DMRcate": [
         "Gviz",
         "biovizBase"
