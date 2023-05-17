@@ -165,11 +165,11 @@ packaged installation of ‘MEAT’ as ‘MEAT_1.12.0_R_aarch64-unknown-linux-gn
 * DONE (MEAT)
 
 The downloaded source packages are in
-	‘/tmp/Rtmpg44KZc/downloaded_packages’
+	‘/tmp/RtmpyvMR27/downloaded_packages’
 Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
   'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
   'class', 'KernSmooth', 'MASS', 'nnet'
 
-real	36m29.991s
-user	35m59.903s
-sys	0m25.435s
+real	22m38.401s
+user	22m15.908s
+sys	0m15.132s
