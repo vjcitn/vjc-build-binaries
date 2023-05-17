@@ -74,11 +74,8 @@
         "Gviz",
         "biovizBase"
     ],
-    "CATALYST": [
-        "FlowSOM"
-    ],
+    "CATALYST": [],
     "censcyt": [
-        "FlowSOM",
         "diffcyt"
     ],
     "ChAMP": [
@@ -161,12 +158,10 @@
         "biovizBase"
     ],
     "CyTOFpower": [
-        "FlowSOM",
         "diffcyt"
     ],
     "cytofQC": [
-        "CATALYST",
-        "FlowSOM"
+        "CATALYST"
     ],
     "derfinderPlot": [
         "biovizBase",
@@ -175,9 +170,7 @@
     "DEScan2": [
         "ChIPpeakAnno"
     ],
-    "diffcyt": [
-        "FlowSOM"
-    ],
+    "diffcyt": [],
     "DifferentialRegulation": [
         "BANDITS",
         "DRIMSeq"
@@ -228,7 +221,6 @@
         "biovizBase",
         "ggbio"
     ],
-    "FlowSOM": [],
     "frma": [
         "oligo"
     ],
@@ -301,9 +293,7 @@
         "biovizBase"
     ],
     "MetaboSignal": [],
-    "MetaCyto": [
-        "FlowSOM"
-    ],
+    "MetaCyto": [],
     "metagene": [],
     "methylPipe": [
         "Gviz",
@@ -480,7 +470,6 @@
         "biovizBase"
     ],
     "treekoR": [
-        "FlowSOM",
         "diffcyt"
     ],
     "tscR": [],
