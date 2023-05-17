@@ -65,9 +65,7 @@
     ],
     "motifbreakR": [],
     "msgbsR": [],
-    "NADfinder": [
-        "trackViewer"
-    ],
+    "NADfinder": [],
     "omada": [],
     "OmicsLonDA": [],
     "PING": [],
@@ -107,7 +105,6 @@
     "SPLINTER": [],
     "stJoincount": [],
     "TileDBArray": [],
-    "trackViewer": [],
     "tscR": [],
     "TVTB": [],
     "uncoverappLib": [],
