@@ -74,10 +74,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "BufferedMatrix": [],
-    "BufferedMatrixMethods": [
-        "BufferedMatrix"
-    ],
+    "BufferedMatrixMethods": [],
     "BUSpaRse": [
         "ensembldb"
     ],
