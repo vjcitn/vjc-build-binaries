@@ -8,7 +8,6 @@
     ],
     "AllelicImbalance": [],
     "ASpli": [],
-    "ATACseqQC": [],
     "BANDITS": [
         "DRIMSeq"
     ],
@@ -116,7 +115,6 @@
     "msgbsR": [],
     "multicrispr": [],
     "NADfinder": [
-        "ATACseqQC",
         "trackViewer"
     ],
     "OGRE": [],
