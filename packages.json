@@ -48,7 +48,6 @@
         "GenomicInteractions",
         "Gviz"
     ],
-    "CATALYST": [],
     "censcyt": [],
     "ChAMP": [
         "DMRcate",
@@ -101,9 +100,7 @@
         "Gviz"
     ],
     "CyTOFpower": [],
-    "cytofQC": [
-        "CATALYST"
-    ],
+    "cytofQC": [],
     "derfinderPlot": [
         "ggbio"
     ],
