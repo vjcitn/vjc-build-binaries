@@ -7,7 +7,6 @@
         "ggbio",
         "oligoClasses"
     ],
-    "aggregateBioVar": [],
     "AgiMicroRna": [
         "ReportingTools",
         "affycoretools",
