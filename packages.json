@@ -41,18 +41,13 @@
         "Rhisat2"
     ],
     "cn.farms": [],
-    "CNVfilteR": [
-        "CopyNumberPlots"
-    ],
-    "CNViz": [
-        "CopyNumberPlots"
-    ],
+    "CNVfilteR": [],
+    "CNViz": [],
     "comapr": [],
     "coMET": [],
     "compEpiTools": [
         "methylPipe"
     ],
-    "CopyNumberPlots": [],
     "COTAN": [],
     "crisprseekplus": [],
     "crisprVerse": [
