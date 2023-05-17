@@ -507,9 +507,7 @@
     ],
     "NanoStringNCTools": [],
     "ndexr": [],
-    "netZooR": [
-        "yarn"
-    ],
+    "netZooR": [],
     "OGRE": [
         "Gviz",
         "biovizBase",
@@ -764,6 +762,5 @@
         "ensembldb",
         "ggbio"
     ],
-    "yarn": [],
     "ZygosityPredictor": []
 }
