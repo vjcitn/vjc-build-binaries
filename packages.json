@@ -1,9 +1,6 @@
 {
-    "affycoretools": [
-        "ReportingTools"
-    ],
+    "affycoretools": [],
     "AgiMicroRna": [
-        "ReportingTools",
         "affycoretools"
     ],
     "BANDITS": [
@@ -55,7 +52,6 @@
     "Rbec": [],
     "RcisTarget": [],
     "rebook": [],
-    "ReportingTools": [],
     "Rhisat2": [],
     "RiboDiPA": [],
     "RNAmodR": [],
