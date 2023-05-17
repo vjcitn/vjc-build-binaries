@@ -17,13 +17,10 @@
         "derfinderPlot"
     ],
     "CAFE": [],
-    "CAGEfightR": [
-        "GenomicInteractions"
-    ],
+    "CAGEfightR": [],
     "cageminer": [],
     "CAGEr": [
-        "CAGEfightR",
-        "GenomicInteractions"
+        "CAGEfightR"
     ],
     "ChAMP": [],
     "ChIC": [],
@@ -47,17 +44,12 @@
     "DRIMSeq": [],
     "ELMER": [],
     "epimutacions": [],
-    "extraChIPs": [
-        "GenomicInteractions"
-    ],
+    "extraChIPs": [],
     "FLAMES": [],
-    "GenomicInteractions": [],
     "GenomicOZone": [],
     "gmapR": [],
     "GRENITS": [],
-    "HiCDCPlus": [
-        "GenomicInteractions"
-    ],
+    "HiCDCPlus": [],
     "HTSeqGenie": [
         "gmapR"
     ],
@@ -116,9 +108,7 @@
         "scMerge"
     ],
     "SomaticSignatures": [],
-    "spatzie": [
-        "GenomicInteractions"
-    ],
+    "spatzie": [],
     "SPLINTER": [],
     "stJoincount": [],
     "TileDBArray": [],
