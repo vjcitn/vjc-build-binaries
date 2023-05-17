@@ -635,7 +635,6 @@
         "ensembldb",
         "scMerge"
     ],
-    "skewr": [],
     "SomaticSignatures": [
         "biovizBase",
         "ensembldb",
