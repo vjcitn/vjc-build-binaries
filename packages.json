@@ -93,9 +93,7 @@
     "mCSEA": [],
     "MEAL": [],
     "methylPipe": [],
-    "MinimumDistance": [
-        "VanillaICE"
-    ],
+    "MinimumDistance": [],
     "MMAPPR2": [
         "gmapR"
     ],
@@ -156,7 +154,6 @@
     "tscR": [],
     "TVTB": [],
     "uncoverappLib": [],
-    "VanillaICE": [],
     "VariantFiltering": [],
     "Voyager": [],
     "YAPSA": [
