@@ -52,9 +52,7 @@
     "benchdamic": [],
     "BGmix": [],
     "bgx": [],
-    "bigmelon": [
-        "wateRmelon"
-    ],
+    "bigmelon": [],
     "BindingSiteFinder": [
         "Gviz",
         "biovizBase",
@@ -124,8 +122,7 @@
         "DMRcate",
         "Gviz",
         "biovizBase",
-        "ensembldb",
-        "wateRmelon"
+        "ensembldb"
     ],
     "ChIC": [],
     "chihaya": [],
@@ -419,9 +416,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "MEAT": [
-        "wateRmelon"
-    ],
+    "MEAT": [],
     "MetaboSignal": [
         "ensembldb"
     ],
@@ -648,9 +643,7 @@
         "ensembldb",
         "scMerge"
     ],
-    "skewr": [
-        "wateRmelon"
-    ],
+    "skewr": [],
     "SomaticSignatures": [
         "biovizBase",
         "ensembldb",
@@ -723,7 +716,6 @@
         "ensembldb",
         "regioneR"
     ],
-    "wateRmelon": [],
     "YAPSA": [
         "SomaticSignatures",
         "biovizBase",
