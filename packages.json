@@ -13,9 +13,7 @@
     "BASiCStan": [],
     "BGmix": [],
     "BOBaFIT": [],
-    "brainflowprobes": [
-        "derfinderPlot"
-    ],
+    "brainflowprobes": [],
     "CAGEfightR": [],
     "cageminer": [],
     "CAGEr": [
@@ -32,7 +30,6 @@
     "compEpiTools": [],
     "COTAN": [],
     "crisprVerse": [],
-    "derfinderPlot": [],
     "DifferentialRegulation": [
         "BANDITS",
         "DRIMSeq"
