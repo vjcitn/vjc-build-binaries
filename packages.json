@@ -34,9 +34,7 @@
     ],
     "CNVfilteR": [],
     "CNViz": [],
-    "compEpiTools": [
-        "methylPipe"
-    ],
+    "compEpiTools": [],
     "COTAN": [],
     "crisprseekplus": [],
     "crisprVerse": [],
@@ -73,7 +71,6 @@
     "MAGAR": [],
     "mCSEA": [],
     "MEAL": [],
-    "methylPipe": [],
     "MinimumDistance": [],
     "MMAPPR2": [
         "gmapR"
