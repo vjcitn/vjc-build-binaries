@@ -54,9 +54,7 @@
     ],
     "CopyNumberPlots": [],
     "COTAN": [],
-    "crisprseekplus": [
-        "GUIDEseq"
-    ],
+    "crisprseekplus": [],
     "crisprVerse": [
         "crisprViz"
     ],
@@ -86,7 +84,6 @@
     "GeoDiff": [],
     "gmapR": [],
     "GRENITS": [],
-    "GUIDEseq": [],
     "HiCDCPlus": [
         "GenomicInteractions"
     ],
