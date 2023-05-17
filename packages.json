@@ -27,9 +27,7 @@
         "GenomicInteractions"
     ],
     "censcyt": [],
-    "ChAMP": [
-        "DMRcate"
-    ],
+    "ChAMP": [],
     "ChIC": [],
     "chimeraviz": [],
     "ChIPXpress": [],
@@ -50,7 +48,6 @@
         "BANDITS",
         "DRIMSeq"
     ],
-    "DMRcate": [],
     "DMRforPairs": [],
     "DRIMSeq": [],
     "ELMER": [],
