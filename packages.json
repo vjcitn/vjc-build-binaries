@@ -73,14 +73,11 @@
         "M3Drop",
         "scMerge"
     ],
-    "SomaticSignatures": [],
     "spatzie": [],
     "stJoincount": [],
     "TileDBArray": [],
     "tscR": [],
     "uncoverappLib": [],
-    "YAPSA": [
-        "SomaticSignatures"
-    ],
+    "YAPSA": [],
     "ZygosityPredictor": []
 }
