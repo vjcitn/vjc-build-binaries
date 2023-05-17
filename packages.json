@@ -326,7 +326,6 @@
     "GeomxTools": [
         "NanoStringNCTools"
     ],
-    "GeoTcgaData": [],
     "ggbio": [
         "biovizBase",
         "ensembldb"
