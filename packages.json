@@ -90,7 +90,6 @@
         "Gviz",
         "methylPipe"
     ],
-    "consensusDE": [],
     "CopyNumberPlots": [
         "karyoploteR"
     ],
