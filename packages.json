@@ -308,7 +308,6 @@
         "FlowSOM"
     ],
     "metagene": [],
-    "methylclock": [],
     "methylPipe": [
         "Gviz",
         "biovizBase"
