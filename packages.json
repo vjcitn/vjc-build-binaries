@@ -196,16 +196,10 @@
         "Gviz",
         "biovizBase"
     ],
-    "epivizr": [
-        "epivizrData"
-    ],
-    "epivizrChart": [
-        "epivizrData"
-    ],
-    "epivizrData": [],
+    "epivizr": [],
+    "epivizrChart": [],
     "epivizrStandalone": [
-        "epivizr",
-        "epivizrData"
+        "epivizr"
     ],
     "extraChIPs": [
         "GenomicInteractions",
@@ -428,8 +422,7 @@
         "schex"
     ],
     "scTreeViz": [
-        "epivizr",
-        "epivizrData"
+        "epivizr"
     ],
     "signifinder": [],
     "singleCellTK": [
