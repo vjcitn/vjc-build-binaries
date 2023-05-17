@@ -421,7 +421,6 @@
         "ensembldb"
     ],
     "methylclock": [],
-    "methylGSA": [],
     "methylPipe": [
         "Gviz",
         "biovizBase",
