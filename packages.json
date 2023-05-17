@@ -714,7 +714,6 @@
         "ensembldb"
     ],
     "stJoincount": [],
-    "svaRetro": [],
     "TileDBArray": [],
     "trackViewer": [
         "Gviz",
