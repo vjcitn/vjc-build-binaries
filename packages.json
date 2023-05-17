@@ -125,7 +125,6 @@
         "Gviz",
         "biovizBase",
         "ensembldb",
-        "missMethyl",
         "wateRmelon"
     ],
     "ChIC": [],
@@ -261,8 +260,7 @@
     "DMRcate": [
         "Gviz",
         "biovizBase",
-        "ensembldb",
-        "missMethyl"
+        "ensembldb"
     ],
     "DMRforPairs": [
         "Gviz",
@@ -419,8 +417,7 @@
     "MEAL": [
         "Gviz",
         "biovizBase",
-        "ensembldb",
-        "missMethyl"
+        "ensembldb"
     ],
     "MEAT": [
         "wateRmelon"
@@ -435,9 +432,7 @@
         "ensembldb"
     ],
     "methylclock": [],
-    "methylGSA": [
-        "missMethyl"
-    ],
+    "methylGSA": [],
     "methylPipe": [
         "Gviz",
         "biovizBase",
@@ -454,7 +449,6 @@
         "crlmm",
         "oligoClasses"
     ],
-    "missMethyl": [],
     "MMAPPR2": [
         "gmapR"
     ],
