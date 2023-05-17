@@ -583,7 +583,6 @@
     "RLSeq": [
         "regioneR"
     ],
-    "RNAAgeCalc": [],
     "RNAmodR": [
         "Gviz",
         "biovizBase",
