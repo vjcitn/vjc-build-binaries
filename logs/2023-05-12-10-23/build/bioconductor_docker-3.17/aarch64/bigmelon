@@ -32,14 +32,14 @@ packaged installation of ‘bigmelon’ as ‘bigmelon_1.26.0_R_aarch64-unknown-
 * DONE (bigmelon)
 
 The downloaded source packages are in
-	‘/tmp/RtmpXWqdjd/downloaded_packages’
+	‘/tmp/RtmpvCuyq2/downloaded_packages’
 Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
   'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
   'class', 'KernSmooth', 'MASS', 'nnet'
 
-real	9m14.976s
-user	9m6.514s
-sys	0m5.548s
+real	8m4.324s
+user	7m56.768s
+sys	0m4.786s
 * installing *source* package ‘IlluminaHumanMethylation450kmanifest’ ...
 ** using staged installation
 ** data
