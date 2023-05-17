@@ -73,12 +73,10 @@
     ],
     "cn.farms": [],
     "CNVfilteR": [
-        "CopyNumberPlots",
-        "karyoploteR"
+        "CopyNumberPlots"
     ],
     "CNViz": [
-        "CopyNumberPlots",
-        "karyoploteR"
+        "CopyNumberPlots"
     ],
     "comapr": [
         "Gviz"
@@ -90,9 +88,7 @@
         "Gviz",
         "methylPipe"
     ],
-    "CopyNumberPlots": [
-        "karyoploteR"
-    ],
+    "CopyNumberPlots": [],
     "COTAN": [],
     "crisprseekplus": [
         "GUIDEseq"
@@ -178,7 +174,6 @@
         "DRIMSeq"
     ],
     "ITALICS": [],
-    "karyoploteR": [],
     "M3Drop": [],
     "MAGAR": [],
     "maser": [
@@ -206,9 +201,7 @@
     "msgbsR": [
         "ggbio"
     ],
-    "multicrispr": [
-        "karyoploteR"
-    ],
+    "multicrispr": [],
     "NADfinder": [
         "ATACseqQC",
         "Gviz",
@@ -250,9 +243,7 @@
     "RiboProfiling": [
         "ggbio"
     ],
-    "RIPAT": [
-        "karyoploteR"
-    ],
+    "RIPAT": [],
     "RNAmodR": [
         "Gviz"
     ],
