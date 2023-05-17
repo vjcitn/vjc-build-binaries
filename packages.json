@@ -2,15 +2,13 @@
     "affycoretools": [
         "ReportingTools",
         "biovizBase",
-        "ggbio",
-        "oligoClasses"
+        "ggbio"
     ],
     "AgiMicroRna": [
         "ReportingTools",
         "affycoretools",
         "biovizBase",
-        "ggbio",
-        "oligoClasses"
+        "ggbio"
     ],
     "alabaster": [],
     "AllelicImbalance": [
@@ -19,8 +17,7 @@
     ],
     "annotatr": [],
     "ArrayExpress": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "ASpli": [
         "Gviz",
@@ -101,8 +98,7 @@
     "ChIPpeakAnno": [],
     "ChIPXpress": [
         "frma",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "cicero": [
         "Gviz",
@@ -112,8 +108,7 @@
         "Rhisat2"
     ],
     "cn.farms": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "CNVfilteR": [
         "CopyNumberPlots",
@@ -158,12 +153,9 @@
         "Gviz",
         "biovizBase"
     ],
-    "crlmm": [
-        "oligoClasses"
-    ],
+    "crlmm": [],
     "crossmeta": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "cummeRbund": [
         "Gviz",
@@ -207,8 +199,7 @@
     "drugTargetInteractions": [],
     "DrugVsDisease": [
         "ArrayExpress",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "ELMER": [
         "Gviz",
@@ -241,8 +232,7 @@
     ],
     "FlowSOM": [],
     "frma": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "GeneStructureTools": [
         "Gviz",
@@ -291,24 +281,20 @@
         "tximeta"
     ],
     "ITALICS": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "karyoploteR": [
         "biovizBase"
     ],
     "M3Drop": [],
     "MAGAR": [
-        "crlmm",
-        "oligoClasses"
+        "crlmm"
     ],
     "maser": [
         "Gviz",
         "biovizBase"
     ],
-    "mBPCR": [
-        "oligoClasses"
-    ],
+    "mBPCR": [],
     "mCSEA": [
         "Gviz",
         "biovizBase"
@@ -328,13 +314,11 @@
         "biovizBase"
     ],
     "mimager": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "MinimumDistance": [
         "VanillaICE",
-        "crlmm",
-        "oligoClasses"
+        "crlmm"
     ],
     "MMAPPR2": [
         "gmapR"
@@ -363,15 +347,11 @@
         "Gviz",
         "biovizBase"
     ],
-    "oligo": [
-        "oligoClasses"
-    ],
-    "oligoClasses": [],
+    "oligo": [],
     "omada": [],
     "OmicsLonDA": [],
     "pdInfoBuilder": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "PhenStat": [],
     "PING": [
@@ -385,8 +365,7 @@
     ],
     "proteasy": [],
     "puma": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "Pviz": [
         "Gviz",
@@ -447,8 +426,7 @@
         "biovizBase"
     ],
     "SCAN.UPC": [
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "scanMiRApp": [],
     "sccomp": [],
@@ -522,8 +500,7 @@
         "biovizBase"
     ],
     "VanillaICE": [
-        "crlmm",
-        "oligoClasses"
+        "crlmm"
     ],
     "VariantFiltering": [
         "Gviz",
