@@ -420,9 +420,7 @@
     "MMAPPR2": [
         "gmapR"
     ],
-    "mosbi": [
-        "QUBIC"
-    ],
+    "mosbi": [],
     "motifbreakR": [
         "Gviz",
         "biovizBase",
@@ -489,7 +487,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "QUBIC": [],
     "R3CPET": [
         "biovizBase",
         "ensembldb",
