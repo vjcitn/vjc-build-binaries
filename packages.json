@@ -608,7 +608,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "RnaSeqSampleSize": [],
     "RnBeads": [],
     "Rqc": [
         "biovizBase",
