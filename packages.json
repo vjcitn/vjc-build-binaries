@@ -263,7 +263,6 @@
     "SCAN.UPC": [],
     "sccomp": [],
     "scFeatures": [],
-    "schex": [],
     "scMerge": [
         "M3Drop"
     ],
@@ -272,12 +271,8 @@
     "scruff": [
         "ggbio"
     ],
-    "scTensor": [
-        "schex"
-    ],
-    "scTGIF": [
-        "schex"
-    ],
+    "scTensor": [],
+    "scTGIF": [],
     "scTreeViz": [],
     "signifinder": [],
     "singleCellTK": [
