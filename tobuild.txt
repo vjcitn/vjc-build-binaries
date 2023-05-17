@@ -1,3 +1,0 @@
-crisprVerse
-compEpiTools
-ChAMP
