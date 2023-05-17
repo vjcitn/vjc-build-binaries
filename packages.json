@@ -165,10 +165,7 @@
     "GenomicOZone": [
         "ggbio"
     ],
-    "GeoDiff": [
-        "GeomxTools"
-    ],
-    "GeomxTools": [],
+    "GeoDiff": [],
     "ggbio": [],
     "gmapR": [],
     "GRENITS": [],
@@ -309,13 +306,9 @@
     "SomaticSignatures": [
         "ggbio"
     ],
-    "SpatialDecon": [
-        "GeomxTools"
-    ],
+    "SpatialDecon": [],
     "SpatialFeatureExperiment": [],
-    "SpatialOmicsOverlay": [
-        "GeomxTools"
-    ],
+    "SpatialOmicsOverlay": [],
     "spatzie": [
         "GenomicInteractions",
         "Gviz"
