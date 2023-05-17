@@ -151,7 +151,6 @@
     ],
     "dmrseq": [],
     "DRIMSeq": [],
-    "drugTargetInteractions": [],
     "DrugVsDisease": [
         "ArrayExpress",
         "oligo"
