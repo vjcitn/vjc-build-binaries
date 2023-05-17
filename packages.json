@@ -15,7 +15,6 @@
         "Gviz",
         "biovizBase"
     ],
-    "annotatr": [],
     "ArrayExpress": [
         "oligo"
     ],
@@ -38,7 +37,6 @@
     ],
     "biovizBase": [],
     "biscuiteer": [
-        "annotatr",
         "dmrseq"
     ],
     "BOBaFIT": [
@@ -184,9 +182,7 @@
         "Gviz",
         "biovizBase"
     ],
-    "dmrseq": [
-        "annotatr"
-    ],
+    "dmrseq": [],
     "DRIMSeq": [],
     "drugTargetInteractions": [],
     "DrugVsDisease": [
@@ -421,9 +417,7 @@
         "M3Drop"
     ],
     "scMET": [],
-    "scmeth": [
-        "annotatr"
-    ],
+    "scmeth": [],
     "scruff": [
         "biovizBase",
         "ggbio"
