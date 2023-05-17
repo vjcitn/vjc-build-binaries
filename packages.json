@@ -12,10 +12,7 @@
         "ggbio",
         "oligoClasses"
     ],
-    "alabaster": [
-        "alabaster.mae"
-    ],
-    "alabaster.mae": [],
+    "alabaster": [],
     "AllelicImbalance": [
         "Gviz",
         "biovizBase"
