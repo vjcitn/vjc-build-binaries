@@ -505,7 +505,6 @@
     "proteasy": [
         "ensembldb"
     ],
-    "psichomics": [],
     "puma": [
         "oligo",
         "oligoClasses"
