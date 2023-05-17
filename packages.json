@@ -291,7 +291,6 @@
         "epivizrData"
     ],
     "erma": [],
-    "ExperimentSubset": [],
     "extraChIPs": [
         "GenomicInteractions",
         "Gviz",
