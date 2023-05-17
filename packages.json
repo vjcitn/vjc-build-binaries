@@ -36,9 +36,7 @@
     ],
     "ChIC": [],
     "chimeraviz": [],
-    "ChIPXpress": [
-        "frma"
-    ],
+    "ChIPXpress": [],
     "cicero": [],
     "CircSeqAlignTk": [
         "Rhisat2"
@@ -85,7 +83,6 @@
         "GenomicInteractions"
     ],
     "FLAMES": [],
-    "frma": [],
     "GeneStructureTools": [],
     "GenomicInteractions": [],
     "GenomicOZone": [],
