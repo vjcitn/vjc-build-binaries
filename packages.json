@@ -12,9 +12,7 @@
     "AllelicImbalance": [
         "Gviz"
     ],
-    "ArrayExpress": [
-        "oligo"
-    ],
+    "ArrayExpress": [],
     "ASpli": [
         "Gviz"
     ],
@@ -69,8 +67,7 @@
     ],
     "ChIPexoQual": [],
     "ChIPXpress": [
-        "frma",
-        "oligo"
+        "frma"
     ],
     "cicero": [
         "Gviz"
@@ -78,9 +75,7 @@
     "CircSeqAlignTk": [
         "Rhisat2"
     ],
-    "cn.farms": [
-        "oligo"
-    ],
+    "cn.farms": [],
     "CNVfilteR": [
         "CopyNumberPlots",
         "karyoploteR"
@@ -115,9 +110,7 @@
         "Gviz"
     ],
     "crlmm": [],
-    "crossmeta": [
-        "oligo"
-    ],
+    "crossmeta": [],
     "cummeRbund": [
         "Gviz"
     ],
@@ -145,8 +138,7 @@
     "dmrseq": [],
     "DRIMSeq": [],
     "DrugVsDisease": [
-        "ArrayExpress",
-        "oligo"
+        "ArrayExpress"
     ],
     "ELMER": [
         "Gviz"
@@ -166,9 +158,7 @@
     "FLAMES": [
         "ggbio"
     ],
-    "frma": [
-        "oligo"
-    ],
+    "frma": [],
     "GeneStructureTools": [
         "Gviz"
     ],
@@ -202,9 +192,7 @@
     "IsoformSwitchAnalyzeR": [
         "DRIMSeq"
     ],
-    "ITALICS": [
-        "oligo"
-    ],
+    "ITALICS": [],
     "karyoploteR": [],
     "M3Drop": [],
     "MAGAR": [
@@ -223,9 +211,7 @@
     "methylPipe": [
         "Gviz"
     ],
-    "mimager": [
-        "oligo"
-    ],
+    "mimager": [],
     "MinimumDistance": [
         "VanillaICE",
         "crlmm"
@@ -250,12 +236,9 @@
     "OGRE": [
         "Gviz"
     ],
-    "oligo": [],
     "omada": [],
     "OmicsLonDA": [],
-    "pdInfoBuilder": [
-        "oligo"
-    ],
+    "pdInfoBuilder": [],
     "PhenStat": [],
     "PING": [
         "Gviz"
@@ -264,9 +247,7 @@
     "primirTSS": [
         "Gviz"
     ],
-    "puma": [
-        "oligo"
-    ],
+    "puma": [],
     "Pviz": [
         "Gviz"
     ],
@@ -307,9 +288,7 @@
         "RNAmodR"
     ],
     "Rqc": [],
-    "SCAN.UPC": [
-        "oligo"
-    ],
+    "SCAN.UPC": [],
     "sccomp": [],
     "scFeatures": [],
     "schex": [],
