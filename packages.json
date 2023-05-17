@@ -6,7 +6,6 @@
         "ReportingTools",
         "affycoretools"
     ],
-    "AllelicImbalance": [],
     "ASpli": [],
     "BANDITS": [
         "DRIMSeq"
