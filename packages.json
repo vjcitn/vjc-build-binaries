@@ -397,7 +397,6 @@
         "ensembldb",
         "ggbio"
     ],
-    "IRISFGM": [],
     "IsoformSwitchAnalyzeR": [
         "DRIMSeq",
         "ensembldb",
