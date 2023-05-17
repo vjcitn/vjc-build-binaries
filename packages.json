@@ -430,7 +430,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "microbiomeMarker": [],
     "mimager": [
         "oligo",
         "oligoClasses"
