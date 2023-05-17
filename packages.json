@@ -165,7 +165,6 @@
         "scMerge"
     ],
     "SomaticSignatures": [],
-    "SpatialDecon": [],
     "SpatialOmicsOverlay": [],
     "spatzie": [
         "GenomicInteractions"
