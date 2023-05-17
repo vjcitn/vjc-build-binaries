@@ -1,12 +1,10 @@
 {
     "affycoretools": [
-        "ReportingTools",
-        "ggbio"
+        "ReportingTools"
     ],
     "AgiMicroRna": [
         "ReportingTools",
-        "affycoretools",
-        "ggbio"
+        "affycoretools"
     ],
     "AllelicImbalance": [],
     "ASpli": [],
@@ -19,22 +17,15 @@
     "BGmix": [],
     "BindingSiteFinder": [],
     "biscuiteer": [],
-    "BOBaFIT": [
-        "ggbio"
-    ],
+    "BOBaFIT": [],
     "brainflowprobes": [
-        "derfinderPlot",
-        "ggbio"
+        "derfinderPlot"
     ],
-    "CAFE": [
-        "ggbio"
-    ],
+    "CAFE": [],
     "CAGEfightR": [
         "GenomicInteractions"
     ],
-    "cageminer": [
-        "ggbio"
-    ],
+    "cageminer": [],
     "CAGEr": [
         "CAGEfightR",
         "GenomicInteractions"
@@ -77,9 +68,7 @@
     "cummeRbund": [],
     "CyTOFpower": [],
     "cytofQC": [],
-    "derfinderPlot": [
-        "ggbio"
-    ],
+    "derfinderPlot": [],
     "DEScan2": [],
     "DifferentialRegulation": [
         "BANDITS",
@@ -95,17 +84,12 @@
     "extraChIPs": [
         "GenomicInteractions"
     ],
-    "FLAMES": [
-        "ggbio"
-    ],
+    "FLAMES": [],
     "frma": [],
     "GeneStructureTools": [],
     "GenomicInteractions": [],
-    "GenomicOZone": [
-        "ggbio"
-    ],
+    "GenomicOZone": [],
     "GeoDiff": [],
-    "ggbio": [],
     "gmapR": [],
     "GRENITS": [],
     "GUIDEseq": [],
@@ -116,9 +100,7 @@
         "gmapR"
     ],
     "IgGeneUsage": [],
-    "intansv": [
-        "ggbio"
-    ],
+    "intansv": [],
     "IsoformSwitchAnalyzeR": [
         "DRIMSeq"
     ],
@@ -137,9 +119,7 @@
         "gmapR"
     ],
     "motifbreakR": [],
-    "msgbsR": [
-        "ggbio"
-    ],
+    "msgbsR": [],
     "multicrispr": [],
     "NADfinder": [
         "ATACseqQC",
@@ -153,22 +133,16 @@
     "primirTSS": [],
     "puma": [],
     "Pviz": [],
-    "R3CPET": [
-        "ggbio"
-    ],
+    "R3CPET": [],
     "Rbec": [],
     "RcisTarget": [],
     "rebook": [],
     "REDseq": [],
     "regutools": [],
-    "ReportingTools": [
-        "ggbio"
-    ],
+    "ReportingTools": [],
     "Rhisat2": [],
     "RiboDiPA": [],
-    "RiboProfiling": [
-        "ggbio"
-    ],
+    "RiboProfiling": [],
     "RIPAT": [],
     "RNAmodR": [],
     "RNAmodR.AlkAnilineSeq": [
@@ -188,9 +162,7 @@
         "M3Drop"
     ],
     "scMET": [],
-    "scruff": [
-        "ggbio"
-    ],
+    "scruff": [],
     "scTensor": [],
     "scTGIF": [],
     "scTreeViz": [],
@@ -198,9 +170,7 @@
         "M3Drop",
         "scMerge"
     ],
-    "SomaticSignatures": [
-        "ggbio"
-    ],
+    "SomaticSignatures": [],
     "SpatialDecon": [],
     "SpatialOmicsOverlay": [],
     "spatzie": [
@@ -218,8 +188,7 @@
     "VariantFiltering": [],
     "Voyager": [],
     "YAPSA": [
-        "SomaticSignatures",
-        "ggbio"
+        "SomaticSignatures"
     ],
     "ZygosityPredictor": []
 }
