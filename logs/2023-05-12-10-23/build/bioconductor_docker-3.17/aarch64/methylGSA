@@ -69,11 +69,11 @@ packaged installation of ‘methylGSA’ as ‘methylGSA_1.18.0_R_aarch64-unknow
 * DONE (methylGSA)
 
 The downloaded source packages are in
-	‘/tmp/RtmpABkhl4/downloaded_packages’
+	‘/tmp/RtmpGEe6mD/downloaded_packages’
 Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
   'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
   'class', 'KernSmooth', 'MASS', 'nnet'
 
-real	95m24.377s
-user	94m46.584s
-sys	0m26.592s
+real	77m0.580s
+user	76m26.009s
+sys	0m22.145s
