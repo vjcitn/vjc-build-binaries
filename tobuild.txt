@@ -1,0 +1,5 @@
+GUIDEseq
+DEScan2
+vulcan
+ATACseqQC
+REDseq
