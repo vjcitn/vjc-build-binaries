@@ -1,7 +1,5 @@
 {
-    "BANDITS": [
-        "DRIMSeq"
-    ],
+    "BANDITS": [],
     "banocc": [],
     "BASiCStan": [],
     "BGmix": [],
@@ -11,10 +9,8 @@
     ],
     "COTAN": [],
     "DifferentialRegulation": [
-        "BANDITS",
-        "DRIMSeq"
+        "BANDITS"
     ],
-    "DRIMSeq": [],
     "FLAMES": [],
     "gmapR": [],
     "GRENITS": [],
@@ -22,9 +18,7 @@
         "gmapR"
     ],
     "IgGeneUsage": [],
-    "IsoformSwitchAnalyzeR": [
-        "DRIMSeq"
-    ],
+    "IsoformSwitchAnalyzeR": [],
     "M3Drop": [],
     "MMAPPR2": [
         "gmapR"
