@@ -143,11 +143,8 @@
     "epimutacions": [
         "Gviz"
     ],
-    "epivizr": [],
     "epivizrChart": [],
-    "epivizrStandalone": [
-        "epivizr"
-    ],
+    "epivizrStandalone": [],
     "extraChIPs": [
         "GenomicInteractions",
         "Gviz"
@@ -295,9 +292,7 @@
     "scTGIF": [
         "schex"
     ],
-    "scTreeViz": [
-        "epivizr"
-    ],
+    "scTreeViz": [],
     "signifinder": [],
     "singleCellTK": [
         "M3Drop",
