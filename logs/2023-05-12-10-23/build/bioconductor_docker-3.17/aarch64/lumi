@@ -1,0 +1,108 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''lumi'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'lumi'
+also installing the dependency ‘nleqslv’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/nleqslv_3.3.4.tar.gz'
+Content type 'binary/octet-stream' length 87243 bytes (85 KB)
+==================================================
+downloaded 85 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/lumi_2.52.0.tar.gz'
+Content type 'application/x-gzip' length 8422849 bytes (8.0 MB)
+==================================================
+downloaded 8.0 MB
+
+* installing *source* package ‘nleqslv’ ...
+** package ‘nleqslv’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fPIC  -g -O2  -c lautil.f -o lautil.o
+gfortran  -fPIC  -g -O2  -c limhpar.f -o limhpar.o
+gfortran  -fPIC  -g -O2  -c liqrev.f -o liqrev.o
+gfortran  -fPIC  -g -O2  -c liqrup.f -o liqrup.o
+gfortran  -fPIC  -g -O2  -c lirslv.f -o lirslv.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nleqslv.c -o nleqslv.o
+gfortran  -fPIC  -g -O2  -c nwbjac.f -o nwbjac.o
+gfortran  -fPIC  -g -O2  -c nwbrdn.f -o nwbrdn.o
+gfortran  -fPIC  -g -O2  -c nwclsh.f -o nwclsh.o
+gfortran  -fPIC  -g -O2  -c nwddlg.f -o nwddlg.o
+gfortran  -fPIC  -g -O2  -c nwglsh.f -o nwglsh.o
+gfortran  -fPIC  -g -O2  -c nwmhlm.f -o nwmhlm.o
+gfortran  -fPIC  -g -O2  -c nwnjac.f -o nwnjac.o
+gfortran  -fPIC  -g -O2  -c nwnleq.f -o nwnleq.o
+gfortran  -fPIC  -g -O2  -c nwnwtn.f -o nwnwtn.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nwout.c -o nwout.o
+gfortran  -fPIC  -g -O2  -c nwpdlg.f -o nwpdlg.o
+gfortran  -fPIC  -g -O2  -c nwpure.f -o nwpure.o
+gfortran  -fPIC  -g -O2  -c nwqlsh.f -o nwqlsh.o
+gfortran  -fPIC  -g -O2  -c nwtrup.f -o nwtrup.o
+gfortran  -fPIC  -g -O2  -c nwutil.f -o nwutil.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o nleqslv.so init.o lautil.o limhpar.o liqrev.o liqrup.o lirslv.o nleqslv.o nwbjac.o nwbrdn.o nwclsh.o nwddlg.o nwglsh.o nwmhlm.o nwnjac.o nwnleq.o nwnwtn.o nwout.o nwpdlg.o nwpure.o nwqlsh.o nwtrup.o nwutil.o -llapack -lblas -lgfortran -lm -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-nleqslv/00new/nleqslv/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘nleqslv’ as ‘nleqslv_3.3.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (nleqslv)
+* installing *source* package ‘lumi’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lumi’ as ‘lumi_2.52.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (lumi)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQRqsG6/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	7m18.749s
+user	7m12.474s
+sys	0m5.176s
+* installing *source* package ‘lumiHumanIDMapping’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lumiHumanIDMapping’ as ‘lumiHumanIDMapping_1.10.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (lumiHumanIDMapping)

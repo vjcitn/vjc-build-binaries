@@ -33,9 +33,7 @@
         "oligo",
         "oligoClasses"
     ],
-    "arrayMvout": [
-        "lumi"
-    ],
+    "arrayMvout": [],
     "ASpli": [
         "Gviz",
         "biovizBase",
@@ -58,7 +56,6 @@
     "BGmix": [],
     "bgx": [],
     "bigmelon": [
-        "lumi",
         "wateRmelon"
     ],
     "BindingSiteFinder": [
@@ -131,7 +128,6 @@
         "Gviz",
         "biovizBase",
         "ensembldb",
-        "lumi",
         "missMethyl",
         "wateRmelon"
     ],
@@ -325,9 +321,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ffpe": [
-        "lumi"
-    ],
+    "ffpe": [],
     "FLAMES": [
         "biovizBase",
         "ensembldb",
@@ -386,9 +380,7 @@
     "HTSeqGenie": [
         "gmapR"
     ],
-    "iCheck": [
-        "lumi"
-    ],
+    "iCheck": [],
     "IgGeneUsage": [],
     "infinityFlow": [],
     "intansv": [
@@ -410,7 +402,6 @@
         "ensembldb",
         "regioneR"
     ],
-    "lumi": [],
     "M3Drop": [],
     "MAGAR": [
         "RnBeads",
@@ -437,7 +428,6 @@
         "missMethyl"
     ],
     "MEAT": [
-        "lumi",
         "wateRmelon"
     ],
     "MetaboSignal": [
@@ -465,9 +455,7 @@
         "oligo",
         "oligoClasses"
     ],
-    "MineICA": [
-        "lumi"
-    ],
+    "MineICA": [],
     "MinimumDistance": [
         "VanillaICE",
         "crlmm",
@@ -678,7 +666,6 @@
         "scMerge"
     ],
     "skewr": [
-        "lumi",
         "wateRmelon"
     ],
     "SomaticSignatures": [
@@ -753,9 +740,7 @@
         "ensembldb",
         "regioneR"
     ],
-    "wateRmelon": [
-        "lumi"
-    ],
+    "wateRmelon": [],
     "YAPSA": [
         "SomaticSignatures",
         "biovizBase",
