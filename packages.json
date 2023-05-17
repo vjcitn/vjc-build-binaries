@@ -50,9 +50,7 @@
         "Gviz"
     ],
     "CATALYST": [],
-    "censcyt": [
-        "diffcyt"
-    ],
+    "censcyt": [],
     "ChAMP": [
         "DMRcate",
         "Gviz"
@@ -103,9 +101,7 @@
     "cummeRbund": [
         "Gviz"
     ],
-    "CyTOFpower": [
-        "diffcyt"
-    ],
+    "CyTOFpower": [],
     "cytofQC": [
         "CATALYST"
     ],
@@ -113,7 +109,6 @@
         "ggbio"
     ],
     "DEScan2": [],
-    "diffcyt": [],
     "DifferentialRegulation": [
         "BANDITS",
         "DRIMSeq"
@@ -292,9 +287,7 @@
     "trackViewer": [
         "Gviz"
     ],
-    "treekoR": [
-        "diffcyt"
-    ],
+    "treekoR": [],
     "tscR": [],
     "TVTB": [
         "Gviz"
