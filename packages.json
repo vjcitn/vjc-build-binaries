@@ -281,7 +281,6 @@
         "ggbio"
     ],
     "SpatialDecon": [],
-    "SpatialFeatureExperiment": [],
     "SpatialOmicsOverlay": [],
     "spatzie": [
         "GenomicInteractions",
@@ -309,9 +308,7 @@
     "VariantFiltering": [
         "Gviz"
     ],
-    "Voyager": [
-        "SpatialFeatureExperiment"
-    ],
+    "Voyager": [],
     "vulcan": [],
     "YAPSA": [
         "SomaticSignatures",
