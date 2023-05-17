@@ -1,0 +1,1158 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Voyager'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'Voyager'
+also installing the dependencies ‘RcppEigen’, ‘ggnewscale’, ‘patchwork’, ‘RSpectra’, ‘scico’
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1470560 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/ggnewscale_0.4.8.tar.gz'
+Content type 'binary/octet-stream' length 415707 bytes (405 KB)
+==================================================
+downloaded 405 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/patchwork_1.1.2.tar.gz'
+Content type 'binary/octet-stream' length 3187164 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/RSpectra_0.16-1.tar.gz'
+Content type 'binary/octet-stream' length 126834 bytes (123 KB)
+==================================================
+downloaded 123 KB
+
+trying URL 'https://packagemanager.posit.co/cran/latest/src/contrib/scico_1.3.1.tar.gz'
+Content type 'binary/octet-stream' length 282335 bytes (275 KB)
+==================================================
+downloaded 275 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Voyager_1.2.3.tar.gz'
+Content type 'application/x-gzip' length 4339829 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+* installing *source* package ‘RcppEigen’ ...
+** package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o init.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RcppEigen/00new/RcppEigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *source* package ‘ggnewscale’ ...
+** package ‘ggnewscale’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggnewscale’ as ‘ggnewscale_0.4.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ggnewscale)
+* installing *source* package ‘patchwork’ ...
+** package ‘patchwork’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘patchwork’ as ‘patchwork_1.1.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (patchwork)
+* installing *source* package ‘scico’ ...
+** package ‘scico’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scico’ as ‘scico_1.3.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (scico)
+* installing *source* package ‘RSpectra’ ...
+** package ‘RSpectra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c eigs_gen.cpp -o eigs_gen.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c eigs_sym.cpp -o eigs_sym.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c is_sym.cpp -o is_sym.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matops.cpp -o matops.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c register_routines.c -o register_routines.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_FC_LEN_T -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svds.cpp -o svds.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RSpectra.so eigs_gen.o eigs_sym.o is_sym.o matops.o register_routines.o svds.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RSpectra/00new/RSpectra/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RSpectra’ as ‘RSpectra_0.16-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RSpectra)
+* installing *source* package ‘Voyager’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Voyager’ as ‘Voyager_1.2.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (Voyager)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRZzlXN/downloaded_packages’
+Old packages: 'S4Arrays', 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2',
+  'later', 'profvis', 'sass', 'testthat', 'tzdb', 'viridisLite', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	35m17.169s
+user	34m45.028s
+sys	0m24.463s
+* installing *source* package ‘pixmap’ ...
+** package ‘pixmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pixmap’ as ‘pixmap_0.4-12_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (pixmap)
+* installing *source* package ‘RcppArmadillo’ ...
+** package ‘RcppArmadillo’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking for g++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... g++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether g++ -std=gnu++17 accepts -g... (cached) yes
+checking for g++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking whether we have a suitable tempdir... /tmp
+checking whether R CMD SHLIB can already compile programs using OpenMP... yes
+checking LAPACK_LIBS... system LAPACK found
+configure: creating ./config.status
+config.status: creating inst/include/RcppArmadillo/config/RcppArmadilloConfigGenerated.h
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppArmadillo.cpp -o RcppArmadillo.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppArmadillo.so RcppArmadillo.o RcppExports.o fastLm.o -fopenmp -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RcppArmadillo/00new/RcppArmadillo/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_0.12.2.0.0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *source* package ‘segmented’ ...
+** package ‘segmented’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘segmented’ as ‘segmented_1.6-4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (segmented)
+* installing *source* package ‘plyr’ ...
+** package ‘plyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loop_apply.c -o loop_apply.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split-numeric.cpp -o split-numeric.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o plyr.so RcppExports.o loop_apply.o split-numeric.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-plyr/00new/plyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *source* package ‘permute’ ...
+** package ‘permute’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘permute’ as ‘permute_0.9-7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (permute)
+* installing *source* package ‘ape’ ...
+** package ‘ape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c BIONJ.c -o BIONJ.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NNI.c -o NNI.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SPR.c -o SPR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c additive.c -o additive.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ape.c -o ape.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bNNI.c -o bNNI.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bionjs.c -o bionjs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bipartition.c -o bipartition.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bitsplits.c -o bitsplits.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c delta_plot.c -o delta_plot.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dist_dna.c -o dist_dna.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dist_nodes.c -o dist_nodes.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ewLasso.c -o ewLasso.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c heap.c -o heap.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mat_expo.c -o mat_expo.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c me.c -o me.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c me_balanced.c -o me_balanced.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c me_ols.c -o me_ols.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mvr.c -o mvr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mvrs.c -o mvrs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nj.c -o nj.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c njs.c -o njs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pic.c -o pic.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plot_phylo.c -o plot_phylo.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c prop_part.cpp -o prop_part.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rTrait.c -o rTrait.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_dna.c -o read_dna.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reorder_Rcpp.cpp -o reorder_Rcpp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reorder_phylo.c -o reorder_phylo.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c treePop.c -o treePop.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tree_build.c -o tree_build.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tree_phylo.c -o tree_phylo.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c triangMtd.c -o triangMtd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c triangMtds.c -o triangMtds.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ultrametric.c -o ultrametric.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ape.so BIONJ.o NNI.o RcppExports.o SPR.o additive.o ape.o bNNI.o bionjs.o bipartition.o bitsplits.o delta_plot.o dist_dna.o dist_nodes.o ewLasso.o heap.o mat_expo.o me.o me_balanced.o me_ols.o mvr.o mvrs.o nj.o njs.o pic.o plot_phylo.o prop_part.o rTrait.o read_dna.o reorder_Rcpp.o reorder_phylo.o treePop.o tree_build.o tree_phylo.o triangMtd.o triangMtds.o ultrametric.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ape/00new/ape/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ape’ as ‘ape_5.7-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ape)
+* installing *source* package ‘ade4’ ...
+** package ‘ade4’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ade4libCpp.cpp -o ade4libCpp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c adesub.c -o adesub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c divsub.c -o divsub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fourthcorner.c -o fourthcorner.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c phylog.c -o phylog.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testamova.c -o testamova.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testdim.c -o testdim.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testrlq.c -o testrlq.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests.c -o tests.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testsCpp.cpp -o testsCpp.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ade4.so RcppExports.o ade4libCpp.o adesub.o divsub.o fourthcorner.o init.o phylog.o testamova.o testdim.o testrlq.o tests.o testsCpp.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ade4/00new/ade4/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ade4’ as ‘ade4_1.7-22_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (ade4)
+* installing *source* package ‘reshape2’ ...
+** package ‘reshape2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c melt.cpp -o melt.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o reshape2.so RcppExports.o melt.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-reshape2/00new/reshape2/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reshape2’ as ‘reshape2_1.4.4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (reshape2)
+* installing *source* package ‘vegan’ ...
+** package ‘vegan’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c data2hill.c -o data2hill.o
+gfortran  -fPIC  -g -O2  -c decorana.f -o decorana.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getF.c -o getF.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c goffactor.c -o goffactor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fPIC  -g -O2  -c monoMDS.f -o monoMDS.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nestedness.c -o nestedness.o
+gfortran  -fPIC  -g -O2  -c ordering.f -o ordering.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pnpoly.c -o pnpoly.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stepacross.c -o stepacross.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vegdist.c -o vegdist.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o vegan.so data2hill.o decorana.o getF.o goffactor.o init.o monoMDS.o nestedness.o ordering.o pnpoly.o stepacross.o vegdist.o -llapack -lblas -lgfortran -lm -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-vegan/00new/vegan/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘vegan’ as ‘vegan_2.6-4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (vegan)
+* installing *source* package ‘seqinr’ ...
+** package ‘seqinr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c alignment.c -o alignment.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastacc.c -o fastacc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getzlibsock.c -o getzlibsock.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kaks.c -o kaks.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c packagename_init.c -o packagename_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zsockr.c -o zsockr.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o seqinr.so alignment.o fastacc.o getzlibsock.o kaks.o packagename_init.o util.o zsockr.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-seqinr/00new/seqinr/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘seqinr’ as ‘seqinr_4.2-30_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (seqinr)
+* installing *source* package ‘adegenet’ ...
+** package ‘adegenet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GLfunctions.c -o GLfunctions.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c adesub.c -o adesub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c monmonier-utils.c -o monmonier-utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sharedAll.c -o sharedAll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c snpbin.c -o snpbin.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o adegenet.so GLfunctions.o adesub.o init.o monmonier-utils.o sharedAll.o snpbin.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-adegenet/00new/adegenet/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘adegenet’ as ‘adegenet_2.1.10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (adegenet)
+* installing *source* package ‘jpeg’ ...
+** package ‘jpeg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o jpeg.so read.o reg.o write.o -ljpeg -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-jpeg/00new/jpeg/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘jpeg’ as ‘jpeg_0.1-10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (jpeg)
+* installing *source* package ‘interp’ ...
+** package ‘interp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c BiLin.cpp -o BiLin.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aSpline.cpp -o aSpline.o
+gfortran  -fPIC  -g -O2  -c bilinear.f -o bilinear.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c circum.cpp -o circum.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c common.cpp -o common.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c convexHull.cpp -o convexHull.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interp.cpp -o interp.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c partDeriv.cpp -o partDeriv.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c s_hull_pro.cpp -o s_hull_pro.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppEigen/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c shullDeltri.cpp -o shullDeltri.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o interp.so BiLin.o RcppExports.o aSpline.o bilinear.o circum.o common.o convexHull.o init.o interp.o partDeriv.o s_hull_pro.o shullDeltri.o -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-interp/00new/interp/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘interp’ as ‘interp_1.1-4_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (interp)
+* installing *source* package ‘latticeExtra’ ...
+** package ‘latticeExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘latticeExtra’ as ‘latticeExtra_0.6-30_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (latticeExtra)
+* installing *source* package ‘adegraphics’ ...
+** package ‘adegraphics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘adegraphics’ as ‘adegraphics_1.0-18_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (adegraphics)
+* installing *source* package ‘rncl’ ...
+** package ‘rncl’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GetNCL.cpp -o GetNCL.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c collapse_singles.cpp -o collapse_singles.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsassumptionsblock.cpp -o nxsassumptionsblock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsblock.cpp -o nxsblock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxscharactersblock.cpp -o nxscharactersblock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxscxxdiscretematrix.cpp -o nxscxxdiscretematrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsdatablock.cpp -o nxsdatablock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsdistancedatum.cpp -o nxsdistancedatum.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsdistancesblock.cpp -o nxsdistancesblock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsemptyblock.cpp -o nxsemptyblock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsexception.cpp -o nxsexception.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsmultiformat.cpp -o nxsmultiformat.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxspublicblocks.cpp -o nxspublicblocks.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsreader.cpp -o nxsreader.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxssetreader.cpp -o nxssetreader.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsstring.cpp -o nxsstring.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxstaxaassociationblock.cpp -o nxstaxaassociationblock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxstaxablock.cpp -o nxstaxablock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxstoken.cpp -o nxstoken.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxstreesblock.cpp -o nxstreesblock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nxsunalignedblock.cpp -o nxsunalignedblock.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/progress/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rncl_init.c -o rncl_init.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rncl.so GetNCL.o RcppExports.o collapse_singles.o nxsassumptionsblock.o nxsblock.o nxscharactersblock.o nxscxxdiscretematrix.o nxsdatablock.o nxsdistancedatum.o nxsdistancesblock.o nxsemptyblock.o nxsexception.o nxsmultiformat.o nxspublicblocks.o nxsreader.o nxssetreader.o nxsstring.o nxstaxaassociationblock.o nxstaxablock.o nxstoken.o nxstreesblock.o nxsunalignedblock.o rncl_init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rncl/00new/rncl/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rncl’ as ‘rncl_0.8.7_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (rncl)
+* installing *source* package ‘RNeXML’ ...
+** package ‘RNeXML’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RNeXML’ as ‘RNeXML_2.4.11_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (RNeXML)
+* installing *source* package ‘phylobase’ ...
+** package ‘phylobase’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ancestors.c -o ancestors.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c checkPhylo4.cpp -o checkPhylo4.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c descendants.c -o descendants.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c phyloXX.c -o phyloXX.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c phylobase_init.c -o phylobase_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reorderBinary.c -o reorderBinary.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reorderRobust.c -o reorderRobust.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o phylobase.so RcppExports.o ancestors.o checkPhylo4.o descendants.o phyloXX.o phylobase_init.o reorderBinary.o reorderRobust.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-phylobase/00new/phylobase/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘edges’ in package ‘phylobase’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘phylobase’ as ‘phylobase_0.8.10_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (phylobase)
+* installing *source* package ‘adephylo’ ...
+** package ‘adephylo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c adesub.c -o adesub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distPhylo.c -o distPhylo.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c misc.c -o misc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c phylog.c -o phylog.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sptips.c -o sptips.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o adephylo.so adesub.o distPhylo.o init.o misc.o phylog.o sptips.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-adephylo/00new/adephylo/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘adephylo’ as ‘adephylo_1.1-13_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (adephylo)
+* installing *source* package ‘adespatial’ ...
+** package ‘adespatial’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c WRperiodogram.c -o WRperiodogram.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c adesub.c -o adesub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c betadiv.c -o betadiv.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c buildbinary.c -o buildbinary.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c constr.hclust.c -o constr.hclust.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c forward.c -o forward.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stipermute.c -o stipermute.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testsmoran.c -o testsmoran.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o adespatial.so WRperiodogram.o adesub.o betadiv.o buildbinary.o constr.hclust.o forward.o init.o stipermute.o testsmoran.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-adespatial/00new/adespatial/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘adespatial’ as ‘adespatial_0.3-21_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (adespatial)
+* installing *source* package ‘intervals’ ...
+** package ‘intervals’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Endpoint.cpp -o Endpoint.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plot_overlap.cpp -o plot_overlap.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reduce.cpp -o reduce.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c which_nearest.cpp -o which_nearest.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o intervals.so Endpoint.o init.o plot_overlap.o reduce.o which_nearest.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-intervals/00new/intervals/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘intervals’ as ‘intervals_0.15.3_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (intervals)
+* installing *source* package ‘zoo’ ...
+** package ‘zoo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coredata.c -o coredata.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lag.c -o lag.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o zoo.so coredata.o init.o lag.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-zoo/00new/zoo/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-12_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *source* package ‘sftime’ ...
+** package ‘sftime’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sftime’ as ‘sftime_0.2-0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (sftime)
+* installing *source* package ‘FNN’ ...
+** package ‘FNN’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ANN.cpp -o ANN.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c KNN_ANN.cpp -o KNN_ANN.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c KNN_correlation_distance.cpp -o KNN_correlation_distance.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c KNN_cover_test.cpp -o KNN_cover_test.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c KNN_cover_tree.cpp -o KNN_cover_tree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c KNN_mutual_information.cpp -o KNN_mutual_information.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bd_fix_rad_search.cpp -o bd_fix_rad_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bd_pr_search.cpp -o bd_pr_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bd_search.cpp -o bd_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bd_tree.cpp -o bd_tree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c brute.cpp -o brute.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init_FNN.c -o init_FNN.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kd_dump.cpp -o kd_dump.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kd_fix_rad_search.cpp -o kd_fix_rad_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kd_pr_search.cpp -o kd_pr_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kd_search.cpp -o kd_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kd_split.cpp -o kd_split.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kd_tree.cpp -o kd_tree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kd_util.cpp -o kd_util.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c label_point.cpp -o label_point.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c perf.cpp -o perf.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o FNN.so ANN.o KNN_ANN.o KNN_correlation_distance.o KNN_cover_test.o KNN_cover_tree.o KNN_mutual_information.o bd_fix_rad_search.o bd_pr_search.o bd_search.o bd_tree.o brute.o init_FNN.o kd_dump.o kd_fix_rad_search.o kd_pr_search.o kd_search.o kd_split.o kd_tree.o kd_util.o label_point.o perf.o -L/usr/local/lib/R/lib -lR
+rm -f *.o core
+installing to /tmp/tmp/built/00LOCK-FNN/00new/FNN/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FNN’ as ‘FNN_1.1.3.2_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (FNN)
+* installing *source* package ‘abind’ ...
+** package ‘abind’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘abind’ as ‘abind_1.4-5_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (abind)
+* installing *source* package ‘lwgeom’ ...
+** package ‘lwgeom’ successfully unpacked and MD5 sums checked
+** using staged installation
+configure: CC: gcc
+configure: CXX: g++ -std=gnu++17
+configure: pkg-config proj exists, will use it
+configure: using proj.h.
+configure: PROJ: 8.2.1
+checking PROJ: checking whether PROJ and sqlite3 are available for linking:... yes
+configure: POSTGIS_PROJ_VERSION: 82
+checking for geos-config... /usr/bin/geos-config
+checking geos-config usability... yes
+configure: GEOS: 3.10.2
+checking GEOS version >= 3.5.0... yes
+checking geos: linking with -L/usr/lib/aarch64-linux-gnu -lgeos_c... yes
+checking for GEOS_init_r in -lgeos_c... yes
+configure: Package CPP flags:    -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H
+configure: Package LIBS: -lproj     -L/usr/lib/aarch64-linux-gnu -lgeos_c
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating src/postgis_config.h
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geodetic.cpp -o geodetic.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lwgeom.cpp -o lwgeom.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c proj.cpp -o proj.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geos.cpp -o geos.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io.cpp -o io.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sub.cpp -o sub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/varint.c -o liblwgeom/varint.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_twkb.c -o liblwgeom/lwout_twkb.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwpsurface.c -o liblwgeom/lwpsurface.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwtriangle.c -o liblwgeom/lwtriangle.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwmpoly.c -o liblwgeom/lwmpoly.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lookup3.c -o liblwgeom/lookup3.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwin_wkt.c -o liblwgeom/lwin_wkt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/gserialized1.c -o liblwgeom/gserialized1.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom.c -o liblwgeom/lwgeom.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/gserialized2.c -o liblwgeom/gserialized2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwstroke.c -o liblwgeom/lwstroke.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwtin.c -o liblwgeom/lwtin.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwin_twkb.c -o liblwgeom/lwin_twkb.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_geos_cluster.c -o liblwgeom/lwgeom_geos_cluster.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwmsurface.c -o liblwgeom/lwmsurface.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_wrapx.c -o liblwgeom/lwgeom_wrapx.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwiterator.c -o liblwgeom/lwiterator.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_geos_node.c -o liblwgeom/lwgeom_geos_node.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_geojson.c -o liblwgeom/lwout_geojson.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_debug.c -o liblwgeom/lwgeom_debug.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_median.c -o liblwgeom/lwgeom_median.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwmval.c -o liblwgeom/lwmval.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwkmeans.c -o liblwgeom/lwkmeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_geos.c -o liblwgeom/lwgeom_geos.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_kml.c -o liblwgeom/lwout_kml.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwutil.c -o liblwgeom/lwutil.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwprint.c -o liblwgeom/lwprint.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwrandom.c -o liblwgeom/lwrandom.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwmline.c -o liblwgeom/lwmline.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeodetic_tree.c -o liblwgeom/lwgeodetic_tree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwline.c -o liblwgeom/lwline.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/bytebuffer.c -o liblwgeom/bytebuffer.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeodetic.c -o liblwgeom/lwgeodetic.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/measures.c -o liblwgeom/measures.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_api.c -o liblwgeom/lwgeom_api.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwmcurve.c -o liblwgeom/lwmcurve.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwcollection.c -o liblwgeom/lwcollection.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/gbox.c -o liblwgeom/gbox.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwspheroid.c -o liblwgeom/lwspheroid.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_svg.c -o liblwgeom/lwout_svg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwin_encoded_polyline.c -o liblwgeom/lwin_encoded_polyline.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_encoded_polyline.c -o liblwgeom/lwout_encoded_polyline.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_geos_split.c -o liblwgeom/lwgeom_geos_split.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/effectivearea.c -o liblwgeom/effectivearea.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwboundingcircle.c -o liblwgeom/lwboundingcircle.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwcurvepoly.c -o liblwgeom/lwcurvepoly.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwlinearreferencing.c -o liblwgeom/lwlinearreferencing.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwunionfind.c -o liblwgeom/lwunionfind.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwchaikins.c -o liblwgeom/lwchaikins.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwalgorithm.c -o liblwgeom/lwalgorithm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwhomogenize.c -o liblwgeom/lwhomogenize.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_geos_clean.c -o liblwgeom/lwgeom_geos_clean.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/measures3d.c -o liblwgeom/measures3d.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_x3d.c -o liblwgeom/lwout_x3d.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_transform.c -o liblwgeom/lwgeom_transform.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwin_wkt_lex.c -o liblwgeom/lwin_wkt_lex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwmpoint.c -o liblwgeom/lwmpoint.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/stringbuffer.c -o liblwgeom/stringbuffer.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwcompound.c -o liblwgeom/lwcompound.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/gserialized.c -o liblwgeom/gserialized.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_wkt.c -o liblwgeom/lwout_wkt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwin_wkb.c -o liblwgeom/lwin_wkb.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/ptarray.c -o liblwgeom/ptarray.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_wkb.c -o liblwgeom/lwout_wkb.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwpoly.c -o liblwgeom/lwpoly.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwpoint.c -o liblwgeom/lwpoint.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwout_gml.c -o liblwgeom/lwout_gml.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwgeom_topo.c -o liblwgeom/lwgeom_topo.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwcircstring.c -o liblwgeom/lwcircstring.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_PROJ_H  -DUSE_PROJ_H -I/usr/include  -DUSE_PROJ_H -I/usr/include -DPOSTGIS_GEOS_VERSION=35 -I./liblwgeom -DHAVE_LIBGEOM_INTERNAL_H -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/sf/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c liblwgeom/lwin_wkt_parse.c -o liblwgeom/lwin_wkt_parse.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lwgeom.so geodetic.o lwgeom.o RcppExports.o proj.o geos.o io.o sub.o liblwgeom/varint.o liblwgeom/lwout_twkb.o liblwgeom/lwpsurface.o liblwgeom/lwtriangle.o liblwgeom/lwmpoly.o liblwgeom/lookup3.o liblwgeom/lwin_wkt.o liblwgeom/gserialized1.o liblwgeom/lwgeom.o liblwgeom/gserialized2.o liblwgeom/lwstroke.o liblwgeom/lwtin.o liblwgeom/lwin_twkb.o liblwgeom/lwgeom_geos_cluster.o liblwgeom/lwmsurface.o liblwgeom/lwgeom_wrapx.o liblwgeom/lwiterator.o liblwgeom/lwgeom_geos_node.o liblwgeom/lwout_geojson.o liblwgeom/lwgeom_debug.o liblwgeom/lwgeom_median.o liblwgeom/lwmval.o liblwgeom/lwkmeans.o liblwgeom/lwgeom_geos.o liblwgeom/lwout_kml.o liblwgeom/lwutil.o liblwgeom/lwprint.o liblwgeom/lwrandom.o liblwgeom/lwmline.o liblwgeom/lwgeodetic_tree.o liblwgeom/lwline.o liblwgeom/bytebuffer.o liblwgeom/lwgeodetic.o liblwgeom/measures.o liblwgeom/lwgeom_api.o liblwgeom/lwmcurve.o liblwgeom/lwcollection.o liblwgeom/gbox.o liblwgeom/lwspheroid.o liblwgeom/lwout_svg.o liblwgeom/lwin_encoded_polyline.o liblwgeom/lwout_encoded_polyline.o liblwgeom/lwgeom_geos_split.o liblwgeom/effectivearea.o liblwgeom/lwboundingcircle.o liblwgeom/lwcurvepoly.o liblwgeom/lwlinearreferencing.o liblwgeom/lwunionfind.o liblwgeom/lwchaikins.o liblwgeom/lwalgorithm.o liblwgeom/lwhomogenize.o liblwgeom/lwgeom_geos_clean.o liblwgeom/measures3d.o liblwgeom/lwout_x3d.o liblwgeom/lwgeom_transform.o liblwgeom/lwin_wkt_lex.o liblwgeom/lwmpoint.o liblwgeom/stringbuffer.o liblwgeom/lwcompound.o liblwgeom/gserialized.o liblwgeom/lwout_wkt.o liblwgeom/lwin_wkb.o liblwgeom/ptarray.o liblwgeom/lwout_wkb.o liblwgeom/lwpoly.o liblwgeom/lwpoint.o liblwgeom/lwout_gml.o liblwgeom/lwgeom_topo.o liblwgeom/lwcircstring.o liblwgeom/lwin_wkt_parse.o -lproj -L/usr/lib/aarch64-linux-gnu -lgeos_c -lgeos_c -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-lwgeom/00new/lwgeom/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lwgeom’ as ‘lwgeom_0.2-11_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (lwgeom)
+* installing *source* package ‘reshape’ ...
+** package ‘reshape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reshape’ as ‘reshape_0.8.9_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (reshape)
+* installing *source* package ‘xts’ ...
+** package ‘xts’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c add_class.c -o add_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c any.c -o any.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c attr.c -o attr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c binsearch.c -o binsearch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coredata.c -o coredata.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dimnames.c -o dimnames.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c endpoints.c -o endpoints.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract_col.c -o extract_col.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isOrdered.c -o isOrdered.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isXts.c -o isXts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lag.c -o lag.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c merge.c -o merge.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c na.c -o na.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c period_apply.c -o period_apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c period_arithmetic.c -o period_arithmetic.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c period_quantile.c -o period_quantile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbind.c -o rbind.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rollfun.c -o rollfun.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c runSum.c -o runSum.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c startofyear.c -o startofyear.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subset.c -o subset.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subset.old.c -o subset.old.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c toperiod.c -o toperiod.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c totalcols.c -o totalcols.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tryXts.c -o tryXts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c unique.time.c -o unique.time.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o xts.so add_class.o any.o attr.o binsearch.o coredata.o dimnames.o endpoints.o extract_col.o init.o isOrdered.o isXts.o lag.o merge.o na.o period_apply.o period_arithmetic.o period_quantile.o rbind.o rollfun.o runSum.o startofyear.o subset.o subset.old.o toperiod.o totalcols.o tryXts.o unique.time.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-xts/00new/xts/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘xts’ as ‘xts_0.13.1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (xts)
+* installing *source* package ‘stars’ ...
+** package ‘stars’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘coerce’ with signature ‘"stars","Raster"’: no definition for class “Raster”
+in method for ‘coerce’ with signature ‘"stars_proxy","Raster"’: no definition for class “Raster”
+in method for ‘coerce’ with signature ‘"stars","SpatRaster"’: no definition for class “SpatRaster”
+in method for ‘coerce’ with signature ‘"stars_proxy","SpatRaster"’: no definition for class “SpatRaster”
+in method for ‘coerce’ with signature ‘"stars","Spatial"’: no definition for class “Spatial”
+in method for ‘coerce’ with signature ‘"stars","STFDF"’: no definition for class “STFDF”
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘stars’ as ‘stars_0.6-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (stars)
+* installing *source* package ‘spacetime’ ...
+** package ‘spacetime’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘coerce’ with signature ‘"RasterStackBrick","STFDF"’: no definition for class “RasterStackBrick”
+in method for ‘coerce’ with signature ‘"STFDF","RasterBrick"’: no definition for class “RasterBrick”
+in method for ‘stplot’ with signature ‘"RasterStackBrick"’: no definition for class “RasterStackBrick”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spacetime’ as ‘spacetime_1.3-0_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (spacetime)
+* installing *source* package ‘gstat’ ...
+** package ‘gstat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c block.c -o block.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c data.c -o data.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c direct.c -o direct.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fit.c -o fit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gcdist.c -o gcdist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getest.c -o getest.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gls.c -o gls.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c glvars.c -o glvars.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lm.c -o lm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapio.c -o mapio.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c msim.c -o msim.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mtrx.c -o mtrx.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nsearch.c -o nsearch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pqueue.c -o pqueue.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reml.c -o reml.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c s.c -o s.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c select.c -o select.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sem.c -o sem.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sim.c -o sim.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c userio.c -o userio.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vario.c -o vario.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vario_fn.c -o vario_fn.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fPIC  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vario_io.c -o vario_io.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gstat.so block.o data.o direct.o fit.o gcdist.o getest.o gls.o glvars.o init.o lm.o mapio.o msim.o mtrx.o nsearch.o pqueue.o reml.o s.o select.o sem.o sim.o userio.o utils.o vario.o vario_fn.o vario_io.o -llapack -lblas -lgfortran -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-gstat/00new/gstat/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘krige’ with signature ‘"formula","sf"’: no definition for class “sf”
+in method for ‘idw’ with signature ‘"formula","sf"’: no definition for class “sf”
+in method for ‘krige.cv’ with signature ‘"formula","sf"’: no definition for class “sf”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gstat’ as ‘gstat_2.1-1_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (gstat)
+* installing *source* package ‘automap’ ...
+** package ‘automap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘automap’ as ‘automap_1.1-9_R_aarch64-unknown-linux-gnu.tar.gz’
+* DONE (automap)
