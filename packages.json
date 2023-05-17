@@ -107,7 +107,6 @@
     "crisprViz": [
         "Gviz"
     ],
-    "crlmm": [],
     "crossmeta": [],
     "cummeRbund": [
         "Gviz"
@@ -192,9 +191,7 @@
     "ITALICS": [],
     "karyoploteR": [],
     "M3Drop": [],
-    "MAGAR": [
-        "crlmm"
-    ],
+    "MAGAR": [],
     "maser": [
         "Gviz"
     ],
@@ -209,8 +206,7 @@
     ],
     "mimager": [],
     "MinimumDistance": [
-        "VanillaICE",
-        "crlmm"
+        "VanillaICE"
     ],
     "MMAPPR2": [
         "gmapR"
@@ -343,9 +339,7 @@
     "uncoverappLib": [
         "Gviz"
     ],
-    "VanillaICE": [
-        "crlmm"
-    ],
+    "VanillaICE": [],
     "VariantFiltering": [
         "Gviz"
     ],
