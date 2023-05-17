@@ -67,7 +67,6 @@
     "CyTOFpower": [],
     "cytofQC": [],
     "derfinderPlot": [],
-    "DEScan2": [],
     "DifferentialRegulation": [
         "BANDITS",
         "DRIMSeq"
