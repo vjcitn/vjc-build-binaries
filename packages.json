@@ -25,7 +25,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ANCOMBC": [],
     "annotatr": [
         "regioneR"
     ],
@@ -50,9 +49,7 @@
     "banocc": [],
     "BASiCStan": [],
     "BEclear": [],
-    "benchdamic": [
-        "ANCOMBC"
-    ],
+    "benchdamic": [],
     "BGmix": [],
     "bgx": [],
     "bigmelon": [
@@ -447,9 +444,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "microbiomeMarker": [
-        "ANCOMBC"
-    ],
+    "microbiomeMarker": [],
     "mimager": [
         "oligo",
         "oligoClasses"
