@@ -210,8 +210,7 @@
         "ggbio"
     ],
     "IsoformSwitchAnalyzeR": [
-        "DRIMSeq",
-        "tximeta"
+        "DRIMSeq"
     ],
     "ITALICS": [
         "oligo"
@@ -386,7 +385,6 @@
     "TVTB": [
         "Gviz"
     ],
-    "tximeta": [],
     "UMI4Cats": [],
     "uncoverappLib": [
         "Gviz"
