@@ -261,12 +261,9 @@
         "ggbio"
     ],
     "GeoDiff": [
-        "GeomxTools",
-        "NanoStringNCTools"
+        "GeomxTools"
     ],
-    "GeomxTools": [
-        "NanoStringNCTools"
-    ],
+    "GeomxTools": [],
     "ggbio": [
         "biovizBase"
     ],
@@ -366,7 +363,6 @@
         "biovizBase",
         "trackViewer"
     ],
-    "NanoStringNCTools": [],
     "OGRE": [
         "Gviz",
         "biovizBase"
@@ -493,13 +489,11 @@
         "ggbio"
     ],
     "SpatialDecon": [
-        "GeomxTools",
-        "NanoStringNCTools"
+        "GeomxTools"
     ],
     "SpatialFeatureExperiment": [],
     "SpatialOmicsOverlay": [
-        "GeomxTools",
-        "NanoStringNCTools"
+        "GeomxTools"
     ],
     "spatzie": [
         "GenomicInteractions",
