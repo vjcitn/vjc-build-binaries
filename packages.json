@@ -193,7 +193,6 @@
         "ensembldb",
         "methylPipe"
     ],
-    "condiments": [],
     "CONFESS": [],
     "consensusDE": [
         "ensembldb"
