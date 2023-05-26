@@ -1,5 +1,4 @@
 {
-    "BANDITS": [],
     "banocc": [],
     "BASiCStan": [],
     "BGmix": [],
@@ -8,9 +7,7 @@
         "Rhisat2"
     ],
     "COTAN": [],
-    "DifferentialRegulation": [
-        "BANDITS"
-    ],
+    "DifferentialRegulation": [],
     "FLAMES": [],
     "gmapR": [],
     "GRENITS": [],
