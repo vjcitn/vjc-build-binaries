@@ -5,8 +5,8 @@ on:
     paths:
       - tobuild.txt
       - packages.json
-  schedule:
-    - cron: '*/30 * * * *'
+  # schedule:
+  #   - cron: '*/30 * * * *'
 
 jobs:
   getlistformatrix:
